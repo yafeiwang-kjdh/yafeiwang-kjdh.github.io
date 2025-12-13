@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blog | Yafei Wang</title><link>https://wyfkjdh1024.github.io/blog/</link><atom:link href="https://wyfkjdh1024.github.io/blog/index.xml" rel="self" type="application/rss+xml"/><description>Blog</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 15 Jul 2024 00:00:00 +0000</lastBuildDate><image><url>https://wyfkjdh1024.github.io/media/icon_hu_982c5d63a71b2961.png</url><title>Blog</title><link>https://wyfkjdh1024.github.io/blog/</link></image><item><title>⚡️ Turn Jupyter Notebooks into Blog Posts</title><link>https://wyfkjdh1024.github.io/blog/notebook-onboarding/</link><pubDate>Mon, 15 Jul 2024 00:00:00 +0000</pubDate><guid>https://wyfkjdh1024.github.io/blog/notebook-onboarding/</guid><description>&lt;p&gt;As a researcher or data scientist, your work often lives in Jupyter Notebooks. But sharing those insights effectively usually means taking screenshots, messy copy-pasting, or exporting to PDF.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blog | Yafei Wang</title><link>https://yafeiwang-kjdh.github.io/blog/</link><atom:link href="https://yafeiwang-kjdh.github.io/blog/index.xml" rel="self" type="application/rss+xml"/><description>Blog</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 15 Jul 2024 00:00:00 +0000</lastBuildDate><image><url>https://yafeiwang-kjdh.github.io/media/icon_hu_982c5d63a71b2961.png</url><title>Blog</title><link>https://yafeiwang-kjdh.github.io/blog/</link></image><item><title>⚡️ Turn Jupyter Notebooks into Blog Posts</title><link>https://yafeiwang-kjdh.github.io/blog/notebook-onboarding/</link><pubDate>Mon, 15 Jul 2024 00:00:00 +0000</pubDate><guid>https://yafeiwang-kjdh.github.io/blog/notebook-onboarding/</guid><description>&lt;p&gt;As a researcher or data scientist, your work often lives in Jupyter Notebooks. But sharing those insights effectively usually means taking screenshots, messy copy-pasting, or exporting to PDF.&lt;/p&gt;
 &lt;p&gt;Hugo Blox changes that. With the &lt;code&gt;{{&amp;lt; notebook &amp;gt;}}&lt;/code&gt; shortcode, you can render your actual &lt;code&gt;.ipynb&lt;/code&gt; files directly as beautiful, interactive blog posts or project pages. Keep your code, outputs, and narrative in one place.&lt;/p&gt;
 &lt;details class="print:hidden xl:hidden" open&gt;
 &lt;summary&gt;Table of Contents&lt;/summary&gt;
@@ -39,7 +39,7 @@ data-callout-metadata=""&gt;
 &lt;p class="hb-notebook-title"&gt;Launch Readiness Analysis&lt;/p&gt;
 &lt;p class="hb-notebook-subtitle"&gt;Python · Kernel: Python 3 · nbformat 4.5 · 6 cells&lt;/p&gt;
 &lt;/div&gt;
-&lt;a class="hb-notebook-download" href="https://wyfkjdh1024.github.io/blog/notebook-onboarding/hugoblox-onboarding.ipynb" download&gt;
+&lt;a class="hb-notebook-download" href="https://yafeiwang-kjdh.github.io/blog/notebook-onboarding/hugoblox-onboarding.ipynb" download&gt;
 &lt;svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"&gt;&lt;path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3"/&gt;&lt;/svg&gt;
 &lt;span&gt;Download notebook&lt;/span&gt;
 &lt;/a&gt;
@@ -212,7 +212,7 @@ data-callout-metadata=""&gt;
 or check the
 .&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Happy researching! 🚀&lt;/p&gt;</description></item><item><title>🎉 Easily create your own simple yet highly customizable blog</title><link>https://wyfkjdh1024.github.io/blog/get-started/</link><pubDate>Fri, 27 Oct 2023 00:00:00 +0000</pubDate><guid>https://wyfkjdh1024.github.io/blog/get-started/</guid><description>&lt;p&gt;Welcome 👋&lt;/p&gt;
+&lt;p&gt;Happy researching! 🚀&lt;/p&gt;</description></item><item><title>🎉 Easily create your own simple yet highly customizable blog</title><link>https://yafeiwang-kjdh.github.io/blog/get-started/</link><pubDate>Fri, 27 Oct 2023 00:00:00 +0000</pubDate><guid>https://yafeiwang-kjdh.github.io/blog/get-started/</guid><description>&lt;p&gt;Welcome 👋&lt;/p&gt;
 &lt;details class="print:hidden xl:hidden" open&gt;
 &lt;summary&gt;Table of Contents&lt;/summary&gt;
 &lt;div class="text-sm"&gt;
@@ -352,7 +352,7 @@ for your site. Themes are fully customizable.&lt;/p&gt;
 &lt;p&gt;Copyright 2016-present
 .&lt;/p&gt;
 &lt;p&gt;Released under the
-license.&lt;/p&gt;</description></item><item><title>🧠 Sharpen your thinking with a second brain</title><link>https://wyfkjdh1024.github.io/blog/second-brain/</link><pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate><guid>https://wyfkjdh1024.github.io/blog/second-brain/</guid><description>&lt;p&gt;Create a personal knowledge base and share your knowledge with your peers.&lt;/p&gt;
+license.&lt;/p&gt;</description></item><item><title>🧠 Sharpen your thinking with a second brain</title><link>https://yafeiwang-kjdh.github.io/blog/second-brain/</link><pubDate>Thu, 26 Oct 2023 00:00:00 +0000</pubDate><guid>https://yafeiwang-kjdh.github.io/blog/second-brain/</guid><description>&lt;p&gt;Create a personal knowledge base and share your knowledge with your peers.&lt;/p&gt;
 &lt;p&gt;Hugo Blox web framework empowers you with one of the most flexible note-taking capabilities out there.&lt;/p&gt;
 &lt;p&gt;Create a powerful knowledge base that works on top of a local folder of plain text Markdown files.&lt;/p&gt;
 &lt;p&gt;Use it as your second brain, either publicly sharing your knowledge with your peers via your website, or via a private GitHub repository and password-protected site just for yourself.&lt;/p&gt;
@@ -451,7 +451,7 @@ data-callout-metadata=""&gt;
 &lt;div class="callout-body"&gt;&lt;p&gt;A Markdown aside is useful for displaying notices, hints, or definitions to your readers.&lt;/p&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;h2 id="did-you-find-this-page-helpful-consider-sharing-it-"&gt;Did you find this page helpful? Consider sharing it 🙌&lt;/h2&gt;</description></item><item><title>📈 Communicate your results effectively with the best data visualizations</title><link>https://wyfkjdh1024.github.io/blog/data-visualization/</link><pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate><guid>https://wyfkjdh1024.github.io/blog/data-visualization/</guid><description>&lt;p&gt;Hugo Blox is designed to give technical content creators a seamless experience. You can focus on the content and Hugo Blox handles the rest.&lt;/p&gt;
+&lt;h2 id="did-you-find-this-page-helpful-consider-sharing-it-"&gt;Did you find this page helpful? Consider sharing it 🙌&lt;/h2&gt;</description></item><item><title>📈 Communicate your results effectively with the best data visualizations</title><link>https://yafeiwang-kjdh.github.io/blog/data-visualization/</link><pubDate>Wed, 25 Oct 2023 00:00:00 +0000</pubDate><guid>https://yafeiwang-kjdh.github.io/blog/data-visualization/</guid><description>&lt;p&gt;Hugo Blox is designed to give technical content creators a seamless experience. You can focus on the content and Hugo Blox handles the rest.&lt;/p&gt;
 &lt;p&gt;Use popular tools such as Plotly, Mermaid, and data frames.&lt;/p&gt;
 &lt;h2 id="embed-rich-content"&gt;Embed Rich Content&lt;/h2&gt;
 &lt;p&gt;HuggingFace Model&lt;/p&gt;
@@ -617,9 +617,9 @@ Powered by Hugo Blox Builder - https://github.com/HugoBlox/hugo-blox-builder
 &lt;div class="p-6 space-y-4"&gt;
 &lt;div class="mb-4 overflow-hidden rounded-lg"&gt;
 &lt;img class="w-full h-auto transition-transform duration-500 ease-out group-hover:scale-105"
-srcset="https://wyfkjdh1024.github.io/photo-1514888286974-6c03e2ca1dba_18145305924448453957_hu_7622c7a14eaf9d25.webp 400w, https://wyfkjdh1024.github.io/photo-1514888286974-6c03e2ca1dba_18145305924448453957_hu_1a388d2557e09cec.webp 600w, https://wyfkjdh1024.github.io/photo-1514888286974-6c03e2ca1dba_18145305924448453957_hu_ca07e4eb34b7fe37.webp 800w, https://wyfkjdh1024.github.io/photo-1514888286974-6c03e2ca1dba_18145305924448453957_hu_2f14b1d24751bb0f.webp 800w"
+srcset="https://yafeiwang-kjdh.github.io/photo-1514888286974-6c03e2ca1dba_18145305924448453957_hu_7622c7a14eaf9d25.webp 400w, https://yafeiwang-kjdh.github.io/photo-1514888286974-6c03e2ca1dba_18145305924448453957_hu_1a388d2557e09cec.webp 600w, https://yafeiwang-kjdh.github.io/photo-1514888286974-6c03e2ca1dba_18145305924448453957_hu_ca07e4eb34b7fe37.webp 800w, https://yafeiwang-kjdh.github.io/photo-1514888286974-6c03e2ca1dba_18145305924448453957_hu_2f14b1d24751bb0f.webp 800w"
 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-src="https://wyfkjdh1024.github.io/photo-1514888286974-6c03e2ca1dba_18145305924448453957_hu_7622c7a14eaf9d25.webp"
+src="https://yafeiwang-kjdh.github.io/photo-1514888286974-6c03e2ca1dba_18145305924448453957_hu_7622c7a14eaf9d25.webp"
 width="400"
 height="300"
 loading="lazy"
@@ -663,9 +663,9 @@ Powered by Hugo Blox Builder - https://github.com/HugoBlox/hugo-blox-builder
 &lt;div class="p-6 space-y-4"&gt;
 &lt;div class="mb-4 overflow-hidden rounded-lg"&gt;
 &lt;img class="w-full h-auto transition-transform duration-500 ease-out group-hover:scale-105"
-srcset="https://wyfkjdh1024.github.io/photo-1551288049-bebda4e38f71_10164962980614054447_hu_8ca8800e05622c8d.webp 400w, https://wyfkjdh1024.github.io/photo-1551288049-bebda4e38f71_10164962980614054447_hu_a4269df9626bdc82.webp 600w, https://wyfkjdh1024.github.io/photo-1551288049-bebda4e38f71_10164962980614054447_hu_43878f3c13a56a24.webp 600w"
+srcset="https://yafeiwang-kjdh.github.io/photo-1551288049-bebda4e38f71_10164962980614054447_hu_8ca8800e05622c8d.webp 400w, https://yafeiwang-kjdh.github.io/photo-1551288049-bebda4e38f71_10164962980614054447_hu_a4269df9626bdc82.webp 600w, https://yafeiwang-kjdh.github.io/photo-1551288049-bebda4e38f71_10164962980614054447_hu_43878f3c13a56a24.webp 600w"
 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-src="https://wyfkjdh1024.github.io/photo-1551288049-bebda4e38f71_10164962980614054447_hu_8ca8800e05622c8d.webp"
+src="https://yafeiwang-kjdh.github.io/photo-1551288049-bebda4e38f71_10164962980614054447_hu_8ca8800e05622c8d.webp"
 width="400"
 height="267"
 loading="lazy"
@@ -696,7 +696,7 @@ Powered by Hugo Blox Builder - https://github.com/HugoBlox/hugo-blox-builder
 format for interactive data visualizations. With Plotly, you can design almost any kind of visualization you can imagine!&lt;/p&gt;
 &lt;p&gt;Save your Plotly JSON in your page folder, for example &lt;code&gt;line-chart.json&lt;/code&gt;, and then add the &lt;code&gt;{{&amp;lt; chart data=&amp;quot;line-chart&amp;quot; &amp;gt;}}&lt;/code&gt; shortcode where you would like the chart to appear.&lt;/p&gt;
 &lt;p&gt;Demo:&lt;/p&gt;
-&lt;div id="chart-543269781" class="chart"&gt;&lt;/div&gt;
+&lt;div id="chart-782934165" class="chart"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 async function fetchChartJSON() {
@@ -712,7 +712,7 @@ return;
 clearInterval( a );
 fetchChartJSON().then(chart =&gt; {
 console.debug('Plotting chart...')
-window.Plotly.newPlot('chart-543269781', chart.data, chart.layout, {responsive: true});
+window.Plotly.newPlot('chart-782934165', chart.data, chart.layout, {responsive: true});
 });
 }, 500 );
 })();
@@ -845,7 +845,7 @@ Crash --&gt; [*]
 &lt;div class="text-left"&gt;
 &lt;a
 id="button-f6d402d3e0ef4f7871a71f74ddcbf5cc"
-href="https://wyfkjdh1024.github.io/"
+href="https://yafeiwang-kjdh.github.io/"
 class="inline-flex items-center gap-2 font-medium no-underline transition-all duration-300 ease-out transform-gpu focus:outline-none focus:ring-4 focus:ring-offset-2 focus:ring-offset-white dark:focus:ring-offset-zinc-900 disabled:opacity-50 disabled:cursor-not-allowed disabled:pointer-events-none bg-gradient-to-br from-primary-500 to-primary-600 hover:from-primary-600 hover:to-primary-700 active:from-primary-700 active:to-primary-800 text-white shadow-lg shadow-primary-500/25 hover:shadow-xl hover:shadow-primary-500/30 hover:-translate-y-0.5 hover:scale-[1.02] active:scale-[0.98] focus:ring-primary-500/50 px-4 py-2 text-base rounded-lg"
 role="button"
 aria-label="Contact Us"
@@ -889,7 +889,7 @@ aria-label="View Dashboard"
 &lt;div class="text-left"&gt;
 &lt;a
 id="button-73171eb1b49c461e90dab01f45a3397d"
-href="https://wyfkjdh1024.github.io/data/results.csv"
+href="https://yafeiwang-kjdh.github.io/data/results.csv"
 class="inline-flex items-center gap-2 font-medium no-underline transition-all duration-300 ease-out transform-gpu focus:outline-none focus:ring-4 focus:ring-offset-2 focus:ring-offset-white dark:focus:ring-offset-zinc-900 disabled:opacity-50 disabled:cursor-not-allowed disabled:pointer-events-none bg-white dark:bg-zinc-900 border-2 border-primary-500 text-primary-600 dark:text-primary-400 hover:bg-primary-50 dark:hover:bg-primary-950/50 hover:border-primary-600 active:bg-primary-100 dark:active:bg-primary-950 shadow-md hover:shadow-lg hover:scale-105 active:scale-95 focus:ring-primary-500/50 px-4 py-2 text-base rounded-lg"
 role="button"
 aria-label="Download Data"
@@ -956,7 +956,7 @@ aria-label="Open in Colab"
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-go-html-template" data-lang="go-html-template"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="cp"&gt;{{&lt;/span&gt;&lt;span class="err"&gt;&amp;lt;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;button&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;url&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;#34;https://jupyter.org/&amp;#34;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;new_tab&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;#34;true&amp;#34;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;style&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;#34;secondary&amp;#34;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;rounded&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;#34;full&amp;#34;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;align&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;#34;center&amp;#34;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="err"&gt;&amp;gt;&lt;/span&gt;&lt;span class="cp"&gt;}}&lt;/span&gt;Try Jupyter&lt;span class="cp"&gt;{{&lt;/span&gt;&lt;span class="err"&gt;&amp;lt;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="err"&gt;/&lt;/span&gt;&lt;span class="nx"&gt;button&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="err"&gt;&amp;gt;&lt;/span&gt;&lt;span class="cp"&gt;}}&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="cp"&gt;{{&lt;/span&gt;&lt;span class="err"&gt;&amp;lt;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;button&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;url&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;#34;https://colab.research.google.com/&amp;#34;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;new_tab&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;#34;true&amp;#34;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;style&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;#34;primary&amp;#34;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;rounded&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;#34;full&amp;#34;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;align&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;#34;center&amp;#34;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;icon&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;&amp;#34;rocket-launch&amp;#34;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="err"&gt;&amp;gt;&lt;/span&gt;&lt;span class="cp"&gt;}}&lt;/span&gt;Open in Colab&lt;span class="cp"&gt;{{&lt;/span&gt;&lt;span class="err"&gt;&amp;lt;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="err"&gt;/&lt;/span&gt;&lt;span class="nx"&gt;button&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="err"&gt;&amp;gt;&lt;/span&gt;&lt;span class="cp"&gt;}}&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="did-you-find-this-page-helpful-consider-sharing-it-"&gt;Did you find this page helpful? Consider sharing it 🙌&lt;/h2&gt;</description></item><item><title>👩🏼‍🏫 Teach academic courses</title><link>https://wyfkjdh1024.github.io/blog/teach-courses/</link><pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate><guid>https://wyfkjdh1024.github.io/blog/teach-courses/</guid><description>&lt;p&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="did-you-find-this-page-helpful-consider-sharing-it-"&gt;Did you find this page helpful? Consider sharing it 🙌&lt;/h2&gt;</description></item><item><title>👩🏼‍🏫 Teach academic courses</title><link>https://yafeiwang-kjdh.github.io/blog/teach-courses/</link><pubDate>Tue, 24 Oct 2023 00:00:00 +0000</pubDate><guid>https://yafeiwang-kjdh.github.io/blog/teach-courses/</guid><description>&lt;p&gt;
 is designed to give technical content creators a seamless experience. You can focus on the content and the Hugo Blox Builder which this template is built upon handles the rest.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Embed videos, podcasts, code, LaTeX math, and even test students!&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;On this page, you&amp;rsquo;ll find some examples of the types of technical content that can be rendered with Hugo Blox.&lt;/p&gt;
@@ -969,7 +969,7 @@ is designed to give technical content creators a seamless experience. You can fo
 Yafei Wang（王亚飞）&lt;/span&gt;
 &lt;/span&gt;
 (2019).
-&lt;a href="https://wyfkjdh1024.github.io/publications/preprint/" class="underline"&gt;An example preprint / working paper&lt;/a&gt;.
+&lt;a href="https://yafeiwang-kjdh.github.io/publications/preprint/" class="underline"&gt;An example preprint / working paper&lt;/a&gt;.
 &lt;div class="flex flex-wrap space-x-3"&gt;
 &lt;a class="hb-attachment-link hb-attachment-link-small" href="https://arxiv.org/abs/1512.04133v1" target="_blank" rel="noopener"&gt;
 &lt;svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"&gt;&lt;path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9"/&gt;&lt;/svg&gt;
@@ -983,15 +983,15 @@ Code
 &lt;svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"&gt;&lt;path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M3.75 3v11.25A2.25 2.25 0 0 0 6 16.5h2.25M3.75 3h-1.5m1.5 0h16.5m0 0h1.5m-1.5 0v11.25A2.25 2.25 0 0 1 18 16.5h-2.25m-7.5 0h7.5m-7.5 0l-1 3m8.5-3l1 3m0 0l.5 1.5m-.5-1.5h-9.5m0 0l-.5 1.5M9 11.25v1.5M12 9v3.75m3-6v6"/&gt;&lt;/svg&gt;
 Slides
 &lt;/a&gt;
-&lt;a class="hb-attachment-link hb-attachment-link-small" href="https://wyfkjdh1024.github.io/#" &gt;
+&lt;a class="hb-attachment-link hb-attachment-link-small" href="https://yafeiwang-kjdh.github.io/#" &gt;
 &lt;svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"&gt;&lt;path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M20.25 6.375c0 2.278-3.694 4.125-8.25 4.125S3.75 8.653 3.75 6.375m16.5 0c0-2.278-3.694-4.125-8.25-4.125S3.75 4.097 3.75 6.375m16.5 0v11.25c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125V6.375m16.5 0v3.75m-16.5-3.75v3.75m16.5 0v3.75C20.25 16.153 16.556 18 12 18s-8.25-1.847-8.25-4.125v-3.75m16.5 0c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125"/&gt;&lt;/svg&gt;
 Dataset
 &lt;/a&gt;
-&lt;a class="hb-attachment-link hb-attachment-link-small" href="https://wyfkjdh1024.github.io/#" &gt;
+&lt;a class="hb-attachment-link hb-attachment-link-small" href="https://yafeiwang-kjdh.github.io/#" &gt;
 &lt;svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"&gt;&lt;path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m2.25 15.75l5.159-5.159a2.25 2.25 0 0 1 3.182 0l5.159 5.159m-1.5-1.5l1.409-1.409a2.25 2.25 0 0 1 3.182 0l2.909 2.909m-18 3.75h16.5a1.5 1.5 0 0 0 1.5-1.5V6a1.5 1.5 0 0 0-1.5-1.5H3.75A1.5 1.5 0 0 0 2.25 6v12a1.5 1.5 0 0 0 1.5 1.5m10.5-11.25h.008v.008h-.008zm.375 0a.375.375 0 1 1-.75 0a.375.375 0 0 1 .75 0"/&gt;&lt;/svg&gt;
 Poster
 &lt;/a&gt;
-&lt;a class="hb-attachment-link hb-attachment-link-small" href="https://wyfkjdh1024.github.io/#" &gt;
+&lt;a class="hb-attachment-link hb-attachment-link-small" href="https://yafeiwang-kjdh.github.io/#" &gt;
 &lt;svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"&gt;&lt;path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m2.25 0H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9"/&gt;&lt;/svg&gt;
 Source Document
 &lt;/a&gt;
@@ -1076,10 +1076,10 @@ Equal contribution
 &lt;/span&gt;
 &lt;/span&gt;
 (2013).
-&lt;a href="https://wyfkjdh1024.github.io/publications/conference-paper/" class="underline"&gt;An example conference paper&lt;/a&gt;.
+&lt;a href="https://yafeiwang-kjdh.github.io/publications/conference-paper/" class="underline"&gt;An example conference paper&lt;/a&gt;.
 In &lt;em&gt;ICW&lt;/em&gt;.
 &lt;div class="flex flex-wrap space-x-3"&gt;
-&lt;a class="hb-attachment-link hb-attachment-link-small" href="https://wyfkjdh1024.github.io/" &gt;
+&lt;a class="hb-attachment-link hb-attachment-link-small" href="https://yafeiwang-kjdh.github.io/" &gt;
 &lt;svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"&gt;&lt;path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9"/&gt;&lt;/svg&gt;
 PDF
 &lt;/a&gt;
@@ -1103,7 +1103,7 @@ Source Document
 &lt;svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"&gt;&lt;path fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="1.5" d="m15.75 10.5l4.72-4.72a.75.75 0 0 1 1.28.53v11.38a.75.75 0 0 1-1.28.53l-4.72-4.72M4.5 18.75h9a2.25 2.25 0 0 0 2.25-2.25v-9a2.25 2.25 0 0 0-2.25-2.25h-9A2.25 2.25 0 0 0 2.25 7.5v9a2.25 2.25 0 0 0 2.25 2.25Z"/&gt;&lt;/svg&gt;
 Video
 &lt;/a&gt;
-&lt;a class="hb-attachment-link hb-attachment-link-small" href="https://wyfkjdh1024.github.io/publications/conference-paper/conference-paper.pdf" &gt;
+&lt;a class="hb-attachment-link hb-attachment-link-small" href="https://yafeiwang-kjdh.github.io/publications/conference-paper/conference-paper.pdf" &gt;
 &lt;svg style="height: 1em" class='inline-block' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"&gt;&lt;path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9"/&gt;&lt;/svg&gt;
 PDF
 &lt;/a&gt;
@@ -1139,7 +1139,7 @@ DOI
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Try it out:&lt;/p&gt;
 &lt;audio controls &gt;
-&lt;source src="https://wyfkjdh1024.github.io/blog/teach-courses/ambient-piano.mp3" type="audio/mpeg"&gt;
+&lt;source src="https://yafeiwang-kjdh.github.io/blog/teach-courses/ambient-piano.mp3" type="audio/mpeg"&gt;
 &lt;/audio&gt;
 &lt;h2 id="test-students"&gt;Test students&lt;/h2&gt;
 &lt;p&gt;Provide a simple yet fun self-assessment by revealing the solutions to challenges with the &lt;code&gt;spoiler&lt;/code&gt; shortcode:&lt;/p&gt;
@@ -1191,7 +1191,7 @@ data.head()
 &lt;span class="inline-block pr-1"&gt;
 &lt;span style="height: 1em; transform: translateY(0.1em);"&gt;python&lt;/span&gt;
 &lt;/span&gt; Python&lt;/p&gt;
-&lt;h2 id="did-you-find-this-page-helpful-consider-sharing-it-"&gt;Did you find this page helpful? Consider sharing it 🙌&lt;/h2&gt;</description></item><item><title>✅ Manage your projects</title><link>https://wyfkjdh1024.github.io/blog/project-management/</link><pubDate>Mon, 23 Oct 2023 00:00:00 +0000</pubDate><guid>https://wyfkjdh1024.github.io/blog/project-management/</guid><description>&lt;p&gt;Easily manage your projects - create ideation mind maps, Gantt charts, todo lists, and more!&lt;/p&gt;
+&lt;h2 id="did-you-find-this-page-helpful-consider-sharing-it-"&gt;Did you find this page helpful? Consider sharing it 🙌&lt;/h2&gt;</description></item><item><title>✅ Manage your projects</title><link>https://yafeiwang-kjdh.github.io/blog/project-management/</link><pubDate>Mon, 23 Oct 2023 00:00:00 +0000</pubDate><guid>https://yafeiwang-kjdh.github.io/blog/project-management/</guid><description>&lt;p&gt;Easily manage your projects - create ideation mind maps, Gantt charts, todo lists, and more!&lt;/p&gt;
 &lt;h2 id="ideation"&gt;Ideation&lt;/h2&gt;
 &lt;p&gt;Hugo Blox supports a Markdown extension for mindmaps.&lt;/p&gt;
 &lt;p&gt;Simply insert a Markdown code block labelled as &lt;code&gt;markmap&lt;/code&gt; and optionally set the height of the mindmap as shown in the example below.&lt;/p&gt;
