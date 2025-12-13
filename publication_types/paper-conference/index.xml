@@ -22,4 +22,8 @@ data-callout-metadata=""&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;Add the publication&amp;rsquo;s &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; here. You can use rich formatting such as including
-.&lt;/p&gt;</description></item></channel></rss>
+.&lt;/p&gt;</description></item><item><title>An example conference paper</title><link>https://yafeiwang-kjdh.github.io/publications/conference-paper1/</link><pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate><guid>https://yafeiwang-kjdh.github.io/publications/conference-paper1/</guid><description>&lt;!-- &gt; [!NOTE]
+&gt; Click the _Cite_ button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+&gt; [!NOTE]
+&gt; Create your slides in Markdown - click the _Slides_ button to check out the example.
+Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/). --&gt;</description></item></channel></rss>

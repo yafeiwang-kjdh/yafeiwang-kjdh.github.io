@@ -128,7 +128,31 @@ feature and link using the &lt;code&gt;slides&lt;/code&gt; parameter in the fron
 .&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Further event details, including
-such as image galleries, can be added to the body of this page.&lt;/p&gt;</description></item><item><title>⚡️ Turn Jupyter Notebooks into Blog Posts</title><link>https://yafeiwang-kjdh.github.io/blog/notebook-onboarding/</link><pubDate>Mon, 15 Jul 2024 00:00:00 +0000</pubDate><guid>https://yafeiwang-kjdh.github.io/blog/notebook-onboarding/</guid><description>&lt;p&gt;As a researcher or data scientist, your work often lives in Jupyter Notebooks. But sharing those insights effectively usually means taking screenshots, messy copy-pasting, or exporting to PDF.&lt;/p&gt;
+such as image galleries, can be added to the body of this page.&lt;/p&gt;</description></item><item><title>An example journal article</title><link>https://yafeiwang-kjdh.github.io/publications/journal-article1/</link><pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate><guid>https://yafeiwang-kjdh.github.io/publications/journal-article1/</guid><description>
+&lt;div class="callout flex px-4 py-3 mb-6 rounded-md border-l-4 bg-blue-100 dark:bg-blue-900 border-blue-500"
+data-callout="note"
+data-callout-metadata=""&gt;
+&lt;span class="callout-icon pr-3 pt-1 text-blue-600 dark:text-blue-300"&gt;
+&lt;svg height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"&gt;&lt;path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m16.862 4.487l1.687-1.688a1.875 1.875 0 1 1 2.652 2.652L6.832 19.82a4.5 4.5 0 0 1-1.897 1.13l-2.685.8l.8-2.685a4.5 4.5 0 0 1 1.13-1.897zm0 0L19.5 7.125"/&gt;&lt;/svg&gt;
+&lt;/span&gt;
+&lt;div class="callout-content dark:text-neutral-300"&gt;
+&lt;div class="callout-title font-semibold mb-1"&gt;Note&lt;/div&gt;
+&lt;div class="callout-body"&gt;&lt;p&gt;Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="callout flex px-4 py-3 mb-6 rounded-md border-l-4 bg-blue-100 dark:bg-blue-900 border-blue-500"
+data-callout="note"
+data-callout-metadata=""&gt;
+&lt;span class="callout-icon pr-3 pt-1 text-blue-600 dark:text-blue-300"&gt;
+&lt;svg height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"&gt;&lt;path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="m16.862 4.487l1.687-1.688a1.875 1.875 0 1 1 2.652 2.652L6.832 19.82a4.5 4.5 0 0 1-1.897 1.13l-2.685.8l.8-2.685a4.5 4.5 0 0 1 1.13-1.897zm0 0L19.5 7.125"/&gt;&lt;/svg&gt;
+&lt;/span&gt;
+&lt;div class="callout-content dark:text-neutral-300"&gt;
+&lt;div class="callout-title font-semibold mb-1"&gt;Note&lt;/div&gt;
+&lt;div class="callout-body"&gt;&lt;p&gt;Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Add the publication&amp;rsquo;s &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; here. You can use rich formatting such as including
+.&lt;/p&gt;</description></item><item><title>⚡️ Turn Jupyter Notebooks into Blog Posts</title><link>https://yafeiwang-kjdh.github.io/blog/notebook-onboarding/</link><pubDate>Mon, 15 Jul 2024 00:00:00 +0000</pubDate><guid>https://yafeiwang-kjdh.github.io/blog/notebook-onboarding/</guid><description>&lt;p&gt;As a researcher or data scientist, your work often lives in Jupyter Notebooks. But sharing those insights effectively usually means taking screenshots, messy copy-pasting, or exporting to PDF.&lt;/p&gt;
 &lt;p&gt;Hugo Blox changes that. With the &lt;code&gt;{{&amp;lt; notebook &amp;gt;}}&lt;/code&gt; shortcode, you can render your actual &lt;code&gt;.ipynb&lt;/code&gt; files directly as beautiful, interactive blog posts or project pages. Keep your code, outputs, and narrative in one place.&lt;/p&gt;
 &lt;details class="print:hidden xl:hidden" open&gt;
 &lt;summary&gt;Table of Contents&lt;/summary&gt;
@@ -826,7 +850,7 @@ Powered by Hugo Blox Builder - https://github.com/HugoBlox/hugo-blox-builder
 format for interactive data visualizations. With Plotly, you can design almost any kind of visualization you can imagine!&lt;/p&gt;
 &lt;p&gt;Save your Plotly JSON in your page folder, for example &lt;code&gt;line-chart.json&lt;/code&gt;, and then add the &lt;code&gt;{{&amp;lt; chart data=&amp;quot;line-chart&amp;quot; &amp;gt;}}&lt;/code&gt; shortcode where you would like the chart to appear.&lt;/p&gt;
 &lt;p&gt;Demo:&lt;/p&gt;
-&lt;div id="chart-782934165" class="chart"&gt;&lt;/div&gt;
+&lt;div id="chart-124378695" class="chart"&gt;&lt;/div&gt;
 &lt;script&gt;
 (function() {
 async function fetchChartJSON() {
@@ -842,7 +866,7 @@ return;
 clearInterval( a );
 fetchChartJSON().then(chart =&gt; {
 console.debug('Plotting chart...')
-window.Plotly.newPlot('chart-782934165', chart.data, chart.layout, {responsive: true});
+window.Plotly.newPlot('chart-124378695', chart.data, chart.layout, {responsive: true});
 });
 }, 500 );
 })();
@@ -1540,7 +1564,11 @@ data-callout-metadata=""&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;p&gt;Add the publication&amp;rsquo;s &lt;strong&gt;full text&lt;/strong&gt; or &lt;strong&gt;supplementary notes&lt;/strong&gt; here. You can use rich formatting such as including
-.&lt;/p&gt;</description></item><item><title>Buttons</title><link>https://yafeiwang-kjdh.github.io/courses/hugo-blox/guide/formatting/button/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://yafeiwang-kjdh.github.io/courses/hugo-blox/guide/formatting/button/</guid><description>&lt;p&gt;A modern, customizable button shortcode with gradient styling, icons, and smart link handling.&lt;/p&gt;
+.&lt;/p&gt;</description></item><item><title>An example conference paper</title><link>https://yafeiwang-kjdh.github.io/publications/conference-paper1/</link><pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate><guid>https://yafeiwang-kjdh.github.io/publications/conference-paper1/</guid><description>&lt;!-- &gt; [!NOTE]
+&gt; Click the _Cite_ button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+&gt; [!NOTE]
+&gt; Create your slides in Markdown - click the _Slides_ button to check out the example.
+Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/). --&gt;</description></item><item><title>Buttons</title><link>https://yafeiwang-kjdh.github.io/courses/hugo-blox/guide/formatting/button/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://yafeiwang-kjdh.github.io/courses/hugo-blox/guide/formatting/button/</guid><description>&lt;p&gt;A modern, customizable button shortcode with gradient styling, icons, and smart link handling.&lt;/p&gt;
 &lt;h2 id="basic-usage"&gt;Basic Usage&lt;/h2&gt;
 &lt;div class="text-left"&gt;
 &lt;a
