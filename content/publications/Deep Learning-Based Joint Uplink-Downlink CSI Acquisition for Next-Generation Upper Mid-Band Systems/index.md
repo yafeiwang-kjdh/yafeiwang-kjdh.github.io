@@ -42,8 +42,8 @@ featured: false
 
 # Custom links (uncomment lines below)
 links:
-  - name: Custom Link
-    url: http://example.org
+  # - name: Custom Link
+  #   url: http://example.org
   - type: pdf
     url: https://arxiv.org/pdf/2512.02557
 #  - type: code

@@ -5,7 +5,7 @@ title: "Robust Beamforming Avoiding Satellite Interference in Integrated Terrest
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - Wei Cao
+  - Wenjing Cao
   - admin
   - Wenjin Wang
   - Symeon Chatzinotas
@@ -19,7 +19,7 @@ authors:
 # date: '2013-07-01T00:00:00Z'
 
 # Schedule page publish date (NOT publication's date).
-publishDate: 2025-07-01
+publishDate: 2026-01-06
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -47,7 +47,7 @@ featured: false
 # Standard identifiers for auto-linking
 hugoblox:
   ids:
-# doi: ""
+    doi: "https://doi.org/10.1109/VTC2025-Fall65116.2025.11309930"
 
 # Custom links
 links:

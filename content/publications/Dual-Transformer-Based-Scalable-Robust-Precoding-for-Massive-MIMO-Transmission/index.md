@@ -5,7 +5,7 @@ title: "Dual Transformer-Based Scalable Robust Precoding for Massive MIMO Transm
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - Xiang Tian
+  - Xin Tian
   - admin
   - Gangle Sun
   - Xinping Yi
@@ -47,12 +47,12 @@ featured: false
 # Standard identifiers for auto-linking
 hugoblox:
   ids:
-# doi: ""
+    doi: "https://doi.org/10.1109/VTC2025-Spring65109.2025.11174921"
 
 # Custom links
 links:
   - type: pdf
-    url: https://ieeexplore.ieee.org/xpl/conhome/10891588/proceeding
+    url: https://doi.org/10.1109/VTC2025-Spring65109.2025.11174921
   # - type: code
   #   url: https://github.com/HugoBlox/hugo-blox-builder
   # - type: dataset

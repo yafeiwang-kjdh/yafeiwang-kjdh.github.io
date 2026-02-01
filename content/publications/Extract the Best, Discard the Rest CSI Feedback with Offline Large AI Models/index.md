@@ -1,5 +1,5 @@
 ---
-title: "Extract the Best, Discard the Rest CSI Feedback with Offline Large AI Models"
+title: "Extract the Best, Discard the Rest: CSI Feedback with Offline Large AI Models"
 authors:
 - Jialin Zhuang
 - admin

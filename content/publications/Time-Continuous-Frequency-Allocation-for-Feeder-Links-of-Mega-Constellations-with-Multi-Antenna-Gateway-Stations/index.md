@@ -5,11 +5,11 @@ title: "Time-Continuous Frequency Allocation for Feeder Links of Mega Constellat
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - Ziqi Liu
+  - Zijun Liu
   - admin
-  - Tao Fang
+  - Tianhao Fang
   - Wenjin Wang
-  - Zhen Sun
+  - Zhili Sun
 
 # Author notes (optional)
 # author_notes:

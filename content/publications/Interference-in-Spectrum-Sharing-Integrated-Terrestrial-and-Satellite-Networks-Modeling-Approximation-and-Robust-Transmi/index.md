@@ -5,10 +5,10 @@ title: "Interference in Spectrum-Sharing Integrated Terrestrial and Satellite Ne
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - Wei Cao
+  - Wenjing Cao
   - admin
-  - Tian Ji
-  - Tao Cao
+  - Tianxiang Ji
+  - Tianyang Cao
   - Wenjin Wang
   - Symeon Chatzinotas
   - Björn Ottersten
