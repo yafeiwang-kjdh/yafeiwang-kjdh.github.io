@@ -36,18 +36,20 @@ organizations:
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'wangyf@seu.edu.cn'
+    url: 'mailto:wangyf@seu.edu.cn'
     label: E-mail Me
   # - icon: brands/x
   #   url: https://x.com/AlexAIResearch
-  - icon: brands/github
-    url: https://github.com/wyfkjdh1024
   # - icon: brands/linkedin
   #   url: https://www.linkedin.com/in/alexjohnsonai/
   - icon: academicons/google-scholar
     url: https://scholar.google.com/citations?user=zOmbLjQAAAAJ&hl=en
+  - icon: custom/linkedin
+    url: https://www.linkedin.com/in/yafei-wang-1563013a3/
   - icon: academicons/orcid
     url: https://orcid.org/0000-0001-9792-3212
+  - icon: brands/github
+    url: https://github.com/wyfkjdh1024
 
 interests:
   - Satellite Communications
@@ -180,3 +182,7 @@ Yafei Wang (IEEE Graduate Student Member, born in 2000) received the B.Eng. degr
 From December 2024 to December 2025, he has been a joint Ph.D. student at the Interdisciplinary Centre for Security, Reliability and Trust (SnT), University of Luxembourg, under the supervision of Prof. Björn Ottersten, IEEE Fellow, one of the inventors of Space-Division Multiple Access (SDMA), with more than 50,000 citations.
 
 **Focusing on native AI-based wireless communications, he has published over 20 papers** on MIMO transmission, channel estimation, U6G communications, joint uplink and downlink design, and satellite communications, and has developed mathematical tools including native AI models, large AI models, and tensor Bayesian estimation method.
+
+Contact me: \
+E-mail: wangyf@seu.edu.cn \
+Linkedin: [Yafei Wang-Linkedin](https://www.linkedin.com/in/yafei-wang-1563013a3/)

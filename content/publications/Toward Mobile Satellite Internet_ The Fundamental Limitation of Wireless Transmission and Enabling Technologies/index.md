@@ -40,8 +40,8 @@ featured: false
 
 # Custom links (uncomment lines below)
 links:
-  - name: Custom Link
-    url: http://example.org
+  # - name: Custom Link
+  #   url: http://example.org
   - type: pdf
     url: https://www.engineering.org.cn/engi/EN/PDF/10.1016/j.eng.2025.07.007
 #  - type: code

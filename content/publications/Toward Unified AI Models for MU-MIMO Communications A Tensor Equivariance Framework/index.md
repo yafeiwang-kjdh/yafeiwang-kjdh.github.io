@@ -1,5 +1,5 @@
 ---
-title: "Towards Unified AI Models for MU-MIMO Communications: A Tensor Equivariance Framework"
+title: "Toward Unified AI Models for MU-MIMO Communications: A Tensor Equivariance Framework"
 authors:
 - admin
 - Hongwei Hou
@@ -20,8 +20,8 @@ publishDate: "2025-12-01T00:00:00Z"
 publication_types: ["Journal Paper"]
 
 # Publication name and optional abbreviated publication name.
-publication: IEEE Transactions on Wireless Communications
-publication_short: "IEEE TWC"
+publication: "*IEEE Transactions on Wireless Communications (TWC)*"
+publication_short: "*IEEE Transactions on Wireless Communications (TWC)*"
 
 abstract: In this paper, we propose a unified framework based on equivariance for the design of artificial intelligence (AI)-assisted technologies in multi-user multiple-input-multiple-output (MU-MIMO) systems. We first provide definitions of multidimensional equivariance, high-order equivariance, and multidimensional invariance (referred to collectively as tensor equivariance). On this basis, by investigating the design of precoding and user scheduling, which are key techniques in MU-MIMO systems, we delve deeper into revealing tensor equivariance of the mappings from channel information to optimal precoding tensors, precoding auxiliary tensors, and scheduling indicators, respectively. To model mappings with tensor equivariance, we propose a series of plug-and-play tensor equivariant neural network (TENN) modules, where the computation involving intricate parameter sharing patterns is transformed into concise tensor operations. Building upon TENN modules, we propose the unified tensor equivariance framework that can be applicable to various communication tasks, based on which we easily accomplish the design of corresponding AI-assisted precoding and user scheduling schemes. Simulation results show that the proposed methods achieve near-optimal performance with significantly lower complexity and strong generalization across multiple dimensions. For instance, the NN trained for precoding with 8 users provides satisfactory performance in a 10-user scenario. This validates the superiority of TENN modules and the unified framework.
 

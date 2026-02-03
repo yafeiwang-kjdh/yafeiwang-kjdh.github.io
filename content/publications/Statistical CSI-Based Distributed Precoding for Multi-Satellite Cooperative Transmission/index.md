@@ -27,8 +27,8 @@ publishDate: "2025-10-19T00:00:00Z"
 publication_types: ["Conference Paper"]
 
 # Publication name and optional abbreviated publication name.
-publication: "*IEEE 102nd Vehicular Technology Conference: VTC2025-Fall*"
-publication_short: "In *IEEE VTC2025-Fall*"
+publication: "*IEEE 102nd Vehicular Technology Conference (VTC2025-Fall)*"
+publication_short: "*IEEE 102nd Vehicular Technology Conference (VTC2025-Fall)*"
 
 abstract: >-
   This paper studies the distributed precoding design for multi-satellite massive MIMO transmission. We first conduct a detailed analysis of the transceiver process, examining the effects of delay and Doppler compensation errors and emphasizing the nearly independent nature of inter-satellite interference. Based on the derived signal model, an approximate expected sum rate maximization problem is formulated, incorporating statistical channel state information and compensation errors. Unlike conventional approaches that recast such problems as weighted minimum mean square error (WMMSE) minimization, we demonstrate that this transformation cannot hold equivalence in the considered scenario. To address this, we propose a modified WMMSE formulation leveraging channel covariance matrix decomposition. By exploiting channel characteristics, a low-complexity decomposition method is then developed, accompanied by an efficient algorithm. Simulation results validate the effectiveness and robustness of the proposed method in some practical simulated scenarios.
@@ -75,8 +75,8 @@ slides: ""
 # Hugoblox identifiers
 # https://docs.hugoblox.com/reference/front-matter/#hugoblox
 hugoblox:
-  # ids:
-  #   doi: 10.1109/meditcom64437.2025.11104310
+  ids:
+    doi: https://doi.org/10.1109/VTC2025-Fall65116.2025.11310514
 ---
 
 {{< figure src="featured.png" caption="" >}}

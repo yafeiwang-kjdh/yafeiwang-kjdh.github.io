@@ -28,11 +28,11 @@ publishDate: 2023-07-01
 publication_types: ['Journal Paper']
 
 # Publication name and optional abbreviated publication name.
-publication: "IET Communications"
-publication_short: "IET Commun."
+publication: "*IET Communications*"
+publication_short: "*IET Communications*"
 
 abstract: |-
-  With the increasing number of user terminals (UTs), the interference among UTs might significantly decrease the throughput of the low earth orbit satellite communication system. This paper investigates user scheduling to suppress interference, proposing low-complexity angle-based orthogonal user selection (AOUS) and proportionally fair variants, and designing efficient precoding that reduces to power-allocation problems to balance fairness and throughput.
+  With the increasing number of user terminals (UTs), the interference among UTs might significantly decrease the throughput of the low earth orbit satellite communication system. In this paper, the user scheduling method is investigated to suppress user interference. Specifically, leveraging the strong spatial directivity of satellite channels, a low-complexity angle-based orthogonal user selection (AOUS) algorithm is proposed, which selects UTs with nearly orthogonal channels via angle information of UTs. A rate-based proportionally fair (PF)-AOUS algorithm is further proposed to ensure fairness among UTs, which combines the AOUS with the PF criterion. To reduce complexity, an improved angle-based PF-AOUS algorithm that schedules UTs according to their pitch angles rather than their rates is proposed. In addition, efficient precoding schemes for orthogonal UTs are designed by combining the steering vector and power allocation matrix, and it is shown that precoding can be converted into power allocation problems that further balance fairness and throughput. The numerical results indicate that the AOUS achieves a near-optimal sum rate performance, and the angle-based PF-AOUS has the similar performance to the rate-based PF-AOUS, which achieves a high fairness index with the proposed precoding scheme.
 
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
@@ -49,7 +49,7 @@ featured: false
 # Standard identifiers for auto-linking
 hugoblox:
   ids:
-doi: "10.1049/cmu2.12629"
+    doi: https://doi.org/10.1049/cmu2.12629
 
 # Custom links
 links:
@@ -68,10 +68,10 @@ links:
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
-image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
-  focal_point: ''
-  preview_only: false
+# image:
+#   caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
+#   focal_point: ''
+#   preview_only: false
 
 # Associated Projects (optional).
 #   Associate this publication with one or more of your projects.
@@ -89,10 +89,10 @@ image:
 slides: ""
 ---
 
-> [!NOTE]
+<!-- > [!NOTE]
 > Click the _Cite_ button above to demo the feature to enable visitors to import publication metadata into their reference management software.
 
 > [!NOTE]
 > Create your slides in Markdown - click the _Slides_ button to check out the example.
 
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).
+Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/). -->

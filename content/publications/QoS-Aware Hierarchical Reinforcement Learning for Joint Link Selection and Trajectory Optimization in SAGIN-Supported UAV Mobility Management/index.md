@@ -1,15 +1,15 @@
 ---
-title: "Beam-sweeping design for mmWave massive grant-free transmission"
+title: "QoS-Aware Hierarchical Reinforcement Learning for Joint Link Selection and Trajectory Optimization in SAGIN-Supported UAV Mobility Management"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - Gangle Sun
-  - Hongwei Hou
+  - Jiayang Wan
+  - Ke He
   - admin
+  - Fan Liu
   - Wenjin Wang
-  - Wei Xu
   - Shi Jin
 
 # Author notes (optional)
@@ -20,7 +20,7 @@ authors:
 # date: '2013-07-01T00:00:00Z'
 
 # Schedule page publish date (NOT publication's date).
-publishDate: 2024-08-29
+publishDate: 2025-12-17
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -28,11 +28,11 @@ publishDate: 2024-08-29
 publication_types: ['Journal Paper']
 
 # Publication name and optional abbreviated publication name.
-publication: "*IEEE Journal of Selected Topics in Signal Processing (JSTSP)*"
-publication_short: "*IEEE Journal of Selected Topics in Signal Processing (JSTSP)*"
+publication: "*arXiv*"
+publication_short: "*arXiv*"
 
 abstract: |-
-  To address the escalating demand for spectrum resources in emerging massive machine-type communication applications, it is promising to integrate massive grant-free transmission into millimeter-wave (mmWave) systems. As beam-sweeping schemes under hybrid beamforming architectures are commonly used to enhance signal power and extend coverage, this paper investigates an efficient beam-sweeping scheme for mmWave massive grant-free transmission under hybrid beamforming architectures. In this scheme, we propose a beam-sweeping design algorithm to optimize beamforming matrices, aiming to maximize spectral efficiency while ensuring quality of service (QoS) based on statistical information on uplink angles of arrival (AoAs). To address the intricate interdependence of beamforming matrices across different beam-sweeping slots, our solution begins with a two-stage genetic algorithm that pre-assigns users' access slots based on their uplink AoAs, decomposing the beamforming design problem into independent subproblems for each slot. Subsequently, a dual-layer beamforming design algorithm is proposed to solve these subproblems, optimizing beamforming matrices that enhance spectral efficiency and meet the QoS constraint. Numerous simulation results verify the effectiveness of the proposed beam-sweeping design algorithm in improving spectral efficiency and the capability to satisfy the required QoS.
+  Due to the significant variations in unmanned aerial vehicle (UAV) altitude and horizontal mobility, it becomes difficult for any single network to ensure continuous and reliable threedimensional coverage. Towards that end, the space-air-ground integrated network (SAGIN) has emerged as an essential architecture for enabling ubiquitous UAV connectivity. To address the pronounced disparities in coverage and signal characteristics across heterogeneous networks, this paper formulates UAV mobility management in SAGIN as a constrained multi-objective joint optimization problem. The formulation couples discrete link selection with continuous trajectory optimization. Building on this, we propose a two-level multi-agent hierarchical deep reinforcement learning (HDRL) framework that decomposes the problem into two alternately solvable subproblems. To map complex link selection decisions into a compact discrete action space, we conceive a double deep Q-network (DDQN) algorithm in the top-level, which achieves stable and high-quality policy learning through double Q-value estimation. To handle the continuous trajectory action space while satisfying quality of service (QoS) constraints, we integrate the maximum-entropy mechanism of the soft actor-critic (SAC) and employ a Lagrangian-based constrained SAC (CSAC) algorithm in the lower-level that dynamically adjusts the Lagrange multipliers to balance constraint satisfaction and policy optimization. Moreover, the proposed algorithm can be extended to multi-UAV scenarios under the centralized training and decentralized execution (CTDE) paradigm, which enables more generalizable policies. Simulation results demonstrate that the proposed scheme substantially outperforms existing benchmarks in throughput, link switching frequency and QoS satisfaction.
 
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
@@ -48,12 +48,12 @@ featured: false
 # Standard identifiers for auto-linking
 hugoblox:
   ids:
-    doi: https://doi.org/10.1109/JSTSP.2024.3451706
+    doi: https://doi.org/10.48550/arXiv.2512.15119
 
 # Custom links
 links:
   - type: pdf
-    url: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10645348
+    url: https://arxiv.org/pdf/2512.15119
   # - type: code
   #   url: https://github.com/HugoBlox/hugo-blox-builder
   # - type: dataset

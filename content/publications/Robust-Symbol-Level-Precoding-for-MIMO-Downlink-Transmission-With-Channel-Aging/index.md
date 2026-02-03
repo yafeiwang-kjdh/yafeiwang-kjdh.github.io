@@ -23,14 +23,14 @@ publishDate: 2023-12-01
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-publication_types: ['Journal Paper']
+publication_types: ['Conference Paper']
 
 # Publication name and optional abbreviated publication name.
-publication: "2023 IEEE Global Communications Conference (GLOBECOM)"
-publication_short: "GLOBECOM 2023"
+publication: "*2023 IEEE Global Communications Conference (GLOBECOM)*"
+publication_short: "*2023 IEEE Global Communications Conference (GLOBECOM)*"
 
 abstract: |-
-  This conference paper studies robust symbol-level precoding for MIMO downlink transmission under channel aging, developing robust formulations suitable for practical CSI imperfections.
+  This paper investigates the robust design of symbollevel precoding (SLP) for multiuser multiple-input multipleoutput (MIMO) downlink transmission with imperfect channel state information (CSI) caused by channel aging. By utilizing the a posteriori channel model based on the widely adopted jointly correlated channel model, the imperfect CSI is modeled as the statistical CSI incorporating the channel mean and channel variance information with spatial correlation. With the signal model in the presence of channel aging, we formulate the signal-to-noise-plus-interference ratio (SINR) balancing problem for robust SLP design, which targets to maximize the minimum SINR and can be transformed into a typical max-min fractional programming (MMFP). In the scenario of massive MIMO, we simplify the objective function of the SINR balancing problem and further derive a low-complexity SLP scheme. Simulation results confirm the superiority of the proposed schemes over the state-of-the-art SLP schemes.
 
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
@@ -46,7 +46,7 @@ featured: false
 # Standard identifiers for auto-linking
 hugoblox:
   ids:
-# doi: ""
+    doi: https://doi.org/10.1109/GLOBECOM54140.2023.10437771
 
 # Custom links
 links:
@@ -86,10 +86,10 @@ image:
 slides: ""
 ---
 
-> [!NOTE]
+<!-- > [!NOTE]
 > Click the _Cite_ button above to demo the feature to enable visitors to import publication metadata into their reference management software.
 
 > [!NOTE]
 > Create your slides in Markdown - click the _Slides_ button to check out the example.
 
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).
+Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/). -->

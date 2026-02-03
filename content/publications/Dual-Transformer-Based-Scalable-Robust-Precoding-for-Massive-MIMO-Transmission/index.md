@@ -27,8 +27,8 @@ publishDate: 2025-06-01
 publication_types: ['Journal Paper']
 
 # Publication name and optional abbreviated publication name.
-publication: "2025 IEEE 101st Vehicular Technology Conference (VTC2025-Spring)"
-publication_short: "VTC2025-Spring"
+publication: "*2025 IEEE 101st Vehicular Technology Conference (VTC2025-Spring)*"
+publication_short: "*2025 IEEE 101st Vehicular Technology Conference (VTC2025-Spring)*"
 
 abstract: |-
   This paper proposes a dual-transformer-based scalable robust precoding approach for massive MIMO transmission to handle mobility-induced CSI uncertainty with reduced complexity.

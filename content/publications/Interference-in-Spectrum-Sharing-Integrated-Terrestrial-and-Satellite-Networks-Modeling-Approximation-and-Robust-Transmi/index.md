@@ -29,8 +29,8 @@ publishDate: 2025-06-16
 publication_types: ['Journal Paper']
 
 # Publication name and optional abbreviated publication name.
-publication: "arXiv preprint arXiv:2506.11851"
-publication_short: "arXiv"
+publication: "*arXiv*"
+publication_short: "*arXiv*"
 
 abstract: |-
   This paper studies interference in spectrum-sharing integrated terrestrial and satellite networks, providing modeling and approximation approaches and developing robust transmit beamforming designs to mitigate interference.
@@ -49,7 +49,7 @@ featured: false
 # Standard identifiers for auto-linking
 hugoblox:
   ids:
-# doi: ""
+    doi: "https://doi.org/10.48550/arXiv.2506.11851"
 
 # Custom links
 links:

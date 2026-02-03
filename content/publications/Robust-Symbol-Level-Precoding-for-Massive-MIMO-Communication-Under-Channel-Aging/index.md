@@ -27,11 +27,11 @@ publishDate: 2024-03-20
 publication_types: ['Journal Paper']
 
 # Publication name and optional abbreviated publication name.
-publication: "IEEE Transactions on Wireless Communications"
-publication_short: "IEEE Trans. Wireless Commun."
+publication: "*IEEE Transactions on Wireless Communications (TWC)*"
+publication_short: "*IEEE Transactions on Wireless Communications (TWC)*"
 
 abstract: |-
-  This paper investigates robust symbol-level precoding (SLP) for multiuser downlink transmission with channel aging, models imperfect CSI with posterior channel statistics, and develops robust SLP formulations and low-complexity solutions for massive MIMO scenarios.
+  This paper investigates the robust design of symbol-level precoding (SLP) for multiuser multiple-input multiple-output (MIMO) downlink transmission with imperfect channel state information (CSI) caused by channel aging. By utilizing the a posteriori channel model based on the widely adopted jointly correlated channel model, the imperfect CSI is modeled as the statistical CSI incorporating the channel mean and channel variance information with spatial correlation. With the signal model in the presence of channel aging, we formulate the signal-to-noise-plus-interference ratio (SINR) balancing and minimum mean square error (MMSE) problems for robust SLP design. The former targets to maximize the minimum SINR across users, while the latter minimizes the mean square error between the received signal and the target constellation point. When it comes to massive MIMO scenarios, the increment in the number of antennas poses a computational complexity challenge, limiting the deployment of SLP schemes. To address such a challenge, we simplify the objective function of the SINR balancing problem and further derive a closed-form SLP scheme. Besides, by approximating the matrix involved in the computation, we modify the proposed algorithm and develop an MMSE-based SLP scheme with lower computation complexity. Simulation results confirm the superiority of the proposed schemes over the state-of-the-art SLP schemes.
 
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
@@ -47,7 +47,7 @@ featured: false
 # Standard identifiers for auto-linking
 hugoblox:
   ids:
-    doi: "10.1109/TWC.2024.3376796"
+    doi: https://doi.org/10.1109/TWC.2024.3376796
 
 # Custom links
 links:
@@ -66,10 +66,10 @@ links:
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
-image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
-  focal_point: ''
-  preview_only: false
+# image:
+#   caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
+#   focal_point: ''
+#   preview_only: false
 
 # Associated Projects (optional).
 #   Associate this publication with one or more of your projects.
@@ -87,10 +87,10 @@ image:
 slides: ""
 ---
 
-> [!NOTE]
+<!-- > [!NOTE]
 > Click the _Cite_ button above to demo the feature to enable visitors to import publication metadata into their reference management software.
 
 > [!NOTE]
 > Create your slides in Markdown - click the _Slides_ button to check out the example.
 
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).
+Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/). -->

@@ -27,11 +27,11 @@ publishDate: 2024-12-16
 publication_types: ['Journal Paper']
 
 # Publication name and optional abbreviated publication name.
-publication: "IEEE Wireless Communications Letters"
-publication_short: "IEEE Wireless Commun. Lett."
+publication: "*IEEE Wireless Communications Letters (WCL)*"
+publication_short: "*IEEE Wireless Communications Letters (WCL)*"
 
 abstract: |-
-  This letter proposes CovNet, a covariance information-assisted CSI feedback scheme for FDD massive MIMO systems, leveraging long-term covariance information to improve feedback efficiency and reconstruction quality.
+  In this letter, we propose a novel covariance information-assisted channel state information (CSI) feedback scheme for frequency-division duplex (FDD) massive multi-input multi-output (MIMO) systems. Unlike most existing CSI feedback schemes, which rely on instantaneous CSI only, the proposed CovNet leverages CSI covariance information to achieve high-performance CSI reconstruction, primarily consisting of convolutional neural network (CNN) and Transformer architecture. To efficiently utilize covariance information, we propose a covariance information processing procedure and sophisticatedly design the covariance information processing network (CIPN) to further process it. Moreover, the feed-forward network (FFN) in CovNet is designed to jointly leverage the 2D characteristics of the CSI matrix in the angle and delay domains. Simulation results demonstrate that the proposed network effectively leverages covariance information and outperforms the state-of-the-art (SOTA) scheme across the full compression ratio (CR) range.
 
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
@@ -87,10 +87,10 @@ image:
 slides: ""
 ---
 
-> [!NOTE]
+<!-- > [!NOTE]
 > Click the _Cite_ button above to demo the feature to enable visitors to import publication metadata into their reference management software.
 
 > [!NOTE]
 > Create your slides in Markdown - click the _Slides_ button to check out the example.
 
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).
+Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/). -->

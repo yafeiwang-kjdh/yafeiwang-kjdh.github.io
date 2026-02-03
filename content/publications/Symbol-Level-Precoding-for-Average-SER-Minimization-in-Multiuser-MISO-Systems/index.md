@@ -26,11 +26,11 @@ publishDate: 2024-02-02
 publication_types: ['Journal Paper']
 
 # Publication name and optional abbreviated publication name.
-publication: "IEEE Wireless Communications Letters"
-publication_short: "IEEE Wireless Commun. Lett."
+publication: "*IEEE Wireless Communications Letters (WCL)*"
+publication_short: "*IEEE Wireless Communications Letters (WCL)*"
 
 abstract: |-
-  This letter investigates symbol-level precoding (SLP) for high-order QAM aiming to minimize average symbol error rate (SER). It formulates an average-SER minimization problem under a transmit power constraint and proposes a double-space alternating optimization (DSAO) algorithm with a block transmission scheme to reduce overhead, achieving notable performance gains.
+  This letter investigates symbol-level precoding (SLP) for high-order quadrature amplitude modulation (QAM) aimed at minimizing the average symbol error rate (SER), leveraging both constructive interference (CI) and noise power to gain superiority in full signal-to-noise ratio (SNR) ranges. We first construct the SER expression with respect to the transmitted signal and the rescaling factor, based on which the problem of average SER minimization subject to total transmit power constraint is further formulated. Given the non-convex nature of the objective, solving the above problem becomes challenging. Due to the differences in constraints between the transmit signal and the rescaling factor, we propose the double-space alternating optimization (DSAO) algorithm to optimize the two variables on orthogonal Stiefel manifold and Euclidean spaces, respectively. To facilitate QAM demodulation instead of affording impractical signaling overhead, we further develop a block transmission scheme to keep the rescaling factor constant within a block. Simulation results demonstrate that the proposed SLP scheme exhibits a significant performance advantage over existing state-of-the-art SLP schemes.
 
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
@@ -46,7 +46,7 @@ featured: false
 # Standard identifiers for auto-linking
 hugoblox:
   ids:
-    doi: "10.1109/LWC.2024.3361487"
+    doi: https://doi.org/10.1109/LWC.2024.3361487
 
 # Custom links
 links:
@@ -65,10 +65,10 @@ links:
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
-image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
-  focal_point: ''
-  preview_only: false
+# image:
+#   caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
+#   focal_point: ''
+#   preview_only: false
 
 # Associated Projects (optional).
 #   Associate this publication with one or more of your projects.
@@ -86,10 +86,10 @@ image:
 slides: ""
 ---
 
-> [!NOTE]
+<!-- > [!NOTE]
 > Click the _Cite_ button above to demo the feature to enable visitors to import publication metadata into their reference management software.
 
 > [!NOTE]
 > Create your slides in Markdown - click the _Slides_ button to check out the example.
 
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).
+Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/). -->

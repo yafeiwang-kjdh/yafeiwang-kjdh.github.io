@@ -25,14 +25,14 @@ publishDate: 2023-12-01
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-publication_types: ['Journal Paper']
+publication_types: ['Conference Paper']
 
 # Publication name and optional abbreviated publication name.
-publication: "2023 IEEE Global Communications Conference (GLOBECOM)"
-publication_short: "GLOBECOM 2023"
+publication: "*2023 IEEE Global Communications Conference (GLOBECOM)*"
+publication_short: "*2023 IEEE Global Communications Conference (GLOBECOM)*"
 
 abstract: |-
-  This conference paper studies energy- and computation-efficient precoding for LEO satellite communications, targeting scalable designs suitable for large-scale satellite systems and practical complexity constraints.
+  This paper focuses on energy efficiency (EE) pre-coding design and computational-efficient precoding updating strategy for low earth orbit (LEO) satellite communications. Firstly, we formulate the EE precoding problem, which aims to maximize the EE metric under the quality of service (QoS) constraint and per-antenna power constraint (PAPC). By intro-ducing semidefinite relaxation, first-order Taylor approximation, and quadratic transformation, the problem is transferred into a convex one that can be efficiently solved. Moreover, due to the continuous movement of LEO satellites, precoding is performed frequently to maintain the high EE performance, leading to high computational complexity. Consequently, we consider prolonging precoding intervals to reduce complexity while alleviating severe performance degradation during the intervals. To this end, a computational-efficient beam direction change (BDC) algorithm is proposed to update pre coding vectors, which makes the main lobes of beams always point toward users. Furthermore, an adaptive method is proposed to adjust the precoding interval flexibly. Simulation results have indicated the effectiveness of the EE precoding algorithm and the BDC algorithm.
 
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
@@ -48,7 +48,7 @@ featured: false
 # Standard identifiers for auto-linking
 hugoblox:
   ids:
-# doi: ""
+    doi: https://doi.org/10.1109/GLOBECOM54140.2023.10437228
 
 # Custom links
 links:

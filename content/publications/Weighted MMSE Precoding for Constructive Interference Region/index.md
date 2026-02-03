@@ -27,8 +27,8 @@ publishDate: '2022-12-01T00:00:00Z'
 publication_types: ['Journal Paper']
 
 # Publication name and optional abbreviated publication name.
-publication: IEEE Wireless Communications Letters
-publication_short: In *IEEE WCL*
+publication: "*IEEE Wireless Communications Letters (WCL)*"
+publication_short: "*IEEE Wireless Communications Letters (WCL)*"
 
 abstract: In this letter, we propose a symbol-level precoding (SLP) design that aims to minimize the weighted mean square error between the received signal and the constellation point located in the constructive interference region (CIR). Unlike most existing SLP schemes that rely on channel state information (CSI) only, the proposed scheme exploits both CSI and the distribution information of the noise to achieve improved performance. We firstly propose a simple generic description of CIR that facilitates the subsequent SLP design. Such an objective can further be formulated as a nonnegative least squares (NNLS) problem, which can be solved efficiently by the active-set algorithm. Furthermore, the weighted minimum mean square error (WMMSE) precoding and the existing SLP can be easily verified as special cases of the proposed scheme. Finally, simulation results show that the proposed precoding outperforms the state-of-the-art SLP schemes in full signal-to-noise ratio ranges in both uncoded and coded systems without additional complexity over conventional SLP.
 
@@ -46,7 +46,7 @@ featured: true
 # Standard identifiers for auto-linking
 hugoblox:
   ids:
-    doi: 10.1109/LWC.2022.3211731
+    doi: https://doi.org/10.1109/LWC.2022.3211731
 
 # Custom links
 links:
@@ -65,10 +65,10 @@ links:
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
-image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
-  focal_point: ''
-  preview_only: false
+# image:
+#   caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
+#   focal_point: ''
+#   preview_only: false
 
 # Associated Projects (optional).
 #   Associate this publication with one or more of your projects.
@@ -86,10 +86,10 @@ image:
 slides: ""
 ---
 
-> [!NOTE]
+<!-- > [!NOTE]
 > Click the _Cite_ button above to demo the feature to enable visitors to import publication metadata into their reference management software.
 
 > [!NOTE]
 > Create your slides in Markdown - click the _Slides_ button to check out the example.
 
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).
+Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/). -->

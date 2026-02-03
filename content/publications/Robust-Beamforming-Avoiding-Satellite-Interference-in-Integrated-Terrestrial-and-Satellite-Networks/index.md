@@ -19,7 +19,7 @@ authors:
 # date: '2013-07-01T00:00:00Z'
 
 # Schedule page publish date (NOT publication's date).
-publishDate: 2026-01-06
+publishDate: "2025-10-19T00:00:00Z"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -27,11 +27,11 @@ publishDate: 2026-01-06
 publication_types: ['Journal Paper']
 
 # Publication name and optional abbreviated publication name.
-publication: "2025 IEEE 102nd Vehicular Technology Conference (VTC2025-Fall)"
-publication_short: "VTC2025-Fall"
+publication: "*2025 IEEE 102nd Vehicular Technology Conference (VTC2025-Fall)*"
+publication_short: "*2025 IEEE 102nd Vehicular Technology Conference (VTC2025-Fall)*"
 
 abstract: |-
-  This work proposes robust beamforming methods to avoid satellite interference in integrated terrestrial and satellite networks, accounting for practical CSI uncertainty and spectrum-sharing interference constraints.
+  This paper investigates robust transmit beamforming based on statistical channel state information (CSI), against satellite-to-terrestrial user terminal (UT) interference arising from spectrum sharing in the integrated terrestrial and satellite network. First, we develop an integral-form interference model free of shared CSI to characterize the interference from satellite to terrestrial UTs. Then, we propose a robust interference-avoidance transmit beamforming scheme under the interference threshold and power budget. We derive a closed-form solution based on the minimum mean square error criterion and apply a bisection method to satisfy interference thresholds. Furthermore, we introduce a base station position-aided approximation scheme to eliminate the complex integral calculations. Numerical simulations validate the proposed schemes.
 
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 

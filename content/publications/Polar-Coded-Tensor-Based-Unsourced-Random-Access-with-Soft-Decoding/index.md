@@ -21,7 +21,7 @@ authors:
 # date: '2013-07-01T00:00:00Z'
 
 # Schedule page publish date (NOT publication's date).
-publishDate: 2025-03-26
+publishDate: 2025-03-25
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -29,8 +29,8 @@ publishDate: 2025-03-26
 publication_types: ['Journal Paper']
 
 # Publication name and optional abbreviated publication name.
-publication: "IEEE Transactions on Communications"
-publication_short: "IEEE Trans. Commun."
+publication: "*IEEE Transactions on Communications (TCOM)*"
+publication_short: "*IEEE Transactions on Communications (TCOM)*"
 
 abstract: |-
   This paper proposes a polar-coded tensor-based unsourced random access (URA) scheme with soft decoding, leveraging tensor structure to enhance performance while keeping computational complexity manageable for massive connectivity.

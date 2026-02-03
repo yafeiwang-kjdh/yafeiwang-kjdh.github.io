@@ -1,16 +1,17 @@
 ---
-title: "Beam-sweeping design for mmWave massive grant-free transmission"
+title: "Multi-Satellite Multi-Stream Beamspace Massive MIMO Transmission"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - Gangle Sun
-  - Hongwei Hou
   - admin
+  - Yiming Zhu
+  - Vu Nguyen Ha
   - Wenjin Wang
-  - Wei Xu
-  - Shi Jin
+  - Rui Ding
+  - Symeon Chatzinotas
+  - Björn Ottersten
 
 # Author notes (optional)
 # author_notes:
@@ -20,7 +21,7 @@ authors:
 # date: '2013-07-01T00:00:00Z'
 
 # Schedule page publish date (NOT publication's date).
-publishDate: 2024-08-29
+publishDate: 2025-12-26
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -28,11 +29,11 @@ publishDate: 2024-08-29
 publication_types: ['Journal Paper']
 
 # Publication name and optional abbreviated publication name.
-publication: "*IEEE Journal of Selected Topics in Signal Processing (JSTSP)*"
-publication_short: "*IEEE Journal of Selected Topics in Signal Processing (JSTSP)*"
+publication: "*arXiv*"
+publication_short: "*arXiv*"
 
 abstract: |-
-  To address the escalating demand for spectrum resources in emerging massive machine-type communication applications, it is promising to integrate massive grant-free transmission into millimeter-wave (mmWave) systems. As beam-sweeping schemes under hybrid beamforming architectures are commonly used to enhance signal power and extend coverage, this paper investigates an efficient beam-sweeping scheme for mmWave massive grant-free transmission under hybrid beamforming architectures. In this scheme, we propose a beam-sweeping design algorithm to optimize beamforming matrices, aiming to maximize spectral efficiency while ensuring quality of service (QoS) based on statistical information on uplink angles of arrival (AoAs). To address the intricate interdependence of beamforming matrices across different beam-sweeping slots, our solution begins with a two-stage genetic algorithm that pre-assigns users' access slots based on their uplink AoAs, decomposing the beamforming design problem into independent subproblems for each slot. Subsequently, a dual-layer beamforming design algorithm is proposed to solve these subproblems, optimizing beamforming matrices that enhance spectral efficiency and meet the QoS constraint. Numerous simulation results verify the effectiveness of the proposed beam-sweeping design algorithm in improving spectral efficiency and the capability to satisfy the required QoS.
+  This paper studies multi-satellite multi-stream (MSMS) beamspace transmission, where multiple satellites cooperate to form a distributed multiple-input multiple-output (MIMO) system and jointly deliver multiple data streams to multi-antenna user terminals (UTs), and beamspace transmission combines earth-moving beamforming with beam-domain precoding. For the first time, we formulate the signal model for MSMS beamspace MIMO transmission. Under synchronization errors, multi-antenna UTs enable the distributed MIMO channel to exhibit higher rank, supporting multiple data streams. Beamspace MIMO retains conventional codebook based beamforming while providing the performance gains of precoding. Based on the signal model, we propose statistical channel state information (sCSI)-based optimization of satellite clustering, beam selection, and transmit precoding, using a sum-rate upper-bound approximation. With given satellite clustering and beam selection, we cast precoder design as an equivalent covariance decomposition-based weighted minimum mean square error (CDWMMSE) problem. To obtain tractable algorithms, we develop a closed-form covariance decomposition required by CDWMMSE and derive an iterative MSMS beam-domain precoder under sCSI. Following this, we further propose several heuristic closed-form precoders to avoid iterative cost. For satellite clustering, we enhance a competition-based algorithm by introducing a mechanism to regulate the number of satellites serving certain UT. Furthermore, we design a two-stage low-complexity beam selection algorithm focused on enhancing the effective channel power. Simulations under practical configurations validate the proposed methods across the number of data streams, receive antennas, serving satellites, and active beams, and show that beamspace transmission approaches conventional MIMO performance at lower complexity.
 
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
@@ -48,12 +49,12 @@ featured: false
 # Standard identifiers for auto-linking
 hugoblox:
   ids:
-    doi: https://doi.org/10.1109/JSTSP.2024.3451706
+    doi: https://doi.org/10.48550/arXiv.2512.21998
 
 # Custom links
 links:
   - type: pdf
-    url: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10645348
+    url: https://arxiv.org/pdf/2512.21998
   # - type: code
   #   url: https://github.com/HugoBlox/hugo-blox-builder
   # - type: dataset
