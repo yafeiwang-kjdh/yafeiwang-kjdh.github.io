@@ -179,9 +179,9 @@ languages:
 
 Yafei Wang (IEEE Graduate Student Member, born in 2000) received the B.Eng. degree in Communication Engineering from Tianjin University in 2021. He is currently pursuing the Ph.D. degree at the National Mobile Communications Research Laboratory, Southeast University (SEU), Nanjing, China. His supervisor is Prof. Wenjin Wang, full professor of SEU, with 200+ publications.
 
-From December 2024 to December 2025, he has been a joint Ph.D. student at the Interdisciplinary Centre for Security, Reliability and Trust (SnT), University of Luxembourg, under the supervision of Prof. Björn Ottersten, IEEE Fellow, one of the inventors of Space-Division Multiple Access (SDMA), with more than 50,000 citations.
+From December 2024 to December 2025, he has been a visiting Ph.D. student at the Interdisciplinary Centre for Security, Reliability and Trust (SnT), University of Luxembourg, under the supervision of Prof. Björn Ottersten, IEEE Fellow, one of the inventors of Space-Division Multiple Access (SDMA), with more than 50,000 citations.
 
-**Focusing on native AI-based wireless communications, he has published over 20 papers** on MIMO transmission, channel estimation, U6G communications, joint uplink and downlink design, and satellite communications, and has developed mathematical tools including native AI models, large AI models, and tensor Bayesian estimation method.
+**Focusing on native AI-based wireless communications, he has published over 30 papers** on satellite communications, MIMO transmission, channel estimation, U6G communications, joint uplink and downlink design, and has developed mathematical tools including native AI models, large AI models, and tensor Bayesian estimation method.
 
 Contact me: \
 E-mail: wangyf@seu.edu.cn \

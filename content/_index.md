@@ -47,10 +47,13 @@ sections:
         Linkedin: [Yafei Wang-Linkedin](https://www.linkedin.com/in/yafei-wang-1563013a3/)
     design:
       columns: '1'
+      css_class: my-research-wide
   - block: collection
     id: papers
     content:
       title: Featured Publications
+      text: |-
+        {{< publication_breakdown_counts >}}
       filters:
         folders:
           - publications
@@ -62,6 +65,7 @@ sections:
     content:
       title: Recent Publications
       text: ''
+      count: 8
       filters:
         folders:
           - publications

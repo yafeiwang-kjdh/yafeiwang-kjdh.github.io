@@ -1,0 +1,19 @@
+{{- $stats := newScratch -}}
+{{- $stats.Set "journal" 0 -}}
+{{- $stats.Set "arxiv" 0 -}}
+{{- $stats.Set "conference" 0 -}}
+
+{{- range where site.RegularPages "Section" "publications" -}}
+  {{- $types := lower (delimit (default (slice) .Params.publication_types) " ") -}}
+  {{- $pub := lower (printf "%v %v" .Params.publication .Params.publication_short) -}}
+
+  {{- if in $types "journal" -}}
+    {{- $stats.Set "journal" (add ($stats.Get "journal") 1) -}}
+  {{- else if or (in $types "preprint") (in $pub "arxiv") -}}
+    {{- $stats.Set "arxiv" (add ($stats.Get "arxiv") 1) -}}
+  {{- else if in $types "conference" -}}
+    {{- $stats.Set "conference" (add ($stats.Get "conference") 1) -}}
+  {{- end -}}
+{{- end -}}
+
+(Total number of publications: Journal papers: {{ $stats.Get "journal" }} | arXiv: {{ $stats.Get "arxiv" }} | Conference papers: {{ $stats.Get "conference" }})

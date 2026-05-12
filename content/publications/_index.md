@@ -10,3 +10,5 @@ banner:
   caption: ''
   image: ''
 ---
+
+{{< publication_breakdown >}}
