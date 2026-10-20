@@ -47,7 +47,7 @@ sections:
       columns: '1'
       css_class: my-research-wide
   - block: collection
-    id: papers
+    id: featured-publications
     content:
       title: Featured Publications
       text: |-
@@ -60,11 +60,13 @@ sections:
       view: article-grid
       columns: 2
   - block: collection
+    id: papers
     content:
-      title: Recent Publications
+      title: All Publications
       sort_by: publication_sort_date
-      text: ''
-      count: 8
+      text: |-
+        {{< publication_breakdown_counts >}}
+      count: 0
       filters:
         folders:
           - publications
