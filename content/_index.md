@@ -46,6 +46,15 @@ sections:
     design:
       columns: '1'
       css_class: my-research-wide
+  - block: markdown
+    id: collaborators
+    content:
+      title: Research Collaborators
+      text: |-
+        {{< research_collaborators >}}
+    design:
+      columns: '1'
+      css_class: collaborators-section
   - block: collection
     id: featured-publications
     content:

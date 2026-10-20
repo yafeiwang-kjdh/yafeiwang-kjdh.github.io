@@ -1,0 +1,170 @@
+checked_on: '2026-10-20'
+order_source: https://scholar.google.com/citations?user=zOmbLjQAAAAJ&hl=en
+people:
+- name: Wenjin Wang
+  title: Professor
+  affiliation: Southeast University
+  honors: []
+  scholar: https://scholar.google.com/citations?user=ousWjhgAAAAJ&hl=en
+  sources:
+  - https://ncrl.seu.edu.cn/_upload/article/files/2a/3a/dc050f8444c893599bedb98e44ce/92cdcf57-f959-42c4-958b-e8892a6b8aa2.pdf
+- name: Hongwei Hou
+  title: ''
+  affiliation: Southeast University
+  honors: []
+  scholar: https://scholar.google.com/citations?user=ArE4Ki8AAAAJ&hl=en
+  sources:
+  - https://scholar.google.com/citations?user=ArE4Ki8AAAAJ&hl=en
+- name: Björn Ottersten
+  title: Professor · Founding Director of SnT
+  affiliation: University of Luxembourg · KTH
+  honors:
+  - IEEE Fellow
+  - EURASIP Fellow
+  scholar: https://scholar.google.com/citations?user=OAWYhh0AAAAJ&hl=en
+  sources:
+  - https://www.kth.se/profile/otterste
+  profile: https://www.kth.se/profile/otterste
+- name: Shi Jin
+  title: Professor · Vice President
+  affiliation: Southeast University
+  honors: []
+  scholar: https://scholar.google.com/citations?user=xGkd6qwAAAAJ&hl=en
+  sources:
+  - https://www.seu.edu.cn/2021/0714/c28449a378109/page.htm
+  profile: https://www.seu.edu.cn/2021/0714/c28449a378109/page.htm
+- name: Symeon Chatzinotas
+  title: Full Professor · Head of SIGCOM
+  affiliation: SnT, University of Luxembourg
+  honors:
+  - IEEE Fellow
+  scholar: https://scholar.google.com/citations?user=6jeAUkoAAAAJ&hl=en
+  sources:
+  - https://www.uni.lu/snt-en/people/symeon-chatzinotas/
+  profile: https://www.uni.lu/snt-en/people/symeon-chatzinotas/
+- name: Xinping Yi
+  title: Professor
+  affiliation: Southeast University
+  honors: []
+  scholar: https://scholar.google.com/citations?user=wAcbI5kAAAAJ&hl=en
+  sources:
+  - https://radio.seu.edu.cn/2023/1025/c19937a469631/pagem.htm
+  profile: https://radio.seu.edu.cn/2023/1025/c19937a469631/pagem.htm
+- name: Yiming Zhu
+  title: ''
+  affiliation: Southeast University
+  honors: []
+  scholar: https://scholar.google.com/citations?user=DUp39BYAAAAJ&hl=en
+  sources:
+  - https://scholar.google.com/citations?user=DUp39BYAAAAJ&hl=en
+- name: Gangle Sun
+  title: Lecturer
+  affiliation: Hohai University
+  honors: []
+  scholar: https://scholar.google.com/citations?user=g8FBshQAAAAJ&hl=en
+  sources:
+  - https://jszy.hhu.edu.cn/sgl1/
+  profile: https://jszy.hhu.edu.cn/sgl1/
+- name: Vu Nguyen Ha
+  title: Research Scientist
+  affiliation: SnT, University of Luxembourg
+  honors: []
+  scholar: https://scholar.google.com/citations?user=ZKYvTCgAAAAJ&hl=en
+  sources:
+  - https://www.uni.lu/snt-en/people/vu-nguyen-ha/
+  profile: https://www.uni.lu/snt-en/people/vu-nguyen-ha/
+- name: Li You
+  title: Professor
+  affiliation: Southeast University
+  honors: []
+  scholar: https://scholar.google.com/citations?user=UWh5090AAAAJ&hl=en
+  sources:
+  - https://liyouseu.github.io/
+  profile: https://liyouseu.github.io/
+- name: Dirk Slock
+  title: Professor of Statistical Signal Processing
+  affiliation: EURECOM
+  honors: []
+  scholar: https://scholar.google.com/citations?user=xV6lEzEAAAAJ&hl=en
+  sources:
+  - https://www.eurecom.fr/en/people/slock-dirk
+  profile: https://www.eurecom.fr/en/people/slock-dirk
+- name: Konstantinos Ntontin
+  title: Research Scientist
+  affiliation: SnT, University of Luxembourg
+  honors: []
+  scholar: https://scholar.google.com/citations?user=H3ZxC5QAAAAJ&hl=en
+  sources:
+  - https://www.uni.lu/snt-en/people/konstantinos-ntontin/
+  profile: https://www.uni.lu/snt-en/people/konstantinos-ntontin/
+- name: Zhili Sun
+  title: Chair Professor of Communication Networking
+  affiliation: University of Surrey
+  honors: []
+  scholar: https://scholar.google.com/citations?user=X0hu8rIAAAAJ&hl=en
+  sources:
+  - https://www.surrey.ac.uk/people/zhili-sun
+  profile: https://www.surrey.ac.uk/people/zhili-sun
+- name: Christos G. Tsinos
+  title: Associate Professor
+  affiliation: National and Kapodistrian University of Athens
+  honors: []
+  scholar: https://scholar.google.com/citations?user=kMWbkn4AAAAJ&hl=en
+  sources:
+  - https://sites.google.com/site/christostsinos
+  profile: https://sites.google.com/site/christostsinos
+- name: Jiayang Wan
+  title: Ph.D. Student
+  affiliation: Southeast University
+  honors: []
+  scholar: https://scholar.google.com/citations?user=y4gFdEsAAAAJ&hl=en
+  sources:
+  - https://scholar.google.com/citations?user=y4gFdEsAAAAJ&hl=en
+- name: Yu Han
+  title: Professor
+  affiliation: Southeast University
+  honors: []
+  scholar: https://scholar.google.com/citations?user=pbjuTRcAAAAJ&hl=en
+  sources:
+  - https://radio.seu.edu.cn/2023/1025/c19937a534946/pagem.htm
+  profile: https://radio.seu.edu.cn/2023/1025/c19937a534946/pagem.htm
+- name: Wei Xu
+  title: Professor
+  affiliation: Southeast University
+  honors:
+  - IEEE Fellow
+  - IET Fellow
+  scholar: https://scholar.google.com/citations?user=lNWf6Z4AAAAJ&hl=en
+  sources:
+  - https://radio.seu.edu.cn/2023/1025/c19937a469624/page.htm
+  profile: https://radio.seu.edu.cn/2023/1025/c19937a469624/page.htm
+- name: Jiangzhou Wang
+  title: Professor (SEU) / Emeritus Professor (Kent)
+  affiliation: Southeast University / University of Kent
+  honors:
+  - International Member, CAE
+  - FREng
+  - IEEE Fellow
+  scholar: https://scholar.google.com/citations?user=S8zlmGkAAAAJ&hl=en
+  sources:
+  - https://www.kent.ac.uk/engineering-and-digital-design/people/736/wang-jiangzhou
+  - https://oic.seu.edu.cn/oicenglish/2026/0522/c68504a568569/page.htm
+  profile: https://oic.seu.edu.cn/oicenglish/2026/0522/c68504a568569/page.htm
+- name: Alessandro Vanelli-Coralli
+  title: Full Professor of Telecommunications
+  affiliation: University of Bologna
+  honors: []
+  scholar: https://scholar.google.com/citations?user=GInxaQUAAAAJ&hl=en
+  sources:
+  - https://www.unibo.it/sitoweb/alessandro.vanelli/en
+  profile: https://www.unibo.it/sitoweb/alessandro.vanelli/en
+- name: Tony Q.S. Quek
+  title: Chair Professor · Associate Provost
+  affiliation: Singapore University of Technology and Design
+  honors:
+  - IEEE Fellow
+  - Fellow, Academy of Engineering Singapore
+  scholar: https://scholar.google.com/citations?user=0o1tkokAAAAJ&hl=en
+  sources:
+  - https://www.sutd.edu.sg/istd/profile/tony-quek/
+  profile: https://www.sutd.edu.sg/istd/profile/tony-quek/

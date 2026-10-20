@@ -1,0 +1,22 @@
+<div class="collaborators-intro">
+  <p>Collaborating across institutions on wireless communications, signal processing, and AI.</p>
+  <a href="{{ site.Data.collaborators.order_source }}" target="_blank" rel="noopener noreferrer">View on Google Scholar <span aria-hidden="true">↗</span></a>
+</div>
+<ul class="collaborator-grid" aria-label="Research collaborators in Google Scholar order">
+  {{ range site.Data.collaborators.people }}
+  <li class="collaborator-card">
+    <h3><a href="{{ .scholar }}" target="_blank" rel="noopener noreferrer">{{ .name }}</a></h3>
+    {{ with .title }}<p class="collaborator-title">{{ . }}</p>{{ end }}
+    <p class="collaborator-affiliation">{{ .affiliation }}</p>
+    {{ with .honors }}
+    <ul class="collaborator-honors" aria-label="Academic distinctions">
+      {{ range . }}<li>{{ . }}</li>{{ end }}
+    </ul>
+    {{ end }}
+    <div class="collaborator-links">
+      <a href="{{ .scholar }}" target="_blank" rel="noopener noreferrer" aria-label="{{ .name }} on Google Scholar">Scholar <span aria-hidden="true">↗</span></a>
+      {{ with .profile }}<a href="{{ . }}" target="_blank" rel="noopener noreferrer">Profile <span aria-hidden="true">↗</span></a>{{ end }}
+    </div>
+  </li>
+  {{ end }}
+</ul>
