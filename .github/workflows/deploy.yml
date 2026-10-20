@@ -14,6 +14,7 @@ on:
 # Provide permission to clone the repo and deploy it to GitHub Pages
 permissions:
   contents: read
+  actions: read
   pages: write
   id-token: write
 
@@ -27,19 +28,6 @@ jobs:
     if: github.repository_owner != 'HugoBlox'
     runs-on: ubuntu-latest
     steps:
-    - name: Use Actions as the Pages publishing source
-      env:
-        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      run: |
-        curl --fail --silent --show-error \
-          --request PUT \
-          --header "Authorization: Bearer $GH_TOKEN" \
-          --header "Accept: application/vnd.github+json" \
-          --header "Content-Type: application/json" \
-          --data '{"build_type":"workflow"}' \
-          --output /dev/null \
-          "https://api.github.com/repos/${{ github.repository }}/pages"
-
     - name: Checkout
       uses: actions/checkout@v4
       with:
@@ -119,6 +107,7 @@ jobs:
     needs: build
     # Grant GITHUB_TOKEN the permissions required to make a Pages deployment
     permissions:
+      actions: read # inspect the competing legacy Pages run
       pages: write # to deploy to Pages
       id-token: write # to verify the deployment originates from an appropriate source
     # Deploy to the github-pages environment
@@ -127,6 +116,31 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
+    - name: Wait for legacy branch publishing to finish
+      env:
+        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        REPOSITORY: ${{ github.repository }}
+        COMMIT_SHA: ${{ github.sha }}
+      run: |
+        python3 - <<'PY'
+        import json, os, time, urllib.request
+        url = "https://api.github.com/repos/" + os.environ["REPOSITORY"] + "/actions/runs?head_sha=" + os.environ["COMMIT_SHA"] + "&per_page=100"
+        headers = {"Authorization": "Bearer " + os.environ["GH_TOKEN"], "Accept": "application/vnd.github+json"}
+        for attempt in range(60):
+            with urllib.request.urlopen(urllib.request.Request(url, headers=headers)) as response:
+                runs = json.load(response)["workflow_runs"]
+            legacy = [r for r in runs if r["name"] == "pages-build-deployment"]
+            if legacy and all(r["status"] == "completed" for r in legacy):
+                print("Legacy branch publishing finished; deploying Hugo output last.")
+                break
+            if not legacy and attempt >= 12:
+                print("No legacy branch publishing run detected.")
+                break
+            time.sleep(10)
+        else:
+            raise SystemExit("Legacy publishing did not finish within 10 minutes")
+        PY
+
     - name: Deploy to GitHub Pages
       id: deployment
       uses: actions/deploy-pages@v4
