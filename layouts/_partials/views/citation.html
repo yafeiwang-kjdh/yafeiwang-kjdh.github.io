@@ -1,6 +1,16 @@
 {{ $item := .item }}
 {{ $has_attachments := partial "functions/has_attachments" $item }}
+{{/* The theme's legacy helper does not check the current DOI field. */}}
+{{ with $item.Params.hugoblox }}
+  {{ with .ids }}
+    {{ with .doi }}{{ $has_attachments = true }}{{ end }}
+  {{ end }}
+{{ end }}
 {{ $date_format := site.Params.hugoblox.locale.date_format | default "Jan 2006" }}
+{{ $citation_date := $item.Date.Format $date_format }}
+{{ if eq $item.Params.publication_date_precision "year" }}
+  {{ $citation_date = $item.Params.publication_year | default ($item.Date.Format "2006") }}
+{{ end }}
 
 <div class="pub-list-item view-citation" style="margin-bottom: 1rem">
   <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
@@ -11,7 +21,7 @@
   <span class="article-metadata li-cite-author">
     {{ partial "page_metadata_authors" $item }}
   </span>
-  ({{- $item.Date.Format $date_format -}}).
+  ({{- $citation_date -}}).
   <a href="{{ $item.RelPermalink }}" class="underline">{{ $item.Title }}</a>.
   {{ if $item.Params.publication_short }}
     {{- $item.Params.publication_short | markdownify -}}.
@@ -37,7 +47,7 @@
   {{ else if $item.Params.publication }}
     {{- $item.Params.publication | markdownify -}},
   {{ end }}
-  {{- $item.Date.Format $date_format -}}.
+  {{- $citation_date -}}.
 
   {{ if $has_attachments }}
   <div class="flex flex-wrap space-x-3">

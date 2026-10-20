@@ -48,7 +48,7 @@ featured: false
 # Standard identifiers for auto-linking
 hugoblox:
   ids:
-    doi: https://doi.org/10.1109/JSTSP.2024.3451706
+    doi: 10.1109/JSTSP.2024.3451706
 
 # Custom links
 links:

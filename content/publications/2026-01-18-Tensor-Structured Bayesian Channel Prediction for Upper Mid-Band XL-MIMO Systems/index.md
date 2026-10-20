@@ -24,9 +24,9 @@ publishDate: "2026-01-18T00:00:00Z"
 # 6 = Book section
 # 7 = Thesis
 # 8 = Patent
-publication_types: ["Journal article"]
+publication_types:
+- Journal Paper
 
-# Publication name and optional abbreviated publication name.
 publication: "*IEEE Transactions on Communications (TCOM)*"
 publication_short: "*IEEE Transactions on Communications (TCOM)*"
 
@@ -77,7 +77,7 @@ slides: ""
 # https://docs.hugoblox.com/reference/front-matter/#hugoblox
 hugoblox:
   ids:
-    doi: https://doi.org/10.1109/TCOMM.2026.3658933
+    doi: 10.1109/TCOMM.2026.3658933
 ---
 
 {{< figure src="featured.png" caption="" >}}

@@ -47,7 +47,8 @@ featured: false
 # Standard identifiers for auto-linking
 hugoblox:
   ids:
-doi: https://doi.org/10.1109/PIMRC54779.2022.9977599
+    doi: 10.1109/PIMRC54779.2022.9977599
+
 
 # Custom links
 links:

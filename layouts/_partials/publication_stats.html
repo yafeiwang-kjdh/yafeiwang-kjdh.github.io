@@ -1,0 +1,16 @@
+{{- $stats := dict "journal" 0 "preprint" 0 "conference" 0 -}}
+{{- $categories := dict "Journal Paper" "journal" "Preprint Paper" "preprint" "Conference Paper" "conference" -}}
+{{- range where site.RegularPages "Section" "publications" -}}
+  {{- $types := .Params.publication_types | default slice -}}
+  {{- if ne (len $types) 1 -}}
+    {{- errorf "Publication %s must have exactly one publication type" .File.Path -}}
+  {{- else -}}
+    {{- $kind := index $categories (index $types 0) -}}
+    {{- if not $kind -}}
+      {{- errorf "Unsupported publication type in %s: %v" .File.Path $types -}}
+    {{- else -}}
+      {{- $stats = merge $stats (dict $kind (add (index $stats $kind) 1)) -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- return $stats -}}

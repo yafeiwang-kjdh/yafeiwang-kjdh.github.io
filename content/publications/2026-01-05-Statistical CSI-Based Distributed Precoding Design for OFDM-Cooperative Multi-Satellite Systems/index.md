@@ -40,7 +40,7 @@ featured: true
 
 hugoblox:
   ids:
-    doi: https://doi.org/10.1109/JSAC.2026.3650895
+    doi: 10.1109/JSAC.2026.3650895
 
 links:
   - type: pdf

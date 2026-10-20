@@ -1,4 +1,9 @@
 ---
+# Date tracks the page; only the publication year is verified.
+publication_year: 2026
+hide_date: true
+publication_date_precision: year
+date: "2025-06-16"
 title: "Interference in Spectrum-Sharing Integrated Terrestrial and Satellite Networks: Modeling, Approximation, and Robust Transmit Beamforming"
 
 # Authors
@@ -29,8 +34,9 @@ publishDate: 2025-06-16
 publication_types: ['Journal Paper']
 
 # Publication name and optional abbreviated publication name.
-publication: "*arXiv*"
-publication_short: "*arXiv*"
+publication: '*IEEE Transactions on Wireless Communications*, vol. 25, pp. 19660–19676, 2026'
+
+publication_short: '*IEEE Transactions on Wireless Communications (TWC)*'
 
 abstract: |-
   This paper studies interference in spectrum-sharing integrated terrestrial and satellite networks, providing modeling and approximation approaches and developing robust transmit beamforming designs to mitigate interference.
@@ -49,9 +55,8 @@ featured: false
 # Standard identifiers for auto-linking
 hugoblox:
   ids:
-    doi: "https://doi.org/10.48550/arXiv.2506.11851"
+    doi: 10.1109/TWC.2026.3710408
 
-# Custom links
 links:
   - type: pdf
     url: https://arxiv.org/pdf/2506.11851.pdf

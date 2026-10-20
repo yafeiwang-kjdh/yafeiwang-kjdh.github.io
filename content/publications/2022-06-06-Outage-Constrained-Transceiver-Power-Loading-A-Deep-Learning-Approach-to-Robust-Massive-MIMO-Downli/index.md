@@ -47,7 +47,7 @@ featured: false
 # Standard identifiers for auto-linking
 hugoblox:
   ids:
-    doi: https://doi.org/10.1109/BlackSeaCom54372.2022.9858205
+    doi: 10.1109/BlackSeaCom54372.2022.9858205
 
 # Custom links
 links:

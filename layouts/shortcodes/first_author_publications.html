@@ -1,0 +1,30 @@
+{{- $papers := slice -}}
+{{- range where site.RegularPages "Section" "publications" -}}
+  {{- $authors := .Params.authors | default slice -}}
+  {{- $first := false -}}
+  {{- if gt (len $authors) 0 -}}
+    {{- $first = eq (index $authors 0) "admin" -}}
+  {{- end -}}
+  {{- $cofirst := in (.Params.co_first_authors | default slice) "admin" -}}
+  {{- if or $first $cofirst -}}
+    {{- $papers = $papers | append . -}}
+  {{- end -}}
+{{- end -}}
+<div class="first-author-publications">
+  {{ range slice (dict "type" "Journal Paper" "title" "Journal Articles") (dict "type" "Preprint Paper" "title" "Preprints") (dict "type" "Conference Paper" "title" "Conference Papers") }}
+    {{ $group := where $papers "Params.publication_types" "intersect" (slice .type) }}
+    {{ if $group }}
+      <section class="mb-10">
+        <h2 class="text-2xl font-bold mt-8 mb-6">{{ .title }}</h2>
+        {{ range sort $group "Date" "desc" }}
+          <div class="mb-6">
+            {{ if in (.Params.co_first_authors | default slice) "admin" }}
+              <p class="text-sm font-semibold mb-1">Co-first author</p>
+            {{ end }}
+            {{ partial "views/citation.html" (dict "item" .) }}
+          </div>
+        {{ end }}
+      </section>
+    {{ end }}
+  {{ end }}
+</div>

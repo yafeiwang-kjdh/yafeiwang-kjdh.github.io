@@ -24,9 +24,9 @@ publishDate: 2025-05-20
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-publication_types: ['Journal Paper']
+publication_types:
+- Preprint Paper
 
-# Publication name and optional abbreviated publication name.
 publication: "*arXiv*"
 publication_short: "*arXiv*"
 
@@ -47,9 +47,8 @@ featured: false
 # Standard identifiers for auto-linking
 hugoblox:
   ids:
-    doi: ""
+    doi: 10.48550/arXiv.2505.12429
 
-# Custom links
 links:
   - type: pdf
     url: https://arxiv.org/pdf/2505.12429.pdf

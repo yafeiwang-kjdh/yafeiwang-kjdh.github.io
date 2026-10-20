@@ -45,7 +45,7 @@ featured: false
 
 hugoblox:
   ids:
-    doi: https://doi.org/10.3390/e27121214
+    doi: 10.3390/e27121214
 
 # Custom links (uncomment lines below)
 links:

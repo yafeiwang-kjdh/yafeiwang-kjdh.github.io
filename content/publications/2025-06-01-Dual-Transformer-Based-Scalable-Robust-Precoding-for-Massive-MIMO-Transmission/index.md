@@ -24,9 +24,9 @@ publishDate: 2025-06-01
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-publication_types: ['Journal Paper']
+publication_types:
+- Conference Paper
 
-# Publication name and optional abbreviated publication name.
 publication: "*2025 IEEE 101st Vehicular Technology Conference (VTC2025-Spring)*"
 publication_short: "*2025 IEEE 101st Vehicular Technology Conference (VTC2025-Spring)*"
 
@@ -47,7 +47,7 @@ featured: false
 # Standard identifiers for auto-linking
 hugoblox:
   ids:
-    doi: "https://doi.org/10.1109/VTC2025-Spring65109.2025.11174921"
+    doi: "10.1109/VTC2025-Spring65109.2025.11174921"
 
 # Custom links
 links:

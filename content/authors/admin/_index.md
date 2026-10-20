@@ -1,4 +1,15 @@
 ---
+skills:
+- name: Wireless Communications
+  items:
+  - name: Precoding and beamforming
+  - name: LEO satellite networks, MU-MIMO, XL-MIMO, and OFDM
+  - name: CSI acquisition, feedback, and prediction
+- name: Methods and Tools
+  items:
+  - name: Deep learning and Bayesian estimation
+  - name: Convex, nonconvex, and manifold optimization
+  - name: MATLAB, Python, PyTorch, and LaTeX
 # Display name
 title: Yafei Wang
 
@@ -23,9 +34,8 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Doctoral Student
+role: Ph.D. Candidate
 
-# Organizations/Affiliations to display in Biography blox
 organizations:
   - name: Southeast University
     url: https://www.seu.edu.cn/english/
@@ -52,96 +62,36 @@ profiles:
     url: https://github.com/wyfkjdh1024
 
 interests:
-  - Satellite Communications
-  - Deep Learning
-  - Signal Processing
+- AI-Native Wireless Communications
+- Cooperative LEO Satellite MIMO
+- Tensor Equivariance and Deep Learning
+- CSI Acquisition, Feedback, and Prediction
 
 education:
-  - area: PhD-Wireless Communication
-    institution: Southeast University
-    icon: custom/seu
-    date_start: 2023-03-01
-    date_end: 2027-03-01
-    summary: |
-      Supervised by Prof. Wenjin Wang.
-    # button:
-    #   text: 'Read Thesis'
-    #   url: 'https://example.com/thesis.pdf'
-  - area: Visiting PhD
-    institution: SnT, University of Luxembourg
-    icon: custom/snt
-    date_start: 2024-12-01
-    date_end: 2025-12-01
-    summary: |
-      Supervised by Prof. Björn Ottersten.
-  - area: MS-Wireless Communication
-    institution: Southeast University
-    icon: custom/seu
-    date_start: 2021-09-01
-    date_end: 2023-03-01
-    summary: |
-      Supervised by Prof. Wenjin Wang.
-  - area: BS-Communication Engineering
-    institution: Tianjin University
-    icon: custom/tju
-    date_start: 2017-09-01
-    date_end: 2021-09-01
-    # summary: |
-    #   GPA: 3.9/4.0
-
-    #   Minored in Mathematics. President of AI Club.
-
-# work:
-#   - position: Senior AI Research Scientist
-#     company_name: Meta AI
-#     company_url: 'https://ai.meta.com/'
-#     icon: ''
-#     date_start: 2020-01-01
-#     date_end: ''
-#     summary: |2-
-#       Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models. 50+ citations in 3 years.
-#   - position: Visiting Student
-#     company_name: OpenAI
-#     company_url: 'https://openai.com/'
-#     icon: ''
-#     date_start: 2019-06-01
-#     date_end: 2019-12-31
-#     summary: |
-#       Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
-
-# Skills
-# Add your own SVG icons to `assets/media/icons/`
-# skills:
-#   - name: Technical Skills
-#     items:
-#       - name: Python & PyTorch
-#         description: ''
-#         percent: 95
-#         icon: code-bracket
-#       - name: Machine Learning
-#         description: ''
-#         percent: 100
-#         icon: chart-bar
-#       - name: Cloud Computing (AWS/GCP)
-#         description: ''
-#         percent: 85
-#         icon: cloud
-#   - name: Hobbies
-#     color: '#eeac02'
-#     color_border: '#f0bf23'
-#     items:
-#       - name: Hiking in the Rockies
-#         description: ''
-#         percent: 80
-#         icon: person-simple-walk
-#       - name: Building Custom PCs
-#         description: ''
-#         percent: 90
-#         icon: cpu-chip
-#       - name: Sci-Fi Reading
-#         description: ''
-#         percent: 70
-#         icon: book-open
+- area: Ph.D. in Information and Communication Engineering
+  institution: Southeast University
+  icon: custom/seu
+  date_start: 2023-03-01
+  date_end: 2027-03-01
+  summary: 'Expected graduation: March 2027. Supervised by Prof. Wenjin Wang. Research on statistical-CSI-based multi-satellite cooperative transmission and structure-aware transceiver design.'
+- area: Visiting PhD
+  institution: SnT, University of Luxembourg
+  icon: custom/snt
+  date_start: 2024-12-01
+  date_end: 2025-12-01
+  summary: Supervised by Prof. Björn Ottersten. Research on synchronization errors, distributed precoding, and beamspace MIMO for cooperative LEO satellite networks.
+- area: M.E. in Information and Communication Engineering
+  institution: Southeast University
+  icon: custom/seu
+  date_start: 2021-09-01
+  date_end: 2023-03-01
+  summary: Supervised by Prof. Wenjin Wang. Research on constructive-interference precoding, soft demodulation, and robust transmission under channel aging.
+- area: B.E. in Communication Engineering
+  institution: Tianjin University
+  icon: custom/tju
+  date_start: 2017-09-01
+  date_end: '2021-07-01'
+  summary: 'GPA: 3.85/4.00; ranked 3rd out of 129 students.'
 
 languages:
   - name: Chinese
@@ -177,12 +127,12 @@ languages:
 #       Recognized for contributions to scaling laws in deep learning.
 ---
 
-Yafei Wang (IEEE Graduate Student Member, born in 2000) received the B.Eng. degree in Communication Engineering from Tianjin University in 2021. He is currently pursuing the Ph.D. degree at the National Mobile Communications Research Laboratory, Southeast University (SEU), Nanjing, China. His supervisor is Prof. Wenjin Wang, full professor of SEU, with 200+ publications.
+Yafei Wang is a Ph.D. candidate in Information and Communication Engineering at the National Mobile Communications Research Laboratory, Southeast University, supervised by Prof. Wenjin Wang. He received his B.E. in Communication Engineering from Tianjin University in 2021 and his M.E. from Southeast University in 2023.
 
-From December 2024 to December 2025, he has been a visiting Ph.D. student at the Interdisciplinary Centre for Security, Reliability and Trust (SnT), University of Luxembourg, under the supervision of Prof. Björn Ottersten, IEEE Fellow, one of the inventors of Space-Division Multiple Access (SDMA), with more than 50,000 citations.
+From December 2024 to December 2025, he was a visiting Ph.D. researcher at the Interdisciplinary Centre for Security, Reliability and Trust (SnT), University of Luxembourg, supervised by Prof. Björn Ottersten.
 
-**Focusing on native AI-based wireless communications, he has published over 30 papers** on satellite communications, MIMO transmission, channel estimation, U6G communications, joint uplink and downlink design, and has developed mathematical tools including native AI models, large AI models, and tensor Bayesian estimation method.
+His research focuses on **AI-native wireless communications and cooperative LEO satellite MIMO networks**. He develops structure-aware learning and optimization methods for precoding, CSI acquisition, feedback, and prediction, with particular interests in tensor equivariance, statistical-CSI-based distributed transmission, and robust transceiver design.
 
-Contact me: \
-E-mail: wangyf@seu.edu.cn \
-Linkedin: [Yafei Wang-Linkedin](https://www.linkedin.com/in/yafei-wang-1563013a3/)
+His work has appeared in IEEE JSAC, TWC, TCOM, and IEEE Wireless Communications. He is a lead organizer of a special session at IEEE SPAWC 2026 and reviews for TWC, TCOM, TMC, IEEE Wireless Communications, TVT, and WCL.
+
+Contact: [wangyf@seu.edu.cn](mailto:wangyf@seu.edu.cn) · [LinkedIn](https://www.linkedin.com/in/yafei-wang-1563013a3/)

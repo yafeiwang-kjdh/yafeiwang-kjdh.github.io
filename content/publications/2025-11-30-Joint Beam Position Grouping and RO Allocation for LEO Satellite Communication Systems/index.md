@@ -45,7 +45,7 @@ featured: false
 
 hugoblox:
   ids:
-    doi: https://doi.org/10.3390/electronics14234731
+    doi: 10.3390/electronics14234731
 
 # Custom links (uncomment lines below)
 links:

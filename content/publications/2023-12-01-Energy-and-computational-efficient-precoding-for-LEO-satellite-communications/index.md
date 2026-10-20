@@ -48,7 +48,7 @@ featured: false
 # Standard identifiers for auto-linking
 hugoblox:
   ids:
-    doi: https://doi.org/10.1109/GLOBECOM54140.2023.10437228
+    doi: 10.1109/GLOBECOM54140.2023.10437228
 
 # Custom links
 links:

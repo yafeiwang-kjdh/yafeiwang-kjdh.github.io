@@ -38,13 +38,11 @@ sections:
       title: 'My Research'
       subtitle: ''
       text: |-
-        My work lies at the intersection of wireless communications and deep learning, with an emphasis on creative, out-of-the-box research. The long-term goal is to deliver disruptive contributions that drive progress in both academic and industrial communities.
-        
-        Warmly welcome collaboration—please feel free to reach out 🥰
+        I develop learning and optimization methods that exploit the structure of wireless systems. My research connects **tensor-equivariant AI for MU-MIMO** with **statistical-CSI-based cooperative LEO satellite transmission**.
 
-        Contact me: \
-        E-mail: wangyf@seu.edu.cn \
-        Linkedin: [Yafei Wang-Linkedin](https://www.linkedin.com/in/yafei-wang-1563013a3/)
+        Current interests include scalable precoding, beamspace MIMO, synchronization-aware multi-satellite cooperation, and CSI acquisition, feedback, and prediction.
+
+        I welcome research collaboration. Contact me at [wangyf@seu.edu.cn](mailto:wangyf@seu.edu.cn).
     design:
       columns: '1'
       css_class: my-research-wide

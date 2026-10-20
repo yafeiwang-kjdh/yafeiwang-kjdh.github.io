@@ -76,7 +76,7 @@ slides: ""
 # https://docs.hugoblox.com/reference/front-matter/#hugoblox
 hugoblox:
   ids:
-    doi: https://doi.org/10.1109/VTC2025-Fall65116.2025.11310514
+    doi: 10.1109/VTC2025-Fall65116.2025.11310514
 ---
 
 {{< figure src="featured.png" caption="" >}}

@@ -1,36 +1,31 @@
 ---
+publication_date_precision: day
+date: '2026-10-13'
 title: "Multi-Satellite Multi-Stream Beamspace Massive MIMO Transmission"
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - admin
-  - Yiming Zhu
-  - Vu Nguyen Ha
-  - Wenjin Wang
-  - Rui Ding
-  - Symeon Chatzinotas
-  - Björn Ottersten
+- admin
+- Yiming Zhu
+- Vu Nguyen Ha
+- Wenjin Wang
+- Rui Ding
+- Symeon Chatzinotas
+- Björn Ottersten
 
-# Author notes (optional)
-# author_notes:
-#   - 'Equal contribution'
-#   - 'Equal contribution'
-
-# date: '2013-07-01T00:00:00Z'
-
-# Schedule page publish date (NOT publication's date).
 publishDate: 2025-12-26
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-publication_types: ['Journal Paper']
+publication_types:
+- Journal Paper
 
-# Publication name and optional abbreviated publication name.
-publication: "*arXiv*"
-publication_short: "*arXiv*"
+publication: '*IEEE Transactions on Communications*'
+
+publication_short: '*IEEE Transactions on Communications*'
 
 abstract: |-
   This paper studies multi-satellite multi-stream (MSMS) beamspace transmission, where multiple satellites cooperate to form a distributed multiple-input multiple-output (MIMO) system and jointly deliver multiple data streams to multi-antenna user terminals (UTs), and beamspace transmission combines earth-moving beamforming with beam-domain precoding. For the first time, we formulate the signal model for MSMS beamspace MIMO transmission. Under synchronization errors, multi-antenna UTs enable the distributed MIMO channel to exhibit higher rank, supporting multiple data streams. Beamspace MIMO retains conventional codebook based beamforming while providing the performance gains of precoding. Based on the signal model, we propose statistical channel state information (sCSI)-based optimization of satellite clustering, beam selection, and transmit precoding, using a sum-rate upper-bound approximation. With given satellite clustering and beam selection, we cast precoder design as an equivalent covariance decomposition-based weighted minimum mean square error (CDWMMSE) problem. To obtain tractable algorithms, we develop a closed-form covariance decomposition required by CDWMMSE and derive an iterative MSMS beam-domain precoder under sCSI. Following this, we further propose several heuristic closed-form precoders to avoid iterative cost. For satellite clustering, we enhance a competition-based algorithm by introducing a mechanism to regulate the number of satellites serving certain UT. Furthermore, we design a two-stage low-complexity beam selection algorithm focused on enhancing the effective channel power. Simulations under practical configurations validate the proposed methods across the number of data streams, receive antennas, serving satellites, and active beams, and show that beamspace transmission approaches conventional MIMO performance at lower complexity.
@@ -49,9 +44,8 @@ featured: false
 # Standard identifiers for auto-linking
 hugoblox:
   ids:
-    doi: https://doi.org/10.48550/arXiv.2512.21998
+    doi: 10.1109/tcomm.2026.3742849
 
-# Custom links
 links:
   - type: pdf
     url: https://arxiv.org/pdf/2512.21998

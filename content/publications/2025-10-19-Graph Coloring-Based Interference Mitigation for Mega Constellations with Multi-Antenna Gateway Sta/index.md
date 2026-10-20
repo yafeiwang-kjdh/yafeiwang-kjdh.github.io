@@ -42,7 +42,7 @@ featured: false
 
 hugoblox:
   ids:
-    doi: https://doi.org/10.1109/VTC2025-Fall65116.2025.11310070
+    doi: 10.1109/VTC2025-Fall65116.2025.11310070
 
 # Custom links (uncomment lines below)
 links:

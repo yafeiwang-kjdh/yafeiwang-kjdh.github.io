@@ -11,6 +11,9 @@ authors:
   - Wenjin Wang
   - Jiaheng Wang
   - Björn Ottersten
+co_first_authors:
+  - Shiyu Wu
+  - admin
 
 # Author notes (optional)
 # author_notes:
@@ -48,7 +51,8 @@ featured: false
 # Standard identifiers for auto-linking
 hugoblox:
   ids:
-doi: "https://doi.org/10.1109/TVT.2025.3564047"
+    doi: 10.1109/TVT.2025.3564047
+
 
 # Custom links
 links:

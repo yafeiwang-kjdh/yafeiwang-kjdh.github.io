@@ -75,7 +75,7 @@ slides: ""
 # https://docs.hugoblox.com/reference/front-matter/#hugoblox
 hugoblox:
   ids:
-    doi: https://doi.org/10.1109/MeditCom64437.2025.11104310
+    doi: 10.1109/MeditCom64437.2025.11104310
 ---
 
 {{< figure src="featured.png" caption="" >}}

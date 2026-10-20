@@ -47,7 +47,8 @@ featured: false
 # Standard identifiers for auto-linking
 hugoblox:
   ids:
-doi: "10.1109/LWC.2024.3518586"
+    doi: 10.1109/LWC.2024.3518586
+
 
 # Custom links
 links:
