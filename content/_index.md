@@ -16,9 +16,9 @@ sections:
       username: admin
       text: ''
       # Show a call-to-action button under your biography? (optional)
-      # button:
-      #   text: Download CV
-      #   url: uploads/resume.pdf
+      button:
+        text: Download CV (PDF)
+        url: /uploads/CV_Yafei.pdf
       headings:
         about: ''
         education: ''

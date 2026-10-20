@@ -28,3 +28,7 @@ main:
   # - name: Courses
   #   url: courses/
   #   weight: 40
+
+  - name: CV
+    url: uploads/CV_Yafei.pdf
+    weight: 40
