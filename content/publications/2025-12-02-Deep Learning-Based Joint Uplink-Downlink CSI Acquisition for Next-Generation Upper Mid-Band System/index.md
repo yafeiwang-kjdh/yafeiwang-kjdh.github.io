@@ -1,4 +1,11 @@
 ---
+hide_date: false
+lastmod: "2026-10-20"
+publication_sort_basis: "arXiv first submission"
+publication_sort_date: "2025-12-02"
+publication_date_source: "https://export.arxiv.org/api/query?id_list=2512.02557"
+publication_date_precision: "day"
+publication_year: 2025
 title: "Deep Learning-Based Joint Uplink-Downlink CSI Acquisition for Next-Generation Upper Mid-Band Systems"
 authors:
   - Xuan He
@@ -8,11 +15,11 @@ authors:
   - Shi Jin
   - Symeon Chatzinotas
   - Björn Ottersten
-date: "2025-12-02T00:00:00Z"
+date: "2025-12-02"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2025-12-02T00:00:00Z"
+publishDate: "2025-12-02"
 
 # Publication type.
 # Legend:

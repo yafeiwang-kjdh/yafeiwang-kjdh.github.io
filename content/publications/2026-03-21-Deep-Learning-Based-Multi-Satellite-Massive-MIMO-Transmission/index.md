@@ -1,4 +1,11 @@
 ---
+hide_date: false
+lastmod: "2026-10-20"
+publication_sort_basis: "arXiv first submission"
+publication_sort_date: "2026-03-21"
+publication_date_source: "https://export.arxiv.org/api/query?id_list=2603.20862"
+publication_date_precision: "day"
+publication_year: 2026
 title: "Deep Learning-Based Multi-Satellite Massive MIMO Transmission: Centralized or Decentralized?"
 authors:
   - Wenjing Cao
@@ -8,10 +15,10 @@ authors:
   - Wenjin Wang
   - Symeon Chatzinotas
   - Björn Ottersten
-date: "2026-03-21T15:48:14Z"
+date: "2026-03-21"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2026-03-21T15:48:14Z"
+publishDate: "2026-03-21"
 
 publication_types: ["Preprint Paper"]
 

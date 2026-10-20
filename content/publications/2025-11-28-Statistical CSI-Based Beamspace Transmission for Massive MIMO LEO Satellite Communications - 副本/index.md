@@ -1,4 +1,12 @@
 ---
+hide_date: false
+lastmod: "2026-10-20"
+publication_sort_basis: "publisher publication date"
+publication_sort_date: "2025-11-28"
+publication_date_source: "https://api.crossref.org/works/10.3390/e27121214"
+publication_date_precision: "day"
+publication_year: 2025
+date: "2025-11-28"
 title: "Statistical CSI-Based Beamspace Transmission for Massive MIMO LEO Satellite Communications"
 authors:
   - Qian Dong

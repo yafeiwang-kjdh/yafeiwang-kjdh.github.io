@@ -1,4 +1,12 @@
 ---
+hide_date: false
+lastmod: "2026-10-20"
+publication_sort_basis: "publisher publication date"
+publication_sort_date: "2025-06-17"
+publication_date_source: "https://api.crossref.org/works/10.1109/VTC2025-Spring65109.2025.11174921"
+publication_date_precision: "day"
+publication_year: 2025
+date: "2025-06-17"
 title: "Dual Transformer-Based Scalable Robust Precoding for Massive MIMO Transmission"
 
 # Authors
@@ -19,7 +27,7 @@ authors:
 # date: '2013-07-01T00:00:00Z'
 
 # Schedule page publish date (NOT publication's date).
-publishDate: 2025-06-01
+publishDate: "2025-06-17"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).

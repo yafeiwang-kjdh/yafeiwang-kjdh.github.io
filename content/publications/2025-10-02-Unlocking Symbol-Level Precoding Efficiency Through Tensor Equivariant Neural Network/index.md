@@ -1,4 +1,12 @@
 ---
+hide_date: false
+lastmod: "2026-10-20"
+publication_sort_basis: "arXiv first submission"
+publication_sort_date: "2025-10-02"
+publication_date_source: "https://export.arxiv.org/api/query?id_list=2510.02108"
+publication_date_precision: "day"
+publication_year: 2025
+date: "2025-10-02"
 title: "Unlocking Symbol-Level Precoding Efficiency Through Tensor Equivariant Neural Network"
 authors:
   - Jinshuo Zhang
@@ -12,7 +20,7 @@ authors:
 # doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2025-10-02T00:00:00Z"
+publishDate: "2025-10-02"
 
 # Publication type.
 # Legend:

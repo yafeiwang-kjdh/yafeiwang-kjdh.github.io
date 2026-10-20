@@ -1,4 +1,12 @@
 ---
+hide_date: false
+lastmod: "2026-10-20"
+publication_sort_basis: "publisher publication date"
+publication_sort_date: "2022-09-12"
+publication_date_source: "https://api.crossref.org/works/10.1109/PIMRC54779.2022.9977599"
+publication_date_precision: "day"
+publication_year: 2022
+date: "2022-09-12"
 title: "Learning Low-Complexity Robust Transceiver for Massive MIMO Downlink with Enhanced Mobility"
 
 # Authors
@@ -19,7 +27,7 @@ authors:
 # date: '2013-07-01T00:00:00Z'
 
 # Schedule page publish date (NOT publication's date).
-publishDate: 2022-09-12
+publishDate: "2022-09-12"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).

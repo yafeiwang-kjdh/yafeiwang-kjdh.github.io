@@ -1,4 +1,12 @@
 ---
+hide_date: false
+lastmod: "2026-10-20"
+publication_sort_basis: "publisher publication date"
+publication_sort_date: "2025-12-01"
+publication_date_source: "https://api.crossref.org/works/10.1109/TWC.2025.3580321"
+publication_date_precision: "month"
+publication_year: 2025
+date: "2025-12-01"
 title: "Toward Unified AI Models for MU-MIMO Communications: A Tensor Equivariance Framework"
 authors:
 - admin
@@ -12,7 +20,7 @@ authors:
 # date: "2025-09-01T00:00:00Z"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2025-12-01T00:00:00Z"
+publishDate: "2025-12-01"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).

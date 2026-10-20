@@ -1,4 +1,11 @@
 ---
+hide_date: false
+lastmod: "2026-10-20"
+publication_sort_basis: "arXiv first submission"
+publication_sort_date: "2026-08-30"
+publication_date_source: "https://export.arxiv.org/api/query?id_list=2608.29620"
+publication_date_precision: "day"
+publication_year: 2026
 title: Robust Decentralized Multi-Satellite Massive MIMO Transmission via Knowledge Distillation
 authors:
 - Wenjing Cao
@@ -9,8 +16,8 @@ authors:
 - Rui Ding
 - Symeon Chatzinotas
 - Björn Ottersten
-date: '2026-08-30'
-publishDate: '2026-08-30'
+date: "2026-08-30"
+publishDate: "2026-08-30"
 publication_types:
 - Preprint Paper
 publication: '*arXiv preprint arXiv:2608.29620*'

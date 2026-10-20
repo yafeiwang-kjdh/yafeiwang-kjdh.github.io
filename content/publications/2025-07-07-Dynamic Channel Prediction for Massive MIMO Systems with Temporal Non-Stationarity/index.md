@@ -1,4 +1,11 @@
 ---
+hide_date: false
+lastmod: "2026-10-20"
+publication_sort_basis: "publisher publication date"
+publication_sort_date: "2025-07-07"
+publication_date_source: "https://api.crossref.org/works/10.1109/MeditCom64437.2025.11104310"
+publication_date_precision: "day"
+publication_year: 2025
 title: "Dynamic Channel Prediction for Massive MIMO Systems with Temporal Non-Stationarity"
 authors:
   - Hongwei Hou
@@ -6,11 +13,11 @@ authors:
   - Yiming Zhu
   - Wenjin Wang
   - Dirk T. M. Slock
-date: "2025-07-07T00:00:00Z"
+date: "2025-07-07"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2025-07-07T00:00:00Z"
+publishDate: "2025-07-07"
 
 # Publication type.
 # Legend:

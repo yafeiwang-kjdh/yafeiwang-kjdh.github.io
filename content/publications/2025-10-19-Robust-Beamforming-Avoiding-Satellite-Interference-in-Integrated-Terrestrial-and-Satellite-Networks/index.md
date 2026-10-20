@@ -1,4 +1,12 @@
 ---
+hide_date: false
+lastmod: "2026-10-20"
+publication_sort_basis: "publisher publication date"
+publication_sort_date: "2025-10-19"
+publication_date_source: "https://api.crossref.org/works/10.1109/VTC2025-Fall65116.2025.11309930"
+publication_date_precision: "day"
+publication_year: 2025
+date: "2025-10-19"
 title: "Robust Beamforming Avoiding Satellite Interference in Integrated Terrestrial and Satellite Networks"
 
 # Authors
@@ -19,7 +27,7 @@ authors:
 # date: '2013-07-01T00:00:00Z'
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2025-10-19T00:00:00Z"
+publishDate: "2025-10-19"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).

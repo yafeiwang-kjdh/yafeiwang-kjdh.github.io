@@ -1,6 +1,12 @@
 ---
-publication_date_precision: day
-date: '2026-10-13'
+hide_date: false
+lastmod: "2026-10-20"
+publication_sort_basis: "DOI registration (ordering only; publication year verified)"
+publication_sort_date: "2026-10-13"
+publication_date_source: "https://api.crossref.org/works/10.1109/tcomm.2026.3742849"
+publication_year: 2026
+publication_date_precision: "year"
+date: "2026-01-01"
 title: "Multi-Satellite Multi-Stream Beamspace Massive MIMO Transmission"
 
 # Authors
@@ -15,7 +21,7 @@ authors:
 - Symeon Chatzinotas
 - Björn Ottersten
 
-publishDate: 2025-12-26
+publishDate: "2026-01-01"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).

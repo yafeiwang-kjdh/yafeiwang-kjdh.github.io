@@ -1,9 +1,13 @@
 ---
-# Date tracks the page; only the publication year is verified.
+lastmod: "2026-10-20"
+publication_sort_basis: "DOI registration (ordering only; publication year verified)"
+publication_sort_date: "2026-10-01"
+publication_date_source: "https://api.crossref.org/works/10.1109/tmc.2026.3738759"
+# Publication date precision is recorded explicitly; sorting is separate.
 publication_year: 2026
-hide_date: true
-publication_date_precision: year
-date: "2025-12-17"
+hide_date: false
+publication_date_precision: "year"
+date: "2026-01-01"
 title: "QoS-Aware Hierarchical Reinforcement Learning for Joint Link Selection and Trajectory Optimization in SAGIN-Supported UAV Mobility Management"
 
 # Authors
@@ -17,7 +21,7 @@ authors:
 - Wenjin Wang
 - Shi Jin
 
-publishDate: 2025-12-17
+publishDate: "2026-01-01"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).

@@ -62,6 +62,7 @@ sections:
   - block: collection
     content:
       title: Recent Publications
+      sort_by: publication_sort_date
       text: ''
       count: 8
       filters:

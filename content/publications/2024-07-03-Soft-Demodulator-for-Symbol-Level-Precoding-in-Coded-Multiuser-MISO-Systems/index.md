@@ -1,4 +1,12 @@
 ---
+hide_date: false
+lastmod: "2026-10-20"
+publication_sort_basis: "publisher publication date"
+publication_sort_date: "2024-10-01"
+publication_date_source: "https://api.crossref.org/works/10.1109/TWC.2024.3419258"
+publication_date_precision: "month"
+publication_year: 2024
+date: "2024-10-01"
 title: "Soft Demodulator for Symbol-Level Precoding in Coded Multiuser MISO Systems"
 
 # Authors
@@ -19,7 +27,7 @@ authors:
 # date: '2013-07-01T00:00:00Z'
 
 # Schedule page publish date (NOT publication's date).
-publishDate: 2024-07-03
+publishDate: "2024-10-01"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).

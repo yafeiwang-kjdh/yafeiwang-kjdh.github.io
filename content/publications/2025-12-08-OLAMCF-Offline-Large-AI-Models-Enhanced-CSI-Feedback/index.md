@@ -1,4 +1,11 @@
 ---
+hide_date: false
+lastmod: "2026-10-20"
+publication_sort_basis: "publisher publication date"
+publication_sort_date: "2025-12-08"
+publication_date_source: "https://api.crossref.org/works/10.1109/GLOBECOM59602.2025.11432722"
+publication_date_precision: "day"
+publication_year: 2025
 title: "OLAMCF: Offline Large AI Models Enhanced CSI Feedback in FDD Massive MIMO Systems"
 authors:
   - Jialin Zhuang
@@ -7,10 +14,10 @@ authors:
   - Yu Han
   - Wenjin Wang
   - Shi Jin
-date: "2025-12-08T00:00:00Z"
+date: "2025-12-08"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2025-12-08T00:00:00Z"
+publishDate: "2025-12-08"
 
 publication_types: ["Conference Paper"]
 

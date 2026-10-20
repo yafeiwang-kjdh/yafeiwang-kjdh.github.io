@@ -1,4 +1,11 @@
 ---
+hide_date: false
+lastmod: "2026-10-20"
+publication_sort_basis: "arXiv first submission"
+publication_sort_date: "2026-08-28"
+publication_date_source: "https://export.arxiv.org/api/query?id_list=2608.27973"
+publication_date_precision: "day"
+publication_year: 2026
 title: 'Toward Secure Communications for a UAV Swarm with Movable Antennas in SAGIN: CKM-Enabled Multi-Agent Reinforcement Learning Framework'
 authors:
 - Jiayang Wan
@@ -6,8 +13,8 @@ authors:
 - Jiawei Zhuang
 - Wenjin Wang
 - Tony Q.S. Quek
-date: '2026-08-28'
-publishDate: '2026-08-28'
+date: "2026-08-28"
+publishDate: "2026-08-28"
 publication_types:
 - Preprint Paper
 publication: '*arXiv preprint arXiv:2608.27973*'

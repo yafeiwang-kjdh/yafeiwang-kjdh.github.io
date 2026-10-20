@@ -1,4 +1,12 @@
 ---
+hide_date: false
+lastmod: "2026-10-20"
+publication_sort_basis: "arXiv first submission"
+publication_sort_date: "2025-05-18"
+publication_date_source: "https://export.arxiv.org/api/query?id_list=2505.12429"
+publication_date_precision: "day"
+publication_year: 2025
+date: "2025-05-18"
 title: "Time-Continuous Frequency Allocation for Feeder Links of Mega Constellations with Multi-Antenna Gateway Stations"
 
 # Authors
@@ -19,7 +27,7 @@ authors:
 # date: '2013-07-01T00:00:00Z'
 
 # Schedule page publish date (NOT publication's date).
-publishDate: 2025-05-20
+publishDate: "2025-05-18"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).

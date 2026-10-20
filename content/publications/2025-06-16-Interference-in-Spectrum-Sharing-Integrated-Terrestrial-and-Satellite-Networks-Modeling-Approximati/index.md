@@ -1,9 +1,13 @@
 ---
-# Date tracks the page; only the publication year is verified.
+lastmod: "2026-10-20"
+publication_sort_basis: "DOI registration (ordering only; publication year verified)"
+publication_sort_date: "2026-07-14"
+publication_date_source: "https://api.crossref.org/works/10.1109/TWC.2026.3710408"
+# Publication date precision is recorded explicitly; sorting is separate.
 publication_year: 2026
-hide_date: true
-publication_date_precision: year
-date: "2025-06-16"
+hide_date: false
+publication_date_precision: "year"
+date: "2026-01-01"
 title: "Interference in Spectrum-Sharing Integrated Terrestrial and Satellite Networks: Modeling, Approximation, and Robust Transmit Beamforming"
 
 # Authors
@@ -26,7 +30,7 @@ authors:
 # date: '2013-07-01T00:00:00Z'
 
 # Schedule page publish date (NOT publication's date).
-publishDate: 2025-06-16
+publishDate: "2026-01-01"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).

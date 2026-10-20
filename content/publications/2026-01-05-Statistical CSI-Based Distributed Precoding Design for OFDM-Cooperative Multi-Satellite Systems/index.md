@@ -1,4 +1,12 @@
 ---
+hide_date: false
+lastmod: "2026-10-20"
+publication_sort_basis: "DOI registration (ordering only; publication year verified)"
+publication_sort_date: "2026-01-05"
+publication_date_source: "https://api.crossref.org/works/10.1109/JSAC.2026.3650895"
+publication_date_precision: "year"
+publication_year: 2026
+date: "2026-01-01"
 title: "Statistical CSI-Based Distributed Precoding Design for OFDM-Cooperative Multi-Satellite Systems"
 authors:
 - admin
@@ -14,7 +22,7 @@ authors:
 # date: "2025-05-13T00:00:00Z"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2026-01-05T00:00:00Z"
+publishDate: "2026-01-01"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).

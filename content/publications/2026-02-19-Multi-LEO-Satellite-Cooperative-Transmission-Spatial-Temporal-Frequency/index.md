@@ -1,4 +1,11 @@
 ---
+hide_date: false
+lastmod: "2026-10-20"
+publication_sort_basis: "publisher publication date"
+publication_sort_date: "2026-06-01"
+publication_date_source: "https://api.crossref.org/works/10.1109/MWC.2026.3659842"
+publication_date_precision: "month"
+publication_year: 2026
 title: "Multi-LEO Satellite Cooperative Transmission: A Spatial-Temporal-Frequency Perspective"
 authors:
   - admin
@@ -8,10 +15,10 @@ authors:
   - Rui Ding
   - Symeon Chatzinotas
   - Björn Ottersten
-date: "2026-02-19T00:00:00Z"
+date: "2026-06-01"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2026-02-19T00:00:00Z"
+publishDate: "2026-06-01"
 
 publication_types: ["Journal Paper"]
 

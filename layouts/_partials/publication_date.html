@@ -1,0 +1,8 @@
+{{- $format := site.Params.hugoblox.locale.date_format | default "Jan 2006" -}}
+{{- if eq .Params.publication_date_precision "year" -}}
+  {{- .Params.publication_year -}}
+{{- else if eq .Params.publication_date_precision "month" -}}
+  {{- .Date.Format "Jan 2006" -}}
+{{- else -}}
+  {{- .Date.Format $format -}}
+{{- end -}}

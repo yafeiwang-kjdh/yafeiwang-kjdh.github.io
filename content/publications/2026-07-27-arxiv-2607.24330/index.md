@@ -1,4 +1,11 @@
 ---
+hide_date: false
+lastmod: "2026-10-20"
+publication_sort_basis: "arXiv first submission"
+publication_sort_date: "2026-07-27"
+publication_date_source: "https://export.arxiv.org/api/query?id_list=2607.24330"
+publication_date_precision: "day"
+publication_year: 2026
 title: 'Toward Alias-Free Channel Extrapolation in Upper Mid-Band Systems: A Spatial-Frequency-Temporal Tensor Learning Approach'
 authors:
 - Jiawei Zhuang
@@ -8,8 +15,8 @@ authors:
 - Wenjin Wang
 - Jiangzhou Wang
 - Björn Ottersten
-date: '2026-07-27'
-publishDate: '2026-07-27'
+date: "2026-07-27"
+publishDate: "2026-07-27"
 publication_types:
 - Preprint Paper
 publication: '*arXiv preprint arXiv:2607.24330*'

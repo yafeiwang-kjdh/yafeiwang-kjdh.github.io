@@ -1,4 +1,11 @@
 ---
+hide_date: false
+lastmod: "2026-10-20"
+publication_sort_basis: "arXiv first submission"
+publication_sort_date: "2026-03-30"
+publication_date_source: "https://export.arxiv.org/api/query?id_list=2603.28195"
+publication_date_precision: "day"
+publication_year: 2026
 title: "Toward Multi-Satellite Cooperative Transmission: A Joint Framework for CSI Acquisition, Feedback, and Phase Synchronization"
 authors:
   - Yiming Zhu
@@ -9,10 +16,10 @@ authors:
   - Rui Ding
   - Symeon Chatzinotas
   - Björn Ottersten
-date: "2026-03-30T09:03:58Z"
+date: "2026-03-30"
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2026-03-30T09:03:58Z"
+publishDate: "2026-03-30"
 
 publication_types: ["Preprint Paper"]
 

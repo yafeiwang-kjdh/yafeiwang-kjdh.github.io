@@ -1,4 +1,11 @@
 ---
+hide_date: false
+lastmod: "2026-10-20"
+publication_sort_basis: "arXiv first submission"
+publication_sort_date: "2026-05-09"
+publication_date_source: "https://export.arxiv.org/api/query?id_list=2605.09013"
+publication_date_precision: "day"
+publication_year: 2026
 title: 'Semantic Communication for Multi-Satellite Massive MIMO Transmission: A Mixture of Cooperative Modes Framework'
 authors:
 - admin
@@ -9,8 +16,8 @@ authors:
 - Wenjin Wang
 - Symeon Chatzinotas
 - Björn Ottersten
-date: '2026-05-09'
-publishDate: '2026-05-09'
+date: "2026-05-09"
+publishDate: "2026-05-09"
 publication_types:
 - Preprint Paper
 publication: '*arXiv preprint arXiv:2605.09013*; under review at an IEEE Transactions journal'

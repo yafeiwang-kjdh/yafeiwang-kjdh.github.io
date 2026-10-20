@@ -1,4 +1,11 @@
 ---
+hide_date: false
+lastmod: "2026-10-20"
+publication_sort_basis: "DOI registration (ordering only; publication year verified)"
+publication_sort_date: "2026-01-28"
+publication_date_source: "https://api.crossref.org/works/10.1109/TCOMM.2026.3658933"
+publication_date_precision: "year"
+publication_year: 2026
 title: "Tensor-Structured Bayesian Channel Prediction for Upper Mid-Band XL-MIMO Systems"
 authors:
   - Hongwei Hou
@@ -7,11 +14,11 @@ authors:
   - Wenjin Wang
   - Dirk T. M. Slock
   - Shi Jin
-date: "2026-01-18T00:00:00Z"
+date: "2026-01-01"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2026-01-18T00:00:00Z"
+publishDate: "2026-01-01"
 
 # Publication type.
 # Legend:

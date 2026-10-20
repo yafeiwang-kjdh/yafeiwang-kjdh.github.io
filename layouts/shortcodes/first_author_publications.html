@@ -18,7 +18,7 @@
         <h2 class="text-2xl font-bold mt-8 mb-6">{{ .title }}</h2>
         {{ $first_author := slice }}
         {{ $co_first_author := slice }}
-        {{ range sort $group "Date" "desc" }}
+        {{ range sort $group "Params.publication_sort_date" "desc" }}
           {{ if eq (index .Params.authors 0) "admin" }}
             {{ $first_author = $first_author | append . }}
           {{ else }}

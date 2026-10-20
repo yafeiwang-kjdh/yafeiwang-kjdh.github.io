@@ -1,4 +1,12 @@
 ---
+hide_date: false
+lastmod: "2026-10-20"
+publication_sort_basis: "publisher publication date"
+publication_sort_date: "2025-11-30"
+publication_date_source: "https://api.crossref.org/works/10.3390/electronics14234731"
+publication_date_precision: "day"
+publication_year: 2025
+date: "2025-11-30"
 title: "Joint Beam Position Grouping and RO Allocation for LEO Satellite Communication Systems"
 authors:
   - Bojun Guo

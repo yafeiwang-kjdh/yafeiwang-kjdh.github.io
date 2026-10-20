@@ -1,4 +1,12 @@
 ---
+hide_date: false
+lastmod: "2026-10-20"
+publication_sort_basis: "publisher publication date"
+publication_sort_date: "2025-03-01"
+publication_date_source: "https://api.crossref.org/works/10.1109/LWC.2024.3518586"
+publication_date_precision: "month"
+publication_year: 2025
+date: "2025-03-01"
 title: "CovNet: Covariance Information-Assisted CSI Feedback for FDD Massive MIMO Systems"
 
 # Authors
@@ -19,7 +27,7 @@ authors:
 # date: '2013-07-01T00:00:00Z'
 
 # Schedule page publish date (NOT publication's date).
-publishDate: 2024-12-16
+publishDate: "2025-03-01"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).

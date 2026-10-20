@@ -1,4 +1,12 @@
 ---
+hide_date: false
+lastmod: "2026-10-20"
+publication_sort_basis: "publisher publication date"
+publication_sort_date: "2025-09-01"
+publication_date_source: "https://api.crossref.org/works/10.1109/TCOMM.2025.3554633"
+publication_date_precision: "month"
+publication_year: 2025
+date: "2025-09-01"
 title: "Polar-Coded Tensor-Based Unsourced Random Access with Soft Decoding"
 
 # Authors
@@ -21,7 +29,7 @@ authors:
 # date: '2013-07-01T00:00:00Z'
 
 # Schedule page publish date (NOT publication's date).
-publishDate: 2025-03-25
+publishDate: "2025-09-01"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).

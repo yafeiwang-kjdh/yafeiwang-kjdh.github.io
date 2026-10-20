@@ -1,4 +1,11 @@
 ---
+hide_date: false
+lastmod: "2026-10-20"
+publication_sort_basis: "publisher publication date"
+publication_sort_date: "2025-11-01"
+publication_date_source: "https://api.crossref.org/works/10.1016/j.eng.2025.07.007"
+publication_date_precision: "month"
+publication_year: 2025
 title: "Toward Mobile Satellite Internet: The Fundamental Limitation of Wireless Transmission and Enabling Technologies"
 authors:
   - Wenjin Wang
@@ -6,11 +13,11 @@ authors:
   - admin
   - Rui Ding
   - Symeon Chatzinotas
-date: "2025-07-09T00:00:00Z"
+date: "2025-11-01"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2025-07-09T00:00:00Z"
+publishDate: "2025-11-01"
 
 # Publication type.
 # Legend:

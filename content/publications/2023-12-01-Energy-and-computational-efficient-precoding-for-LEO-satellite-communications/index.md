@@ -1,4 +1,12 @@
 ---
+hide_date: false
+lastmod: "2026-10-20"
+publication_sort_basis: "publisher publication date"
+publication_sort_date: "2023-12-04"
+publication_date_source: "https://api.crossref.org/works/10.1109/GLOBECOM54140.2023.10437228"
+publication_date_precision: "day"
+publication_year: 2023
+date: "2023-12-04"
 title: "Energy and computational efficient precoding for LEO satellite communications"
 
 # Authors
@@ -20,7 +28,7 @@ authors:
 # date: '2013-07-01T00:00:00Z'
 
 # Schedule page publish date (NOT publication's date).
-publishDate: 2023-12-01
+publishDate: "2023-12-04"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
