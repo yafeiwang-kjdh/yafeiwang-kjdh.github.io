@@ -27,6 +27,19 @@ jobs:
     if: github.repository_owner != 'HugoBlox'
     runs-on: ubuntu-latest
     steps:
+    - name: Use Actions as the Pages publishing source
+      env:
+        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        curl --fail --silent --show-error \
+          --request PUT \
+          --header "Authorization: Bearer $GH_TOKEN" \
+          --header "Accept: application/vnd.github+json" \
+          --header "Content-Type: application/json" \
+          --data '{"build_type":"workflow"}' \
+          --output /dev/null \
+          "https://api.github.com/repos/${{ github.repository }}/pages"
+
     - name: Checkout
       uses: actions/checkout@v4
       with:
