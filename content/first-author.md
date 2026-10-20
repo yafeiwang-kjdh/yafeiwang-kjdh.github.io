@@ -13,4 +13,5 @@ sections:
         {{< first_author_publications >}}
     design:
       columns: '1'
+      css_class: first-author-section
 ---
