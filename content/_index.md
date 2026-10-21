@@ -38,9 +38,9 @@ sections:
       title: 'My Research'
       subtitle: ''
       text: |-
-        I develop learning and optimization methods that exploit the structure of wireless systems. My research connects **tensor-equivariant AI for MU-MIMO** with **statistical-CSI-based cooperative LEO satellite transmission**.
+        My research focuses on **AI-native wireless communications** and **cooperative satellite transmission**. I explore how learning, optimization, and communication theory can improve the design of future wireless systems.
 
-        Current interests include scalable precoding, beamspace MIMO, synchronization-aware multi-satellite cooperation, and CSI acquisition, feedback, and prediction.
+        My guiding principle is to pursue ideas that are both **interesting and useful**, connecting fundamental insights with practical improvements.
 
         I welcome research collaboration. Contact me at [wangyf@seu.edu.cn](mailto:wangyf@seu.edu.cn).
     design:
