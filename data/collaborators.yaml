@@ -1,3 +1,8 @@
+# Ordering contract: see ../AGENTS.md (Research Collaborators maintenance rules).
+# The template renders people in array order; it does not sort automatically.
+# Pin Wenjin Wang, then Bjorn Ottersten. Sort others by IEEE group, then scholar_order.
+# Fellow == Life Fellow; Graduate Student Member == Student Member for grouping.
+# NEVER renumber scholar_order from the displayed array positions.
 checked_on: '2026-10-21'
 order_source: https://scholar.google.com/citations?user=zOmbLjQAAAAJ&hl=en
 people:

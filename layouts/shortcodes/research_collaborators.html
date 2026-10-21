@@ -6,6 +6,8 @@
   <a href="{{ site.Data.collaborators.order_source }}" target="_blank" rel="noopener noreferrer">View on Google Scholar <span aria-hidden="true">↗</span></a>
 </div>
 <ul class="collaborator-grid" aria-label="Research collaborators: supervisors first, then IEEE grade, with Google Scholar order within each group">
+  {{/* Array order is intentional. See repository AGENTS.md for supervisor priority,
+       IEEE grade groups, and original scholar_order. Do not sort alphabetically. */}}
   {{ range site.Data.collaborators.people }}
   <li class="collaborator-card">
     <div class="collaborator-identity">
