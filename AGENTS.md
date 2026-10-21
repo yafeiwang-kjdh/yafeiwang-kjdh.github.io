@@ -35,7 +35,7 @@
 - IEEE 等级使用 `ieee.grade`，展示文字使用 `ieee.label`；保留 `source`、`evidence`、`checked_on` 和已有时效说明，不根据职称推断会员等级。
 - Gangle Sun 目前使用有来源的历史 Student Member 记录，保留“当前等级未公开核实”的说明；获得更新证据后再调整等级和分组。
 - 遇到未列出的等级或缺失证据，不要自行猜填或静默归类，先核查。
-- 栏目介绍下方的小字应与实际排序一致：导师优先，再按 IEEE 等级分组，同组内参考 Google Scholar 默认合作者顺序。
+- 用户要求栏目介绍下方的小字保持简短，使用：`The order is based on Google Scholar’s default collaborator listing.` 页面说明不展开导师优先和 IEEE 分组细节；实际排序仍遵循本文件中的完整规则。
 
 ## 修改后核对
 
