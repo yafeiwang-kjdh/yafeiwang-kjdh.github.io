@@ -16,21 +16,8 @@ people:
     source: https://arxiv.org/pdf/2608.27973
     evidence: 2026 paper byline
     checked_on: '2026-10-21'
-- name: Hongwei Hou
-  title: ''
-  affiliation: Southeast University
-  honors: []
-  scholar: https://scholar.google.com/citations?user=ArE4Ki8AAAAJ&hl=en
-  sources:
-  - https://scholar.google.com/citations?user=ArE4Ki8AAAAJ&hl=en
-  avatar: /media/collaborators/ArE4Ki8AAAAJ.jpg
-  avatar_source: https://scholar.googleusercontent.com/citations?view_op=view_photo&user=ArE4Ki8AAAAJ&citpid=8
-  ieee:
-    grade: Graduate Student Member
-    label: IEEE Graduate Student Member
-    source: https://arxiv.org/pdf/2603.20621
-    evidence: 2026 paper byline
-    checked_on: '2026-10-21'
+  scholar_order: 1
+  supervisor_role: Ph.D. Supervisor
 - name: Björn Ottersten
   title: Professor · Founding Director of SnT
   affiliation: University of Luxembourg · KTH
@@ -48,6 +35,8 @@ people:
     source: https://www.kth.se/profile/otterste
     evidence: KTH official biography
     checked_on: '2026-10-21'
+  scholar_order: 3
+  supervisor_role: CSC Visiting Ph.D. Supervisor
 - name: Shi Jin
   title: Professor · Vice President
   affiliation: Southeast University
@@ -64,6 +53,7 @@ people:
     source: https://arxiv.org/pdf/2606.06293
     evidence: 2026 paper byline
     checked_on: '2026-10-21'
+  scholar_order: 4
 - name: Symeon Chatzinotas
   title: Full Professor · Head of SIGCOM
   affiliation: SnT, University of Luxembourg
@@ -80,86 +70,7 @@ people:
     source: https://vbn.aau.dk/ws/portalfiles/portal/780660988/Open_Acces_Article.pdf
     evidence: 2025 IEEE Transactions on Communications paper byline
     checked_on: '2026-10-21'
-- name: Xinping Yi
-  title: Professor
-  affiliation: Southeast University
-  honors: []
-  scholar: https://scholar.google.com/citations?user=wAcbI5kAAAAJ&hl=en
-  sources:
-  - https://radio.seu.edu.cn/2023/1025/c19937a469631/pagem.htm
-  profile: https://radio.seu.edu.cn/2023/1025/c19937a469631/pagem.htm
-  avatar: /media/collaborators/wAcbI5kAAAAJ.jpg
-  avatar_source: https://scholar.googleusercontent.com/citations?view_op=view_photo&user=wAcbI5kAAAAJ&citpid=2
-  ieee:
-    grade: Member
-    label: IEEE Member
-    source: https://arxiv.org/pdf/2606.06293
-    evidence: 2026 paper byline
-    checked_on: '2026-10-21'
-- name: Yiming Zhu
-  title: ''
-  affiliation: Southeast University
-  honors: []
-  scholar: https://scholar.google.com/citations?user=DUp39BYAAAAJ&hl=en
-  sources:
-  - https://scholar.google.com/citations?user=DUp39BYAAAAJ&hl=en
-  avatar: /media/collaborators/DUp39BYAAAAJ.jpg
-  avatar_source: https://scholar.googleusercontent.com/citations?view_op=view_photo&user=DUp39BYAAAAJ&citpid=2
-  ieee:
-    grade: Graduate Student Member
-    label: IEEE Graduate Student Member
-    source: https://www.eurecom.fr/publication/8013/download/comsys-publi-8013.pdf
-    evidence: 'Author manuscript: A Tensor-Structured Approach to Dynamic Channel Prediction for Massive MIMO Systems with Temporal Non-Stationarity'
-    checked_on: '2026-10-21'
-- name: Gangle Sun
-  title: Lecturer
-  affiliation: Hohai University
-  honors: []
-  scholar: https://scholar.google.com/citations?user=g8FBshQAAAAJ&hl=en
-  sources:
-  - https://jszy.hhu.edu.cn/sgl1/
-  profile: https://jszy.hhu.edu.cn/sgl1/
-  avatar: /media/collaborators/g8FBshQAAAAJ.jpg
-  avatar_source: https://scholar.googleusercontent.com/citations?view_op=view_photo&user=g8FBshQAAAAJ&citpid=6
-  ieee:
-    grade: Student Member
-    label: IEEE Student Member (2024 record)
-    source: https://arxiv.org/pdf/2406.09053
-    evidence: 2024 paper byline; current grade unverified following graduation in 2025
-    checked_on: '2026-10-21'
-    caveat: Current grade not publicly verified.
-- name: Vu Nguyen Ha
-  title: Research Scientist
-  affiliation: SnT, University of Luxembourg
-  honors: []
-  scholar: https://scholar.google.com/citations?user=ZKYvTCgAAAAJ&hl=en
-  sources:
-  - https://www.uni.lu/snt-en/people/vu-nguyen-ha/
-  profile: https://www.uni.lu/snt-en/people/vu-nguyen-ha/
-  avatar: /media/collaborators/ZKYvTCgAAAAJ.jpg
-  avatar_source: https://scholar.googleusercontent.com/citations?view_op=view_photo&user=ZKYvTCgAAAAJ&citpid=8
-  ieee:
-    grade: Senior Member
-    label: IEEE Senior Member
-    source: https://vbn.aau.dk/ws/portalfiles/portal/780660988/Open_Acces_Article.pdf
-    evidence: 2025 IEEE Transactions on Communications paper byline
-    checked_on: '2026-10-21'
-- name: Li You
-  title: Professor
-  affiliation: Southeast University
-  honors: []
-  scholar: https://scholar.google.com/citations?user=UWh5090AAAAJ&hl=en
-  sources:
-  - https://liyouseu.github.io/
-  profile: https://liyouseu.github.io/
-  avatar: /media/collaborators/UWh5090AAAAJ.jpg
-  avatar_source: https://scholar.googleusercontent.com/citations?view_op=view_photo&user=UWh5090AAAAJ&citpid=3
-  ieee:
-    grade: Senior Member
-    label: IEEE Senior Member
-    source: https://arxiv.org/pdf/2406.09053
-    evidence: 2024 author manuscript, published in 2025
-    checked_on: '2026-10-21'
+  scholar_order: 5
 - name: Dirk Slock
   title: Professor of Statistical Signal Processing
   affiliation: EURECOM
@@ -176,85 +87,7 @@ people:
     source: https://www.eurecom.fr/publication/8323/download/comsys-publi-8323.pdf
     evidence: 'Author manuscript: Joint Channel Estimation and Signal Detection for AFDM Transmission with Time-Domain Pilot Arrangement'
     checked_on: '2026-10-21'
-- name: Konstantinos Ntontin
-  title: Research Scientist
-  affiliation: SnT, University of Luxembourg
-  honors: []
-  scholar: https://scholar.google.com/citations?user=H3ZxC5QAAAAJ&hl=en
-  sources:
-  - https://www.uni.lu/snt-en/people/konstantinos-ntontin/
-  profile: https://www.uni.lu/snt-en/people/konstantinos-ntontin/
-  avatar: /media/collaborators/H3ZxC5QAAAAJ.jpg
-  avatar_source: https://scholar.googleusercontent.com/citations?view_op=view_photo&user=H3ZxC5QAAAAJ&citpid=3
-  ieee:
-    grade: Member
-    label: IEEE Member
-    source: https://orbilu.uni.lu/bitstream/10993/58652/1/Accepted_manuscript_localization_OJCOMS.pdf
-    evidence: IEEE Open Journal of the Communications Society author biography
-    checked_on: '2026-10-21'
-- name: Zhili Sun
-  title: Chair Professor of Communication Networking
-  affiliation: University of Surrey
-  honors: []
-  scholar: https://scholar.google.com/citations?user=X0hu8rIAAAAJ&hl=en
-  sources:
-  - https://www.surrey.ac.uk/people/zhili-sun
-  profile: https://www.surrey.ac.uk/people/zhili-sun
-  avatar: /media/collaborators/X0hu8rIAAAAJ.jpg
-  avatar_source: https://scholar.googleusercontent.com/citations?view_op=view_photo&user=X0hu8rIAAAAJ&citpid=3
-  ieee:
-    grade: Senior Member
-    label: IEEE Senior Member
-    source: https://www.surrey.ac.uk/people/zhili-sun
-    evidence: 'Surrey official profile: SMIEEE'
-    checked_on: '2026-10-21'
-- name: Christos G. Tsinos
-  title: Associate Professor
-  affiliation: National and Kapodistrian University of Athens
-  honors: []
-  scholar: https://scholar.google.com/citations?user=kMWbkn4AAAAJ&hl=en
-  sources:
-  - https://sites.google.com/site/christostsinos
-  profile: https://sites.google.com/site/christostsinos
-  avatar: /media/collaborators/kMWbkn4AAAAJ.png
-  avatar_source: https://scholar.google.com/citations/images/avatar_scholar_128.png
-  ieee:
-    grade: Senior Member
-    label: IEEE Senior Member
-    source: https://sites.google.com/site/christostsinos/short-cv
-    evidence: Personal academic CV
-    checked_on: '2026-10-21'
-- name: Jiayang Wan
-  title: Ph.D. Student
-  affiliation: Southeast University
-  honors: []
-  scholar: https://scholar.google.com/citations?user=y4gFdEsAAAAJ&hl=en
-  sources:
-  - https://scholar.google.com/citations?user=y4gFdEsAAAAJ&hl=en
-  avatar: /media/collaborators/y4gFdEsAAAAJ.jpg
-  avatar_source: https://scholar.googleusercontent.com/citations?view_op=view_photo&user=y4gFdEsAAAAJ&citpid=1
-  ieee:
-    grade: Graduate Student Member
-    label: IEEE Graduate Student Member
-    source: https://arxiv.org/pdf/2608.27973
-    evidence: 2026 paper byline
-    checked_on: '2026-10-21'
-- name: Yu Han
-  title: Professor
-  affiliation: Southeast University
-  honors: []
-  scholar: https://scholar.google.com/citations?user=pbjuTRcAAAAJ&hl=en
-  sources:
-  - https://radio.seu.edu.cn/2023/1025/c19937a534946/pagem.htm
-  profile: https://radio.seu.edu.cn/2023/1025/c19937a534946/pagem.htm
-  avatar: /media/collaborators/pbjuTRcAAAAJ.jpg
-  avatar_source: https://scholar.googleusercontent.com/citations?view_op=view_photo&user=pbjuTRcAAAAJ&citpid=3
-  ieee:
-    grade: Member
-    label: IEEE Member
-    source: https://pureadmin.qub.ac.uk/ws/portalfiles/portal/521109202/Toward_Extra_Large_Scale_MIMO_New_Channel_Properties_and_Low_Cost_Designs.pdf
-    evidence: IEEE Transactions on Communications author biography
-    checked_on: '2026-10-21'
+  scholar_order: 11
 - name: Wei Xu
   title: Professor
   affiliation: Southeast University
@@ -272,6 +105,7 @@ people:
     source: https://radio.seu.edu.cn/2023/1025/c19937a469624/page.htm
     evidence: Southeast University official biography
     checked_on: '2026-10-21'
+  scholar_order: 17
 - name: Jiangzhou Wang
   title: Professor (SEU) / Emeritus Professor (Kent)
   affiliation: Southeast University / University of Kent
@@ -291,22 +125,7 @@ people:
     source: https://www.kent.ac.uk/engineering-and-digital-design/people/736/wang-jiangzhou
     evidence: 'Kent official profile: IEEE Fellow, 2017'
     checked_on: '2026-10-21'
-- name: Alessandro Vanelli-Coralli
-  title: Full Professor of Telecommunications
-  affiliation: University of Bologna
-  honors: []
-  scholar: https://scholar.google.com/citations?user=GInxaQUAAAAJ&hl=en
-  sources:
-  - https://www.unibo.it/sitoweb/alessandro.vanelli/en
-  profile: https://www.unibo.it/sitoweb/alessandro.vanelli/en
-  avatar: /media/collaborators/GInxaQUAAAAJ.jpg
-  avatar_source: https://scholar.googleusercontent.com/citations?view_op=view_photo&user=GInxaQUAAAAJ&citpid=3
-  ieee:
-    grade: Senior Member
-    label: IEEE Senior Member
-    source: https://www.unibo.it/sitoweb/alessandro.vanelli/cv
-    evidence: Bologna official CV
-    checked_on: '2026-10-21'
+  scholar_order: 18
 - name: Tony Q.S. Quek
   title: Chair Professor · Associate Provost
   affiliation: Singapore University of Technology and Design
@@ -324,3 +143,208 @@ people:
     source: https://www.sutd.edu.sg/profile/tony-quek
     evidence: 'SUTD official profile: IEEE Fellow, 2018'
     checked_on: '2026-10-21'
+  scholar_order: 20
+- name: Vu Nguyen Ha
+  title: Research Scientist
+  affiliation: SnT, University of Luxembourg
+  honors: []
+  scholar: https://scholar.google.com/citations?user=ZKYvTCgAAAAJ&hl=en
+  sources:
+  - https://www.uni.lu/snt-en/people/vu-nguyen-ha/
+  profile: https://www.uni.lu/snt-en/people/vu-nguyen-ha/
+  avatar: /media/collaborators/ZKYvTCgAAAAJ.jpg
+  avatar_source: https://scholar.googleusercontent.com/citations?view_op=view_photo&user=ZKYvTCgAAAAJ&citpid=8
+  ieee:
+    grade: Senior Member
+    label: IEEE Senior Member
+    source: https://vbn.aau.dk/ws/portalfiles/portal/780660988/Open_Acces_Article.pdf
+    evidence: 2025 IEEE Transactions on Communications paper byline
+    checked_on: '2026-10-21'
+  scholar_order: 9
+- name: Li You
+  title: Professor
+  affiliation: Southeast University
+  honors: []
+  scholar: https://scholar.google.com/citations?user=UWh5090AAAAJ&hl=en
+  sources:
+  - https://liyouseu.github.io/
+  profile: https://liyouseu.github.io/
+  avatar: /media/collaborators/UWh5090AAAAJ.jpg
+  avatar_source: https://scholar.googleusercontent.com/citations?view_op=view_photo&user=UWh5090AAAAJ&citpid=3
+  ieee:
+    grade: Senior Member
+    label: IEEE Senior Member
+    source: https://arxiv.org/pdf/2406.09053
+    evidence: 2024 author manuscript, published in 2025
+    checked_on: '2026-10-21'
+  scholar_order: 10
+- name: Zhili Sun
+  title: Chair Professor of Communication Networking
+  affiliation: University of Surrey
+  honors: []
+  scholar: https://scholar.google.com/citations?user=X0hu8rIAAAAJ&hl=en
+  sources:
+  - https://www.surrey.ac.uk/people/zhili-sun
+  profile: https://www.surrey.ac.uk/people/zhili-sun
+  avatar: /media/collaborators/X0hu8rIAAAAJ.jpg
+  avatar_source: https://scholar.googleusercontent.com/citations?view_op=view_photo&user=X0hu8rIAAAAJ&citpid=3
+  ieee:
+    grade: Senior Member
+    label: IEEE Senior Member
+    source: https://www.surrey.ac.uk/people/zhili-sun
+    evidence: 'Surrey official profile: SMIEEE'
+    checked_on: '2026-10-21'
+  scholar_order: 13
+- name: Christos G. Tsinos
+  title: Associate Professor
+  affiliation: National and Kapodistrian University of Athens
+  honors: []
+  scholar: https://scholar.google.com/citations?user=kMWbkn4AAAAJ&hl=en
+  sources:
+  - https://sites.google.com/site/christostsinos
+  profile: https://sites.google.com/site/christostsinos
+  avatar: /media/collaborators/kMWbkn4AAAAJ.png
+  avatar_source: https://scholar.google.com/citations/images/avatar_scholar_128.png
+  ieee:
+    grade: Senior Member
+    label: IEEE Senior Member
+    source: https://sites.google.com/site/christostsinos/short-cv
+    evidence: Personal academic CV
+    checked_on: '2026-10-21'
+  scholar_order: 14
+- name: Alessandro Vanelli-Coralli
+  title: Full Professor of Telecommunications
+  affiliation: University of Bologna
+  honors: []
+  scholar: https://scholar.google.com/citations?user=GInxaQUAAAAJ&hl=en
+  sources:
+  - https://www.unibo.it/sitoweb/alessandro.vanelli/en
+  profile: https://www.unibo.it/sitoweb/alessandro.vanelli/en
+  avatar: /media/collaborators/GInxaQUAAAAJ.jpg
+  avatar_source: https://scholar.googleusercontent.com/citations?view_op=view_photo&user=GInxaQUAAAAJ&citpid=3
+  ieee:
+    grade: Senior Member
+    label: IEEE Senior Member
+    source: https://www.unibo.it/sitoweb/alessandro.vanelli/cv
+    evidence: Bologna official CV
+    checked_on: '2026-10-21'
+  scholar_order: 19
+- name: Xinping Yi
+  title: Professor
+  affiliation: Southeast University
+  honors: []
+  scholar: https://scholar.google.com/citations?user=wAcbI5kAAAAJ&hl=en
+  sources:
+  - https://radio.seu.edu.cn/2023/1025/c19937a469631/pagem.htm
+  profile: https://radio.seu.edu.cn/2023/1025/c19937a469631/pagem.htm
+  avatar: /media/collaborators/wAcbI5kAAAAJ.jpg
+  avatar_source: https://scholar.googleusercontent.com/citations?view_op=view_photo&user=wAcbI5kAAAAJ&citpid=2
+  ieee:
+    grade: Member
+    label: IEEE Member
+    source: https://arxiv.org/pdf/2606.06293
+    evidence: 2026 paper byline
+    checked_on: '2026-10-21'
+  scholar_order: 6
+- name: Konstantinos Ntontin
+  title: Research Scientist
+  affiliation: SnT, University of Luxembourg
+  honors: []
+  scholar: https://scholar.google.com/citations?user=H3ZxC5QAAAAJ&hl=en
+  sources:
+  - https://www.uni.lu/snt-en/people/konstantinos-ntontin/
+  profile: https://www.uni.lu/snt-en/people/konstantinos-ntontin/
+  avatar: /media/collaborators/H3ZxC5QAAAAJ.jpg
+  avatar_source: https://scholar.googleusercontent.com/citations?view_op=view_photo&user=H3ZxC5QAAAAJ&citpid=3
+  ieee:
+    grade: Member
+    label: IEEE Member
+    source: https://orbilu.uni.lu/bitstream/10993/58652/1/Accepted_manuscript_localization_OJCOMS.pdf
+    evidence: IEEE Open Journal of the Communications Society author biography
+    checked_on: '2026-10-21'
+  scholar_order: 12
+- name: Yu Han
+  title: Professor
+  affiliation: Southeast University
+  honors: []
+  scholar: https://scholar.google.com/citations?user=pbjuTRcAAAAJ&hl=en
+  sources:
+  - https://radio.seu.edu.cn/2023/1025/c19937a534946/pagem.htm
+  profile: https://radio.seu.edu.cn/2023/1025/c19937a534946/pagem.htm
+  avatar: /media/collaborators/pbjuTRcAAAAJ.jpg
+  avatar_source: https://scholar.googleusercontent.com/citations?view_op=view_photo&user=pbjuTRcAAAAJ&citpid=3
+  ieee:
+    grade: Member
+    label: IEEE Member
+    source: https://pureadmin.qub.ac.uk/ws/portalfiles/portal/521109202/Toward_Extra_Large_Scale_MIMO_New_Channel_Properties_and_Low_Cost_Designs.pdf
+    evidence: IEEE Transactions on Communications author biography
+    checked_on: '2026-10-21'
+  scholar_order: 16
+- name: Hongwei Hou
+  title: ''
+  affiliation: Southeast University
+  honors: []
+  scholar: https://scholar.google.com/citations?user=ArE4Ki8AAAAJ&hl=en
+  sources:
+  - https://scholar.google.com/citations?user=ArE4Ki8AAAAJ&hl=en
+  avatar: /media/collaborators/ArE4Ki8AAAAJ.jpg
+  avatar_source: https://scholar.googleusercontent.com/citations?view_op=view_photo&user=ArE4Ki8AAAAJ&citpid=8
+  ieee:
+    grade: Graduate Student Member
+    label: IEEE Graduate Student Member
+    source: https://arxiv.org/pdf/2603.20621
+    evidence: 2026 paper byline
+    checked_on: '2026-10-21'
+  scholar_order: 2
+- name: Yiming Zhu
+  title: ''
+  affiliation: Southeast University
+  honors: []
+  scholar: https://scholar.google.com/citations?user=DUp39BYAAAAJ&hl=en
+  sources:
+  - https://scholar.google.com/citations?user=DUp39BYAAAAJ&hl=en
+  avatar: /media/collaborators/DUp39BYAAAAJ.jpg
+  avatar_source: https://scholar.googleusercontent.com/citations?view_op=view_photo&user=DUp39BYAAAAJ&citpid=2
+  ieee:
+    grade: Graduate Student Member
+    label: IEEE Graduate Student Member
+    source: https://www.eurecom.fr/publication/8013/download/comsys-publi-8013.pdf
+    evidence: 'Author manuscript: A Tensor-Structured Approach to Dynamic Channel Prediction for Massive MIMO Systems with Temporal Non-Stationarity'
+    checked_on: '2026-10-21'
+  scholar_order: 7
+- name: Gangle Sun
+  title: Lecturer
+  affiliation: Hohai University
+  honors: []
+  scholar: https://scholar.google.com/citations?user=g8FBshQAAAAJ&hl=en
+  sources:
+  - https://jszy.hhu.edu.cn/sgl1/
+  profile: https://jszy.hhu.edu.cn/sgl1/
+  avatar: /media/collaborators/g8FBshQAAAAJ.jpg
+  avatar_source: https://scholar.googleusercontent.com/citations?view_op=view_photo&user=g8FBshQAAAAJ&citpid=6
+  ieee:
+    grade: Student Member
+    label: IEEE Student Member (2024 record)
+    source: https://arxiv.org/pdf/2406.09053
+    evidence: 2024 paper byline; current grade unverified following graduation in 2025
+    checked_on: '2026-10-21'
+    caveat: Current grade not publicly verified.
+  scholar_order: 8
+- name: Jiayang Wan
+  title: Ph.D. Student
+  affiliation: Southeast University
+  honors: []
+  scholar: https://scholar.google.com/citations?user=y4gFdEsAAAAJ&hl=en
+  sources:
+  - https://scholar.google.com/citations?user=y4gFdEsAAAAJ&hl=en
+  avatar: /media/collaborators/y4gFdEsAAAAJ.jpg
+  avatar_source: https://scholar.googleusercontent.com/citations?view_op=view_photo&user=y4gFdEsAAAAJ&citpid=1
+  ieee:
+    grade: Graduate Student Member
+    label: IEEE Graduate Student Member
+    source: https://arxiv.org/pdf/2608.27973
+    evidence: 2026 paper byline
+    checked_on: '2026-10-21'
+  scholar_order: 15
+display_order: Supervisors first; then IEEE Fellow (including Life Fellow), Senior Member, Member, and student grades; Google Scholar order within
+  each group.

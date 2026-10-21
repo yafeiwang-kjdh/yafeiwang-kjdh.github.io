@@ -2,12 +2,15 @@
   <p>Collaborating across institutions on wireless communications, signal processing, and AI.</p>
   <a href="{{ site.Data.collaborators.order_source }}" target="_blank" rel="noopener noreferrer">View on Google Scholar <span aria-hidden="true">↗</span></a>
 </div>
-<ul class="collaborator-grid" aria-label="Research collaborators in Google Scholar order">
+<ul class="collaborator-grid" aria-label="Research collaborators: supervisors first, then IEEE grade, with Google Scholar order within each group">
   {{ range site.Data.collaborators.people }}
   <li class="collaborator-card">
     <div class="collaborator-identity">
     {{ with .avatar }}<img class="collaborator-avatar" src="{{ . | relURL }}" alt="" width="72" height="72" loading="lazy" decoding="async">{{ end }}
+    <div class="collaborator-name">
     <h3><a href="{{ .scholar }}" target="_blank" rel="noopener noreferrer">{{ .name }}</a></h3>
+    {{ with .supervisor_role }}<span class="collaborator-supervisor">{{ . }}</span>{{ end }}
+    </div>
     </div>
     <p class="collaborator-title">{{ .title }}</p>
     <p class="collaborator-affiliation">{{ .affiliation }}</p>
