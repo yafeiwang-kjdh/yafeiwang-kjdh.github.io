@@ -12,6 +12,7 @@
     <p class="collaborator-title">{{ .title }}</p>
     <p class="collaborator-affiliation">{{ .affiliation }}</p>
     <ul class="collaborator-honors" aria-label="Academic distinctions">
+      {{ with .ieee }}<li><a href="{{ .source }}" target="_blank" rel="noopener noreferrer" title="{{ .evidence }}; checked {{ .checked_on }}">{{ .label }}</a>{{ with .caveat }}<span class="ieee-caveat">{{ . }}</span>{{ end }}</li>{{ end }}
       {{ range .honors }}<li>{{ . }}</li>{{ end }}
     </ul>
     <div class="collaborator-links">
