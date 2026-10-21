@@ -108,7 +108,7 @@ hugoblox:
     style: minimal                      # minimal | columns | centered
     language_switcher: true
     # Custom footer text (HTML supported)
-    text: "xxx"
+    text: '<em class="footer-research-motto">Pursuing ideas that are both interesting and useful.</em>'
 
   # ────────────────────────────────────────────────────────────────────────────
   # COPYRIGHT
