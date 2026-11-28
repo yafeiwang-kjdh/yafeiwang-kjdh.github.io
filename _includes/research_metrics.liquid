@@ -1,0 +1,37 @@
+{% assign metrics = site.data.research_metrics %}
+<link rel="stylesheet" href="{{ '/assets/css/research-metrics.css' | relative_url }}">
+<section class="research-metrics" aria-label="Annual research metrics">
+  <div class="metrics-grid">
+    {% for chart in metrics.charts %}
+      <figure>
+        <figcaption>{{ chart.title }}</figcaption>
+        <svg viewBox="0 0 440 210" role="img" aria-labelledby="metrics-{{ chart.id }}-title metrics-{{ chart.id }}-desc">
+          <title id="metrics-{{ chart.id }}-title">{{ chart.title }}</title>
+          <desc id="metrics-{{ chart.id }}-desc">{% for row in metrics.yearly %}{{ row.year }}: {{ row[chart.key] }}. {% endfor %}Data as of {{ metrics.as_of }}.</desc>
+          {% for tick in chart.ticks %}
+            {% assign y = tick | times: 140.0 | divided_by: chart.max | minus: 170 | times: -1 %}
+            <line class="metric-gridline" x1="42" x2="410" y1="{{ y }}" y2="{{ y }}" />
+            <text class="metric-axis" x="31" y="{{ y | plus: 4 }}" text-anchor="end">{{ tick }}</text>
+          {% endfor %}
+          {% if chart.kind == 'line' %}
+            {% capture points %}{% for row in metrics.yearly %}{% assign x = forloop.index0 | times: 82 | plus: 58 %}{% assign y = row[chart.key] | times: 140.0 | divided_by: chart.max | minus: 170 | times: -1 %}{{ x }},{{ y }} {% endfor %}{% endcapture %}
+            <polyline class="metric-line" points="{{ points | strip }}" />
+          {% endif %}
+          {% for row in metrics.yearly %}
+            {% assign x = forloop.index0 | times: 82 | plus: 58 %}
+            {% assign height = row[chart.key] | times: 140.0 | divided_by: chart.max %}
+            {% assign y = height | minus: 170 | times: -1 %}
+            {% if chart.kind == 'bar' %}
+              <rect class="metric-bar" x="{{ x | minus: 17 }}" y="{{ y }}" width="34" height="{{ height }}" rx="3"><title>{{ row.year }}: {{ row[chart.key] }} papers</title></rect>
+            {% else %}
+              <circle class="metric-point" cx="{{ x }}" cy="{{ y }}" r="4"><title>{{ row.year }}: {{ row[chart.key] }} citations</title></circle>
+            {% endif %}
+            <text class="metric-value" x="{{ x }}" y="{{ y | minus: 12 }}" text-anchor="middle">{{ row[chart.key] }}</text>
+            <text class="metric-axis" x="{{ x }}" y="195" text-anchor="middle">{{ row.year }}</text>
+          {% endfor %}
+        </svg>
+      </figure>
+    {% endfor %}
+  </div>
+  <p class="metrics-note"><a href="{{ metrics.scholar_url }}">Google Scholar</a></p>
+</section>

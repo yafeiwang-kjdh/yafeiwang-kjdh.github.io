@@ -1,0 +1,38 @@
+<section id="collaborators">
+  <h2>Research Collaborators</h2>
+  <p>Collaborating across institutions on wireless communications, signal processing, and AI.</p>
+  <p style="font-size:.8rem">The order is based on Google Scholar’s default collaborator listing.</p>
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:24px">
+    {% for p in site.data.collaborators.people %}
+      <article class="collaborator" style="border-top:1px solid var(--global-divider-color);padding-top:16px">
+        <div style="display:flex;align-items:center;gap:12px">
+          <img src="{{ p.avatar | relative_url }}" width="48" height="48" alt="" loading="lazy" style="border-radius:50%;object-fit:cover">
+          <div>
+            <a href="{{ p.scholar }}"
+              ><strong>{{ p.name }}</strong></a
+            >
+            {%- if p.supervisor_role %}
+              <div style="font-size:.75rem">{{ p.supervisor_role }}</div>
+            {% endif %}
+          </div>
+        </div>
+        <p style="font-size:.85rem;margin-top:10px">
+          {{ p.title -}}
+          <br>
+          {{ p.affiliation }}
+        </p>
+        <p style="font-size:.8rem">
+          <a href="{{ p.ieee.source }}" title="{{ p.ieee.evidence }}">{{ p.ieee.label }}</a>
+          {%- if p.ieee.caveat -%}
+            <br>
+            {{ p.ieee.caveat -}}
+          {%- endif -%}
+          {%- for h in p.honors -%}
+            <br>
+            {{ h -}}
+          {%- endfor %}
+        </p>
+      </article>
+    {% endfor %}
+  </div>
+</section>

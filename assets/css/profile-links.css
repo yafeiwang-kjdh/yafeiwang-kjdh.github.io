@@ -1,0 +1,45 @@
+/* Compact contact buttons beneath the portrait, using the site's social data. */
+.profile-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+  margin: 20px 0 16px;
+}
+.profile-links a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  flex: 0 0 48px;
+  border-radius: 50%;
+  background: var(--global-bg-color);
+  color: var(--global-theme-color);
+  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.09);
+  text-decoration: none;
+  transition:
+    transform 0.15s ease,
+    box-shadow 0.15s ease;
+}
+.profile-links a i {
+  font-size: 26px;
+  line-height: 1;
+}
+.profile-links a:hover {
+  color: var(--global-theme-color);
+  transform: translateY(-2px);
+  box-shadow: 0 5px 12px rgba(0, 0, 0, 0.13);
+}
+.profile-links a:focus-visible {
+  outline: 2px solid var(--global-theme-color);
+  outline-offset: 4px;
+}
+.profile .more-info {
+  text-align: center;
+}
+@media (prefers-reduced-motion: reduce) {
+  .profile-links a {
+    transition: none;
+  }
+}

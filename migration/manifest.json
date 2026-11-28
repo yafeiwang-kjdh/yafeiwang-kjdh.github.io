@@ -1,0 +1,434 @@
+[
+  {
+    "key": "wang001",
+    "title": "Outage-Constrained Transceiver Power Loading: A Deep Learning Approach to Robust Massive MIMO Downlink",
+    "url": "/publications/2022-06-06-outage-constrained-transceiver-power-loading-a-deep-learning-approach-to-robust-massive-mimo-downli/",
+    "group": "Conference Papers",
+    "first": false,
+    "cofirst": false,
+    "sortdate": "2022-06-06"
+  },
+  {
+    "key": "wang002",
+    "title": "Learning Low-Complexity Robust Transceiver for Massive MIMO Downlink with Enhanced Mobility",
+    "url": "/publications/2022-09-12-learning-low-complexity-robust-transceiver-for-massive-mimo-downlink-with-enhanced-mobility/",
+    "group": "Conference Papers",
+    "first": false,
+    "cofirst": false,
+    "sortdate": "2022-09-12"
+  },
+  {
+    "key": "wang003",
+    "title": "Weighted MMSE Precoding for Constructive Interference Region",
+    "url": "/publications/2022-12-01-weighted-mmse-precoding-for-constructive-interference-region/",
+    "group": "Journal Articles",
+    "first": true,
+    "cofirst": false,
+    "sortdate": "2022-12-01"
+  },
+  {
+    "key": "wang004",
+    "title": "Low‐complexity user scheduling for LEO satellite communications",
+    "url": "/publications/2023-07-01-lowcomplexity-user-scheduling-for-leo-satellite-communications/",
+    "group": "Journal Articles",
+    "first": false,
+    "cofirst": false,
+    "sortdate": "2023-07-01"
+  },
+  {
+    "key": "wang005",
+    "title": "Energy and computational efficient precoding for LEO satellite communications",
+    "url": "/publications/2023-12-01-energy-and-computational-efficient-precoding-for-leo-satellite-communications/",
+    "group": "Conference Papers",
+    "first": false,
+    "cofirst": false,
+    "sortdate": "2023-12-04"
+  },
+  {
+    "key": "wang006",
+    "title": "Robust Symbol-Level Precoding for MIMO Downlink Transmission With Channel Aging",
+    "url": "/publications/2023-12-01-robust-symbol-level-precoding-for-mimo-downlink-transmission-with-channel-aging/",
+    "group": "Conference Papers",
+    "first": true,
+    "cofirst": false,
+    "sortdate": "2023-12-04"
+  },
+  {
+    "key": "wang007",
+    "title": "Symbol-Level Precoding for Average SER Minimization in Multiuser MISO Systems",
+    "url": "/publications/2024-02-02-symbol-level-precoding-for-average-ser-minimization-in-multiuser-miso-systems/",
+    "group": "Journal Articles",
+    "first": true,
+    "cofirst": false,
+    "sortdate": "2024-04-01"
+  },
+  {
+    "key": "wang008",
+    "title": "Joint beam alignment and Doppler estimation for fast time-varying wideband mmWave channels",
+    "url": "/publications/2024-03-20-joint-beam-alignment-and-doppler-estimation-for-fast-time-varying-wideband-mmwave-channels/",
+    "group": "Journal Articles",
+    "first": false,
+    "cofirst": false,
+    "sortdate": "2024-09-01"
+  },
+  {
+    "key": "wang009",
+    "title": "Robust Symbol-Level Precoding for Massive MIMO Communication Under Channel Aging",
+    "url": "/publications/2024-03-20-robust-symbol-level-precoding-for-massive-mimo-communication-under-channel-aging/",
+    "group": "Journal Articles",
+    "first": true,
+    "cofirst": false,
+    "sortdate": "2024-09-01"
+  },
+  {
+    "key": "wang010",
+    "title": "Soft Demodulator for Symbol-Level Precoding in Coded Multiuser MISO Systems",
+    "url": "/publications/2024-07-03-soft-demodulator-for-symbol-level-precoding-in-coded-multiuser-miso-systems/",
+    "group": "Journal Articles",
+    "first": true,
+    "cofirst": false,
+    "sortdate": "2024-10-01"
+  },
+  {
+    "key": "wang011",
+    "title": "Beam-sweeping design for mmWave massive grant-free transmission",
+    "url": "/publications/2024-08-29-beam-sweeping-design-for-mmwave-massive-grant-free-transmission/",
+    "group": "Journal Articles",
+    "first": false,
+    "cofirst": false,
+    "sortdate": "2024-10-01"
+  },
+  {
+    "key": "wang012",
+    "title": "CovNet: Covariance Information-Assisted CSI Feedback for FDD Massive MIMO Systems",
+    "url": "/publications/2024-12-16-covnet-covariance-information-assisted-csi-feedback-for-fdd-massive-mimo-systems/",
+    "group": "Journal Articles",
+    "first": false,
+    "cofirst": false,
+    "sortdate": "2025-03-01"
+  },
+  {
+    "key": "wang013",
+    "title": "Polar-Coded Tensor-Based Unsourced Random Access with Soft Decoding",
+    "url": "/publications/2025-03-25-polar-coded-tensor-based-unsourced-random-access-with-soft-decoding/",
+    "group": "Journal Articles",
+    "first": false,
+    "cofirst": false,
+    "sortdate": "2025-09-01"
+  },
+  {
+    "key": "wang014",
+    "title": "Distributed Beamforming for Multiple LEO Satellites With Imperfect Delay and Doppler Compensations: Modeling and Rate Analysis",
+    "url": "/publications/2025-05-09-distributed-beamforming-for-multiple-leo-satellites-with-imperfect-delay-and-doppler-compensations/",
+    "group": "Journal Articles",
+    "first": false,
+    "cofirst": true,
+    "sortdate": "2025-09-01"
+  },
+  {
+    "key": "wang015",
+    "title": "Extract the Best, Discard the Rest: CSI Feedback with Offline Large AI Models",
+    "url": "/publications/2025-05-13-extract-the-best-discard-the-rest-csi-feedback-with-offline-large-ai-models/",
+    "group": "Journal Articles",
+    "first": false,
+    "cofirst": false,
+    "sortdate": "2026-09-08"
+  },
+  {
+    "key": "wang016",
+    "title": "Time-Continuous Frequency Allocation for Feeder Links of Mega Constellations with Multi-Antenna Gateway Stations",
+    "url": "/publications/2025-05-20-time-continuous-frequency-allocation-for-feeder-links-of-mega-constellations-with-multi-antenna-gat/",
+    "group": "Preprints",
+    "first": false,
+    "cofirst": false,
+    "sortdate": "2025-05-18"
+  },
+  {
+    "key": "wang017",
+    "title": "Dual Transformer-Based Scalable Robust Precoding for Massive MIMO Transmission",
+    "url": "/publications/2025-06-01-dual-transformer-based-scalable-robust-precoding-for-massive-mimo-transmission/",
+    "group": "Conference Papers",
+    "first": false,
+    "cofirst": false,
+    "sortdate": "2025-06-17"
+  },
+  {
+    "key": "wang018",
+    "title": "Interference in Spectrum-Sharing Integrated Terrestrial and Satellite Networks: Modeling, Approximation, and Robust Transmit Beamforming",
+    "url": "/publications/2025-06-16-interference-in-spectrum-sharing-integrated-terrestrial-and-satellite-networks-modeling-approximati/",
+    "group": "Journal Articles",
+    "first": false,
+    "cofirst": false,
+    "sortdate": "2026-07-14"
+  },
+  {
+    "key": "wang019",
+    "title": "Dynamic Channel Prediction for Massive MIMO Systems with Temporal Non-Stationarity",
+    "url": "/publications/2025-07-07-dynamic-channel-prediction-for-massive-mimo-systems-with-temporal-non-stationarity/",
+    "group": "Conference Papers",
+    "first": false,
+    "cofirst": false,
+    "sortdate": "2025-07-07"
+  },
+  {
+    "key": "wang020",
+    "title": "Toward Mobile Satellite Internet: The Fundamental Limitation of Wireless Transmission and Enabling Technologies",
+    "url": "/publications/2025-07-09-toward-mobile-satellite-internet_-the-fundamental-limitation-of-wireless-transmission-and-enabling/",
+    "group": "Journal Articles",
+    "first": false,
+    "cofirst": false,
+    "sortdate": "2025-11-01"
+  },
+  {
+    "key": "wang021",
+    "title": "Unlocking Symbol-Level Precoding Efficiency Through Tensor Equivariant Neural Network",
+    "url": "/publications/2025-10-02-unlocking-symbol-level-precoding-efficiency-through-tensor-equivariant-neural-network/",
+    "group": "Preprints",
+    "first": false,
+    "cofirst": false,
+    "sortdate": "2025-10-02"
+  },
+  {
+    "key": "wang022",
+    "title": "Graph Coloring-Based Interference Mitigation for Mega Constellations with Multi-Antenna Gateway Stations",
+    "url": "/publications/2025-10-19-graph-coloring-based-interference-mitigation-for-mega-constellations-with-multi-antenna-gateway-sta/",
+    "group": "Conference Papers",
+    "first": false,
+    "cofirst": false,
+    "sortdate": "2025-10-19"
+  },
+  {
+    "key": "wang023",
+    "title": "Robust Beamforming Avoiding Satellite Interference in Integrated Terrestrial and Satellite Networks",
+    "url": "/publications/2025-10-19-robust-beamforming-avoiding-satellite-interference-in-integrated-terrestrial-and-satellite-networks/",
+    "group": "Conference Papers",
+    "first": false,
+    "cofirst": false,
+    "sortdate": "2025-10-19"
+  },
+  {
+    "key": "wang024",
+    "title": "Statistical CSI-Based Distributed Precoding for Multi-Satellite Cooperative Transmission",
+    "url": "/publications/2025-10-19-statistical-csi-based-distributed-precoding-for-multi-satellite-cooperative-transmission/",
+    "group": "Conference Papers",
+    "first": true,
+    "cofirst": false,
+    "sortdate": "2025-10-19"
+  },
+  {
+    "key": "wang025",
+    "title": "A tensor-structured approach to dynamic channel prediction for massive MIMO systems with temporal non-stationarity",
+    "url": "/publications/2025-11-07-a-tensor-structured-approach-to-dynamic-channel-prediction-for-massive-mimo-systems-with-temporal-n/",
+    "group": "Journal Articles",
+    "first": false,
+    "cofirst": false,
+    "sortdate": "2026-01-01"
+  },
+  {
+    "key": "wang026",
+    "title": "Statistical CSI-Based Beamspace Transmission for Massive MIMO LEO Satellite Communications",
+    "url": "/publications/2025-11-28-statistical-csi-based-beamspace-transmission-for-massive-mimo-leo-satellite-communications---%E5%89%AF%E6%9C%AC/",
+    "group": "Journal Articles",
+    "first": false,
+    "cofirst": false,
+    "sortdate": "2025-11-28"
+  },
+  {
+    "key": "wang027",
+    "title": "Joint Beam Position Grouping and RO Allocation for LEO Satellite Communication Systems",
+    "url": "/publications/2025-11-30-joint-beam-position-grouping-and-ro-allocation-for-leo-satellite-communication-systems/",
+    "group": "Journal Articles",
+    "first": false,
+    "cofirst": false,
+    "sortdate": "2025-11-30"
+  },
+  {
+    "key": "wang028",
+    "title": "Toward Unified AI Models for MU-MIMO Communications: A Tensor Equivariance Framework",
+    "url": "/publications/2025-12-01-toward-unified-ai-models-for-mu-mimo-communications-a-tensor-equivariance-framework/",
+    "group": "Journal Articles",
+    "first": true,
+    "cofirst": false,
+    "sortdate": "2025-12-01"
+  },
+  {
+    "key": "wang029",
+    "title": "Deep Learning-Based Joint Uplink-Downlink CSI Acquisition for Next-Generation Upper Mid-Band Systems",
+    "url": "/publications/2025-12-02-deep-learning-based-joint-uplink-downlink-csi-acquisition-for-next-generation-upper-mid-band-system/",
+    "group": "Preprints",
+    "first": false,
+    "cofirst": false,
+    "sortdate": "2025-12-02"
+  },
+  {
+    "key": "wang030",
+    "title": "OLAMCF: Offline Large AI Models Enhanced CSI Feedback in FDD Massive MIMO Systems",
+    "url": "/publications/2025-12-08-olamcf-offline-large-ai-models-enhanced-csi-feedback/",
+    "group": "Conference Papers",
+    "first": false,
+    "cofirst": false,
+    "sortdate": "2025-12-08"
+  },
+  {
+    "key": "wang031",
+    "title": "QoS-Aware Hierarchical Reinforcement Learning for Joint Link Selection and Trajectory Optimization in SAGIN-Supported UAV Mobility Management",
+    "url": "/publications/2025-12-17-qos-aware-hierarchical-reinforcement-learning-for-joint-link-selection-and-trajectory-optimization/",
+    "group": "Journal Articles",
+    "first": false,
+    "cofirst": false,
+    "sortdate": "2026-10-01"
+  },
+  {
+    "key": "wang032",
+    "title": "Multi-Satellite Multi-Stream Beamspace Massive MIMO Transmission",
+    "url": "/publications/2025-12-26-multi-satellite-multi-stream-beamspace-massive-mimo-transmission/",
+    "group": "Journal Articles",
+    "first": true,
+    "cofirst": false,
+    "sortdate": "2026-10-13"
+  },
+  {
+    "key": "wang033",
+    "title": "Statistical CSI-Based Distributed Precoding Design for OFDM-Cooperative Multi-Satellite Systems",
+    "url": "/publications/2026-01-05-statistical-csi-based-distributed-precoding-design-for-ofdm-cooperative-multi-satellite-systems/",
+    "group": "Journal Articles",
+    "first": true,
+    "cofirst": false,
+    "sortdate": "2026-01-05"
+  },
+  {
+    "key": "wang034",
+    "title": "Tensor-Structured Bayesian Channel Prediction for Upper Mid-Band XL-MIMO Systems",
+    "url": "/publications/2026-01-18-tensor-structured-bayesian-channel-prediction-for-upper-mid-band-xl-mimo-systems/",
+    "group": "Journal Articles",
+    "first": false,
+    "cofirst": false,
+    "sortdate": "2026-01-28"
+  },
+  {
+    "key": "wang035",
+    "title": "Multi-LEO Satellite Cooperative Transmission: A Spatial-Temporal-Frequency Perspective",
+    "url": "/publications/2026-02-19-multi-leo-satellite-cooperative-transmission-spatial-temporal-frequency/",
+    "group": "Journal Articles",
+    "first": true,
+    "cofirst": false,
+    "sortdate": "2026-06-01"
+  },
+  {
+    "key": "wang036",
+    "title": "Multi-Satellite Coordinated Beam Hopping for Interference Mitigation Under Tilted Beam Effects: A Graph-Theoretic Approach",
+    "url": "/publications/2026-03-20-multi-satellite-coordinated-beam-hopping-graph-theoretic-approach/",
+    "group": "Journal Articles",
+    "first": false,
+    "cofirst": false,
+    "sortdate": "2026-03-20"
+  },
+  {
+    "key": "wang037",
+    "title": "Deep Learning-Based Multi-Satellite Massive MIMO Transmission: Centralized or Decentralized?",
+    "url": "/publications/2026-03-21-deep-learning-based-multi-satellite-massive-mimo-transmission/",
+    "group": "Preprints",
+    "first": false,
+    "cofirst": false,
+    "sortdate": "2026-03-21"
+  },
+  {
+    "key": "wang038",
+    "title": "Toward Multi-Satellite Cooperative Transmission: A Joint Framework for CSI Acquisition, Feedback, and Phase Synchronization",
+    "url": "/publications/2026-03-30-toward-multi-satellite-cooperative-transmission-jcafps/",
+    "group": "Preprints",
+    "first": false,
+    "cofirst": false,
+    "sortdate": "2026-03-30"
+  },
+  {
+    "key": "wang039",
+    "title": "Generative Actor-Critic with Soft Bridge Policies",
+    "url": "/publications/2026-05-09-arxiv-2605.08733/",
+    "group": "Preprints",
+    "first": false,
+    "cofirst": false,
+    "sortdate": "2026-05-09"
+  },
+  {
+    "key": "wang040",
+    "title": "Semantic Communication for Multi-Satellite Massive MIMO Transmission: A Mixture of Cooperative Modes Framework",
+    "url": "/publications/2026-05-09-arxiv-2605.09013/",
+    "group": "Preprints",
+    "first": true,
+    "cofirst": false,
+    "sortdate": "2026-05-09"
+  },
+  {
+    "key": "wang041",
+    "title": "Toward Alias-Free Channel Extrapolation in Upper Mid-Band Systems: A Spatial-Frequency-Temporal Tensor Learning Approach",
+    "url": "/publications/2026-07-27-arxiv-2607.24330/",
+    "group": "Preprints",
+    "first": false,
+    "cofirst": false,
+    "sortdate": "2026-07-27"
+  },
+  {
+    "key": "wang042",
+    "title": "Toward Secure Communications for a UAV Swarm with Movable Antennas in SAGIN: CKM-Enabled Multi-Agent Reinforcement Learning Framework",
+    "url": "/publications/2026-08-28-arxiv-2608.27973/",
+    "group": "Preprints",
+    "first": false,
+    "cofirst": false,
+    "sortdate": "2026-08-28"
+  },
+  {
+    "key": "wang043",
+    "title": "Robust Decentralized Multi-Satellite Massive MIMO Transmission via Knowledge Distillation",
+    "url": "/publications/2026-08-30-arxiv-2608.29620/",
+    "group": "Preprints",
+    "first": false,
+    "cofirst": false,
+    "sortdate": "2026-08-30"
+  },
+  {
+    "key": "wang044",
+    "title": "Accelerate Symbol-Level Precoding Using Tensor Equivariant Neural Network",
+    "url": "/publications/2026-accelerate-slp-tenn-icc/",
+    "group": "Conference Papers",
+    "first": false,
+    "cofirst": false,
+    "sortdate": "2026-05-24"
+  },
+  {
+    "key": "wang045",
+    "title": "CKM-Assisted Reinforcement Learning for Continuous-Action UAV Trajectory Optimization in Integrated Satellite-Terrestrial Networks",
+    "url": "/publications/2026-ckm-assisted-uav-trajectory/",
+    "group": "Journal Articles",
+    "first": false,
+    "cofirst": false,
+    "sortdate": "2026-09-29"
+  },
+  {
+    "key": "wang046",
+    "title": "Achieving Constant-Envelope Waveform in CP-OFDMA Framework",
+    "url": "/publications/2026-constant-envelope-cp-ofdma/",
+    "group": "Journal Articles",
+    "first": false,
+    "cofirst": false,
+    "sortdate": "2026-08-18"
+  },
+  {
+    "key": "wang047",
+    "title": "Joint Channel Estimation and Active User Detection for Massive Grant-Free Access in XL-MIMO System",
+    "url": "/publications/2026-joint-channel-estimation-active-user-detection/",
+    "group": "Journal Articles",
+    "first": false,
+    "cofirst": false,
+    "sortdate": "2026-10-01"
+  },
+  {
+    "key": "wang048",
+    "title": "Deep Learning-Based Joint Uplink-Downlink Channel Estimation for Upper Mid-Band Massive MIMO Systems",
+    "url": "/publications/2026-joint-uplink-downlink-channel-estimation-icc/",
+    "group": "Conference Papers",
+    "first": false,
+    "cofirst": false,
+    "sortdate": "2026-05-24"
+  }
+]

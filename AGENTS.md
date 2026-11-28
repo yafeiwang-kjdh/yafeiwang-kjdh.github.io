@@ -1,42 +1,95 @@
-# 合作者栏目维护规则
+# Agent Guidelines for al-folio (v1.x)
 
-本文件记录网站所有者明确指定的排序规则。修改首页 Research Collaborators 栏目时，请先阅读本节；除非用户明确提出新规则，否则保持以下约定。
+**This file is the authoritative entry point for coding agents working in this repo.** Read it before making any change. It is intentionally short and tool-neutral; it links to the one place each longer-form fact lives.
 
-## 数据与显示位置
+`al-folio` v1.x is a **thin Jekyll starter, not a theme**. This repo owns starter wiring, example content, docs, and cross-plugin tests. All runtime — layouts, includes, Sass, Liquid tags, filters, feature JS — lives in versioned gems published under [`al-org-dev`](https://github.com/al-org-dev).
 
-- 数据源：`data/collaborators.yaml`。
-- 渲染模板：`layouts/shortcodes/research_collaborators.html`。
-- 样式：`layouts/_partials/hooks/head-end/custom-style.html`。
-- 当前模板直接按 YAML 中 `people` 数组的顺序输出，并不会自动排序。修改数据后必须按下面规则排列数组。
+## Route your change
 
-## 排序规则（用户于 2026-10-21 确认）
+Find your change on the left; edit only what is on the right.
 
-1. 固定第一位：**Wenjin Wang**，标注 `Ph.D. Supervisor`。
-2. 固定第二位：**Björn Ottersten**，标注 `CSC Visiting Ph.D. Supervisor`。
-3. 其余人员按 **IEEE Fellow（包含 Life Fellow）→ Senior Member → Member → 学生会员** 分组。
-4. 同组人员按各自 `scholar_order` 从小到大排序，即用户 Google Scholar 主页的默认合作者列表顺序。
+| Your change                                                                                                              | Goes in                                                                                                       |
+| ------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------- |
+| Dependency pin, plugin activation, feature flag                                                                          | this repo: `Gemfile` **and** `_config.yml` (both — see below)                                                 |
+| Example/demo content, bibliography, data files                                                                           | this repo: `_pages`, `_posts`, `_projects`, `_news`, `_teachings`, `_books`, `_data`                          |
+| Documentation                                                                                                            | this repo: `docs/` (long-form) or this file (agent rules)                                                     |
+| Cross-plugin integration test, visual parity test                                                                        | this repo: `test/integration_*.sh`, `test/visual/`                                                            |
+| Plugin catalog metadata                                                                                                  | this repo: `_data/featured_plugins.yml`                                                                       |
+| A layout, include, or Sass partial                                                                                       | the owning gem — start with `al_folio_core`                                                                   |
+| A Liquid tag or filter, or what a tag renders                                                                            | the gem that registers it — see the [delegation table](docs/ARCHITECTURE.md#wrapper-to-tag-to-gem-delegation) |
+| Feature behavior (search, math, charts, comments, cookies, icons, CV, distill, analytics, images, newsletter, citations) | that feature's gem — see [`docs/BOUNDARIES.md`](docs/BOUNDARIES.md)                                           |
+| Component/unit test for gem-owned behavior                                                                               | the owning gem, not here                                                                                      |
+| A feature with no existing owner                                                                                         | open a plugin proposal issue first, then a standalone plugin repo                                             |
 
-具体分组映射：
+[`docs/BOUNDARIES.md`](docs/BOUNDARIES.md) is the authoritative area-to-gem table. [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) explains how the pieces connect.
 
-| `ieee.grade` | 组优先级 |
-| --- | --- |
-| `Fellow`、`Life Fellow` | 0（同组，Life Fellow 不额外提前） |
-| `Senior Member` | 1 |
-| `Member` | 2 |
-| `Graduate Student Member`、`Student Member` | 3（同组） |
+## Stop sign
 
-两位导师的固定位置优先于 IEEE 等级。其余人员的排序键为 `(组优先级, scholar_order)`。不要按姓名、引用量、机构或职称重新排序。
+**If your change would create any of these paths in this repo, it belongs in a gem instead:**
 
-## 原始顺序与证据维护
+```
+_layouts/   _includes/   _sass/   _scripts/   assets/tailwind/   tailwind.config.js   assets/webfonts/
+```
 
-- `scholar_order` 是原始 Google Scholar 合作者顺序，不是当前页面的显示序号。**重排 `people` 后不得按新位置重编号。**
-- `order_source` 保存用户的 Google Scholar 主页。只有实际核对该页面默认合作者列表后，才更新原始顺序；新增人员的顺序无法确认时，不要猜测。
-- `supervisor_role` 保存两位导师的关系标签；不得在重排时丢失。
-- IEEE 等级使用 `ieee.grade`，展示文字使用 `ieee.label`；保留 `source`、`evidence`、`checked_on` 和已有时效说明，不根据职称推断会员等级。
-- Gangle Sun 目前使用有来源的历史 Student Member 记录，保留“当前等级未公开核实”的说明；获得更新证据后再调整等级和分组。
-- 遇到未列出的等级或缺失证据，不要自行猜填或静默归类，先核查。
-- 用户要求栏目介绍下方的小字保持简短，使用：`The order is based on Google Scholar’s default collaborator listing.` 页面说明不展开导师优先和 IEEE 分组细节；实际排序仍遵循本文件中的完整规则。
+`npm run lint:style-contract` fails CI when any of them exists here, and it also rejects `build:css` / `build:tailwind` npm scripts. Do not add a starter-local Tailwind or CSS build pipeline.
 
-## 修改后核对
+This restriction applies to **this repo only**. A user's own site created from this template _may_ legally shadow gem-owned files — see [local overrides: your site vs. this repo](docs/ARCHITECTURE.md#local-overrides-your-site-vs-this-repo).
 
-确认两位导师仍在前两位；其余每组的 `scholar_order` 递增；没有人员丢失或重复；姓名、头像、身份来源和导师标签保持对应。涉及模板或样式时，同时检查桌面与手机端对齐。
+## Three failures that produce no error message
+
+Read [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md#failure-modes-that-produce-no-error-message) for the full explanation. The short version:
+
+1. **Features fail silently.** A feature renders only when its gem is loaded _and_ its flag is on _and_ the page opts in. Otherwise the Liquid tag emits an empty string — no warning, no error.
+2. **`Gemfile` and `_config.yml` are two lists that must agree.** A plugin in only one of them is inert. Adding or removing a plugin means editing both. Repo dirs use hyphens (`al-folio-core`); gem/plugin ids use underscores (`al_folio_core`).
+3. **This repo's effective baseurl is `/al-folio`.** `_config.yml` already sets it, so a plain `bundle exec jekyll build` is correct — that is what `deploy.yml`, `broken-links-site.yml` and `axe.yml` run. Passing `--baseurl /al-folio` is redundant but harmless; blanking the baseurl out is what renders the site unstyled with broken links. Dev server is at `http://localhost:4000/al-folio/`.
+
+## Validated local command set
+
+Run from the repo root, in this order:
+
+```bash
+bundle install
+npm ci
+npm run lint:prettier
+npm run lint:style-contract
+bundle exec jekyll build --baseurl /al-folio
+bash test/integration_comments.sh
+bash test/integration_plugin_toggles.sh
+bash test/integration_distill.sh
+bash test/integration_bootstrap_compat.sh
+bash test/integration_upgrade_cli.sh
+bash test/integration_css_minify.sh
+bash test/integration_new_plugins.sh
+npx playwright install chromium webkit
+npm run test:visual
+bundle exec al-folio upgrade audit
+bundle exec al-folio upgrade overrides audit
+bundle exec al-folio upgrade report
+docker compose up -d
+curl -fsS http://127.0.0.1:8080/al-folio/ >/dev/null
+docker compose logs --tail=80
+docker compose down
+```
+
+All seven `test/integration_*.sh` scripts are gated by `unit-tests.yml`; run the ones your change touches. Docker note: v1 uses `/srv/jekyll/bin/entry_point.sh` and serves from container-local `/tmp/_site` to avoid host bind-mount write deadlocks.
+
+## Before you open a PR
+
+- Keep starter work here; route runtime behavior to the owning plugin repo.
+- Run `npm run lint:prettier` (Prettier with `@shopify/prettier-plugin-liquid`, `printWidth: 150`). `npx prettier . --write` fixes formatting.
+- Keep docs aligned with v1 ownership, and keep each fact in one place — link rather than restate.
+- If you create or keep local overrides of plugin-owned files, run `bundle exec al-folio upgrade overrides audit` and commit `.al-folio-overrides.yml` after review.
+
+## Further reading
+
+- [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) — how the starter and gems fit together, silent failure modes, the v1 config contract, local overrides.
+- [`docs/BOUNDARIES.md`](docs/BOUNDARIES.md) — authoritative area-to-gem ownership table and PR triage playbook.
+- [`docs/CONTRIBUTING.md`](docs/CONTRIBUTING.md) — contributor workflow and agent tooling.
+- [`docs/README.md`](docs/README.md) — index of all user and maintainer guides.
+- `.agents/skills/al-folio-bootstrap/SKILL.md` — new-site setup workflow.
+- `.agents/skills/al-folio-v1-migration/SKILL.md` — customized-fork migration and override drift auditing.
+- `.codex/skills` and `.claude/skills` are symlinks to `.agents/skills` for agent-specific discovery.
+
+
+## Personal site
+This is Yafei Wang's own site, not the upstream starter. Read PERSONAL_SITE_RULES.md for the preserved collaborator order. User-specific includes are permitted. Source: ../academic-WYF (do not edit). See migration/manifest.json for publication route parity.

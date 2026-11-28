@@ -1,0 +1,69 @@
+{
+  "as_of": "2026-11-25",
+  "scholar_url": "https://scholar.google.com/citations?user=zOmbLjQAAAAJ&hl=en",
+  "scholar_paper_count": 51,
+  "undated_count": 1,
+  "citations": 347,
+  "scope": "Google Scholar records including preprints and submissions. Exclude the alternate-title XL-MIMO duplicate. Include undated SMPE in the total only, not in an invented publication year.",
+  "yearly": [
+    {
+      "year": 2022,
+      "papers_including_preprints": 3,
+      "published": 3,
+      "first_or_cofirst": 1,
+      "other_authorship": 2,
+      "citations": 0
+    },
+    {
+      "year": 2023,
+      "papers_including_preprints": 3,
+      "published": 3,
+      "first_or_cofirst": 1,
+      "other_authorship": 2,
+      "citations": 5
+    },
+    {
+      "year": 2024,
+      "papers_including_preprints": 6,
+      "published": 6,
+      "first_or_cofirst": 3,
+      "other_authorship": 3,
+      "citations": 14
+    },
+    {
+      "year": 2025,
+      "papers_including_preprints": 15,
+      "published": 13,
+      "first_or_cofirst": 3,
+      "other_authorship": 10,
+      "citations": 81
+    },
+    {
+      "year": 2026,
+      "papers_including_preprints": 23,
+      "published": 14,
+      "first_or_cofirst": 3,
+      "other_authorship": 11,
+      "citations": 247
+    }
+  ],
+  "source": "CV_PostDoc/figures/publication_metrics/research_metrics_data.json; saved Google Scholar snapshot dated 2026-11-25. Annual citations supplied by the user in the CV metrics workflow.",
+  "charts": [
+    {
+      "id": "papers",
+      "title": "Papers by Year",
+      "key": "papers_including_preprints",
+      "max": 30,
+      "ticks": [0, 10, 20, 30],
+      "kind": "bar"
+    },
+    {
+      "id": "citations",
+      "title": "Citations by Year",
+      "key": "citations",
+      "max": 300,
+      "ticks": [0, 100, 200, 300],
+      "kind": "line"
+    }
+  ]
+}
