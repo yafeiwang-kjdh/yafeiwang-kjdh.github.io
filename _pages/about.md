@@ -37,6 +37,6 @@ Contact: [wangyf@seu.edu.cn](mailto:wangyf@seu.edu.cn) · [LinkedIn](https://www
 <h2>Selected Publications</h2>
 <div class="publications">{% bibliography --query @*[selected=true] %}</div>
 <h2 id="papers">Publications</h2>
-<p><a href="/publications/">All 48 publications →</a> · <a href="/first-author/">First-Author Publications →</a></p>
+<p><a href="/publications/">All Papers →</a> · <a href="/first-author/">First-Author Publications →</a></p>
 
 {% include collaborators.liquid %}

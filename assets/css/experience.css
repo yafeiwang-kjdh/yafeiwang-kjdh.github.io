@@ -1,0 +1,41 @@
+.experience-entry {
+  display: grid;
+  grid-template-columns: 76px minmax(0, 1fr);
+  column-gap: 20px;
+  margin: 1.5rem 0 2rem;
+  align-items: start;
+}
+.institution-mark {
+  width: 76px;
+  height: 76px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  border-radius: 4px;
+}
+.institution-mark img {
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+}
+.experience-text h3 {
+  margin-top: 0;
+}
+.experience-text p:last-child {
+  margin-bottom: 0;
+}
+@media (max-width: 575.98px) {
+  .experience-entry {
+    grid-template-columns: 52px minmax(0, 1fr);
+    column-gap: 14px;
+  }
+  .institution-mark {
+    width: 52px;
+    height: 52px;
+  }
+  .institution-mark img {
+    width: 44px;
+    height: 44px;
+  }
+}

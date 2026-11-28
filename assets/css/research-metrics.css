@@ -61,3 +61,89 @@
     gap: 1rem;
   }
 }
+
+.metrics-grid figcaption {
+  display: flex;
+  align-items: baseline;
+  justify-content: flex-start;
+  gap: 0.35rem 1rem;
+  flex-wrap: wrap;
+}
+.metric-heading {
+  white-space: nowrap;
+}
+.metric-totals {
+  display: flex;
+  gap: 0.5rem;
+  margin-left: 0;
+  font-size: 0.7rem;
+  font-weight: 400;
+  color: var(--global-text-color-light);
+}
+.metric-totals > span {
+  white-space: nowrap;
+}
+.metric-totals > span + span::before {
+  content: "·";
+  margin-right: 0.5rem;
+}
+.metric-totals strong {
+  color: var(--global-theme-color);
+  font-weight: 500;
+}
+
+.metrics-grid figure {
+  position: relative;
+}
+.metric-band {
+  fill: var(--global-theme-color);
+  opacity: 0;
+  transition: opacity 0.15s;
+}
+.metric-hit {
+  fill: transparent;
+  cursor: crosshair;
+}
+.metric-datum {
+  outline: none;
+}
+.metric-datum.is-active .metric-band {
+  opacity: 0.07;
+}
+.metric-datum.is-active .metric-bar {
+  fill: var(--global-hover-color);
+}
+.metric-datum.is-active .metric-point {
+  r: 6px;
+  stroke-width: 2.5;
+}
+.metric-datum.is-active .metric-axis,
+.metric-datum.is-active .metric-value {
+  fill: var(--global-theme-color);
+  font-weight: 600;
+}
+.metric-tooltip {
+  position: absolute;
+  z-index: 5;
+  pointer-events: none;
+  padding: 9px 12px;
+  background: var(--global-bg-color);
+  color: var(--global-text-color);
+  border: 1px solid var(--global-divider-color);
+  border-radius: 6px;
+  box-shadow: 0 4px 16px #0002;
+  font-size: 0.8rem;
+  line-height: 1.6;
+  white-space: nowrap;
+}
+.metric-tooltip strong {
+  color: var(--global-theme-color);
+}
+.metric-tooltip[hidden] {
+  display: none;
+}
+@media (prefers-reduced-motion: reduce) {
+  .metric-band {
+    transition: none;
+  }
+}

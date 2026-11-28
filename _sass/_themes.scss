@@ -206,3 +206,56 @@ html[data-theme-setting="light"] {
 #light-toggle:hover .fa-half-sun-moon::after {
   color: var(--global-theme-color);
 }
+
+// Restrained interaction feedback for prose links and publication actions.
+:root {
+  --link-hover-wash: rgba(116, 44, 60, 0.07);
+}
+html[data-theme="dark"] {
+  --link-hover-wash: rgba(220, 160, 173, 0.13);
+}
+.post a[href]:not(.btn):not(:has(img)):not(.profile-links a):not(.contact-icons a),
+.publications .author a {
+  border-radius: 3px;
+  padding: 0 2px;
+  margin: 0 -2px;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+  transition:
+    background-color 140ms ease,
+    color 140ms ease;
+}
+.publications .links a.btn {
+  transition:
+    background-color 140ms ease,
+    color 140ms ease,
+    border-color 140ms ease;
+}
+@media (hover: hover) {
+  .post a[href]:not(.btn):not(:has(img)):not(.profile-links a):not(.contact-icons a):hover,
+  .publications .author a:hover {
+    background-color: var(--link-hover-wash);
+    color: var(--global-hover-color);
+    text-decoration: none;
+  }
+  .publications .links a.btn:hover {
+    background-color: var(--link-hover-wash);
+    border-color: var(--global-theme-color);
+    color: var(--global-theme-color);
+    box-shadow: none;
+  }
+}
+.post a[href]:not(.btn):not(:has(img)):not(.profile-links a):not(.contact-icons a):focus-visible,
+.publications .author a:focus-visible,
+.publications .links a.btn:focus-visible {
+  background-color: var(--link-hover-wash);
+  outline: 2px solid var(--global-theme-color);
+  outline-offset: 3px;
+}
+@media (prefers-reduced-motion: reduce) {
+  .post a[href]:not(.btn):not(:has(img)):not(.profile-links a):not(.contact-icons a),
+  .publications .author a,
+  .publications .links a.btn {
+    transition: none;
+  }
+}

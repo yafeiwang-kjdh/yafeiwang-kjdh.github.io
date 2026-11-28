@@ -43,3 +43,32 @@
     transition: none;
   }
 }
+
+.profile-title-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem 2rem;
+  flex-wrap: wrap;
+}
+.profile-title-row .post-title {
+  margin-bottom: 0.5rem;
+}
+.research-motto {
+  margin: 0 0 0.5rem auto;
+  text-align: right;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: var(--global-text-color-light);
+}
+@media (max-width: 575.98px) {
+  .profile-title-row {
+    gap: 0;
+  }
+  .research-motto {
+    width: 100%;
+    text-align: left;
+    margin-left: 0;
+    margin-bottom: 0.85rem;
+    font-size: 0.85rem;
+  }
+}

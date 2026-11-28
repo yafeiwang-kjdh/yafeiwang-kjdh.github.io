@@ -6,31 +6,53 @@ nav: true
 nav_order: 3
 ---
 
+<link rel="stylesheet" href="{{ "/assets/css/experience.css" | relative_url }}">
+
 ## Education
 
+<div class="experience-entry">
+  <div class="institution-mark"><img src="{{ '/assets/img/institutions/seu.png' | relative_url }}" alt="Southeast University logo" width="64" height="64" loading="lazy"></div>
+  <div class="experience-text" markdown="1">
 ### Southeast University
 
 Ph.D. in Information and Communication Engineering · 2023-03 – 2027-03
 
 Expected graduation: March 2027. Supervised by Prof. Wenjin Wang. Research on statistical-CSI-based multi-satellite cooperative transmission and structure-aware transceiver design.
+  </div>
+</div>
 
+<div class="experience-entry">
+  <div class="institution-mark"><img src="{{ '/assets/img/institutions/snt.png' | relative_url }}" alt="University of Luxembourg logo" width="64" height="64" loading="lazy"></div>
+  <div class="experience-text" markdown="1">
 ### SnT, University of Luxembourg
 
 Visiting PhD · 2024-12 – 2025-12
 
 Supervised by Prof. Björn Ottersten. Research on synchronization errors, distributed precoding, and beamspace MIMO for cooperative LEO satellite networks.
+  </div>
+</div>
 
+<div class="experience-entry">
+  <div class="institution-mark"><img src="{{ '/assets/img/institutions/seu.png' | relative_url }}" alt="Southeast University logo" width="64" height="64" loading="lazy"></div>
+  <div class="experience-text" markdown="1">
 ### Southeast University
 
 M.E. in Information and Communication Engineering · 2021-09 – 2023-03
 
 Supervised by Prof. Wenjin Wang. Research on constructive-interference precoding, soft demodulation, and robust transmission under channel aging.
+  </div>
+</div>
 
+<div class="experience-entry">
+  <div class="institution-mark"><img src="{{ '/assets/img/institutions/tju.png' | relative_url }}" alt="Tianjin University logo" width="64" height="64" loading="lazy"></div>
+  <div class="experience-text" markdown="1">
 ### Tianjin University
 
 B.E. in Communication Engineering · 2017-09 – 2021-07
 
 GPA: 3.85/4.00; ranked 3rd out of 129 students.
+  </div>
+</div>
 
 ## Technical Skills
 

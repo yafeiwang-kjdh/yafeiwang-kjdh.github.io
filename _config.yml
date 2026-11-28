@@ -307,7 +307,7 @@ enable_darkmode: true
 enable_navbar_social: false
 enable_project_categories: true
 enable_medium_zoom: false
-enable_progressbar: false
+enable_progressbar: true
 enable_video_embedding: false
 third_party_libraries:
   download: false
